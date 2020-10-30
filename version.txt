@@ -1,1 +1,1 @@
-jass-plugin-0.0.2.vsix
+jass-plugin-0.0.3.vsix

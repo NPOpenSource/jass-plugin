@@ -11,7 +11,7 @@ readVersion(){
 readVersion
 echo $version
 
-#vsce package
+vsce package
 
 list=`ls *.vsix`
 lastVersion=""
@@ -25,7 +25,7 @@ if [ "$lastVersion" == "$version" ];then
     exit 1
 fi
 
-vscs publish
+vsce publish
 echo $lastVersion > $versionfile
 
 

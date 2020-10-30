@@ -1,0 +1,548 @@
+{
+        "vragent": {
+           "prefix": "vragent",
+           "body": "vragent",
+           "description": "type agent extends handle",
+           "scope": "source.vjass"
+       },
+        "vrevent": {
+           "prefix": "vrevent",
+           "body": "vrevent",
+           "description": "type event extends agent",
+           "scope": "source.vjass"
+       },
+        "vrplayer": {
+           "prefix": "vrplayer",
+           "body": "vrplayer",
+           "description": "type player extends agent",
+           "scope": "source.vjass"
+       },
+        "vrwidget": {
+           "prefix": "vrwidget",
+           "body": "vrwidget",
+           "description": "type widget extends agent",
+           "scope": "source.vjass"
+       },
+        "vrunit": {
+           "prefix": "vrunit",
+           "body": "vrunit",
+           "description": "type unit extends widget",
+           "scope": "source.vjass"
+       },
+        "vrdestructable": {
+           "prefix": "vrdestructable",
+           "body": "vrdestructable",
+           "description": "type destructable extends widget",
+           "scope": "source.vjass"
+       },
+        "vritem": {
+           "prefix": "vritem",
+           "body": "vritem",
+           "description": "type item extends widget",
+           "scope": "source.vjass"
+       },
+        "vrability": {
+           "prefix": "vrability",
+           "body": "vrability",
+           "description": "type ability extends agent",
+           "scope": "source.vjass"
+       },
+        "vrbuff": {
+           "prefix": "vrbuff",
+           "body": "vrbuff",
+           "description": "type buff extends ability",
+           "scope": "source.vjass"
+       },
+        "vrforce": {
+           "prefix": "vrforce",
+           "body": "vrforce",
+           "description": "type force extends agent",
+           "scope": "source.vjass"
+       },
+        "vrgroup": {
+           "prefix": "vrgroup",
+           "body": "vrgroup",
+           "description": "type group extends agent",
+           "scope": "source.vjass"
+       },
+        "vrtrigger": {
+           "prefix": "vrtrigger",
+           "body": "vrtrigger",
+           "description": "type trigger extends agent",
+           "scope": "source.vjass"
+       },
+        "vrtriggercondition": {
+           "prefix": "vrtriggercondition",
+           "body": "vrtriggercondition",
+           "description": "type triggercondition extends agent",
+           "scope": "source.vjass"
+       },
+        "vrtriggeraction": {
+           "prefix": "vrtriggeraction",
+           "body": "vrtriggeraction",
+           "description": "type triggeraction extends handle",
+           "scope": "source.vjass"
+       },
+        "vrtimer": {
+           "prefix": "vrtimer",
+           "body": "vrtimer",
+           "description": "type timer extends agent",
+           "scope": "source.vjass"
+       },
+        "vrlocation": {
+           "prefix": "vrlocation",
+           "body": "vrlocation",
+           "description": "type location extends agent",
+           "scope": "source.vjass"
+       },
+        "vrregion": {
+           "prefix": "vrregion",
+           "body": "vrregion",
+           "description": "type region extends agent",
+           "scope": "source.vjass"
+       },
+        "vrrect": {
+           "prefix": "vrrect",
+           "body": "vrrect",
+           "description": "type rect extends agent",
+           "scope": "source.vjass"
+       },
+        "vrboolexpr": {
+           "prefix": "vrboolexpr",
+           "body": "vrboolexpr",
+           "description": "type boolexpr extends agent",
+           "scope": "source.vjass"
+       },
+        "vrsound": {
+           "prefix": "vrsound",
+           "body": "vrsound",
+           "description": "type sound extends agent",
+           "scope": "source.vjass"
+       },
+        "vrconditionfunc": {
+           "prefix": "vrconditionfunc",
+           "body": "vrconditionfunc",
+           "description": "type conditionfunc extends boolexpr",
+           "scope": "source.vjass"
+       },
+        "vrfilterfunc": {
+           "prefix": "vrfilterfunc",
+           "body": "vrfilterfunc",
+           "description": "type filterfunc extends boolexpr",
+           "scope": "source.vjass"
+       },
+        "vrunitpool": {
+           "prefix": "vrunitpool",
+           "body": "vrunitpool",
+           "description": "type unitpool extends handle",
+           "scope": "source.vjass"
+       },
+        "vritempool": {
+           "prefix": "vritempool",
+           "body": "vritempool",
+           "description": "type itempool extends handle",
+           "scope": "source.vjass"
+       },
+        "vrrace": {
+           "prefix": "vrrace",
+           "body": "vrrace",
+           "description": "type race extends handle",
+           "scope": "source.vjass"
+       },
+        "vralliancetype": {
+           "prefix": "vralliancetype",
+           "body": "vralliancetype",
+           "description": "type alliancetype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrracepreference": {
+           "prefix": "vrracepreference",
+           "body": "vrracepreference",
+           "description": "type racepreference extends handle",
+           "scope": "source.vjass"
+       },
+        "vrgamestate": {
+           "prefix": "vrgamestate",
+           "body": "vrgamestate",
+           "description": "type gamestate extends handle",
+           "scope": "source.vjass"
+       },
+        "vrigamestate": {
+           "prefix": "vrigamestate",
+           "body": "vrigamestate",
+           "description": "type igamestate extends gamestate",
+           "scope": "source.vjass"
+       },
+        "vrfgamestate": {
+           "prefix": "vrfgamestate",
+           "body": "vrfgamestate",
+           "description": "type fgamestate extends gamestate",
+           "scope": "source.vjass"
+       },
+        "vrplayerstate": {
+           "prefix": "vrplayerstate",
+           "body": "vrplayerstate",
+           "description": "type playerstate extends handle",
+           "scope": "source.vjass"
+       },
+        "vrplayerscore": {
+           "prefix": "vrplayerscore",
+           "body": "vrplayerscore",
+           "description": "type playerscore extends handle",
+           "scope": "source.vjass"
+       },
+        "vrplayergameresult": {
+           "prefix": "vrplayergameresult",
+           "body": "vrplayergameresult",
+           "description": "type playergameresult extends handle",
+           "scope": "source.vjass"
+       },
+        "vrunitstate": {
+           "prefix": "vrunitstate",
+           "body": "vrunitstate",
+           "description": "type unitstate extends handle",
+           "scope": "source.vjass"
+       },
+        "vraidifficulty": {
+           "prefix": "vraidifficulty",
+           "body": "vraidifficulty",
+           "description": "type aidifficulty extends handle",
+           "scope": "source.vjass"
+       },
+        "vreventid": {
+           "prefix": "vreventid",
+           "body": "vreventid",
+           "description": "type eventid extends handle",
+           "scope": "source.vjass"
+       },
+        "vrgameevent": {
+           "prefix": "vrgameevent",
+           "body": "vrgameevent",
+           "description": "type gameevent extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrplayerevent": {
+           "prefix": "vrplayerevent",
+           "body": "vrplayerevent",
+           "description": "type playerevent extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrplayerunitevent": {
+           "prefix": "vrplayerunitevent",
+           "body": "vrplayerunitevent",
+           "description": "type playerunitevent extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrunitevent": {
+           "prefix": "vrunitevent",
+           "body": "vrunitevent",
+           "description": "type unitevent extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrlimitop": {
+           "prefix": "vrlimitop",
+           "body": "vrlimitop",
+           "description": "type limitop extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrwidgetevent": {
+           "prefix": "vrwidgetevent",
+           "body": "vrwidgetevent",
+           "description": "type widgetevent extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrdialogevent": {
+           "prefix": "vrdialogevent",
+           "body": "vrdialogevent",
+           "description": "type dialogevent extends eventid",
+           "scope": "source.vjass"
+       },
+        "vrunittype": {
+           "prefix": "vrunittype",
+           "body": "vrunittype",
+           "description": "type unittype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrgamespeed": {
+           "prefix": "vrgamespeed",
+           "body": "vrgamespeed",
+           "description": "type gamespeed extends handle",
+           "scope": "source.vjass"
+       },
+        "vrgamedifficulty": {
+           "prefix": "vrgamedifficulty",
+           "body": "vrgamedifficulty",
+           "description": "type gamedifficulty extends handle",
+           "scope": "source.vjass"
+       },
+        "vrgametype": {
+           "prefix": "vrgametype",
+           "body": "vrgametype",
+           "description": "type gametype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrmapflag": {
+           "prefix": "vrmapflag",
+           "body": "vrmapflag",
+           "description": "type mapflag extends handle",
+           "scope": "source.vjass"
+       },
+        "vrmapvisibility": {
+           "prefix": "vrmapvisibility",
+           "body": "vrmapvisibility",
+           "description": "type mapvisibility extends handle",
+           "scope": "source.vjass"
+       },
+        "vrmapsetting": {
+           "prefix": "vrmapsetting",
+           "body": "vrmapsetting",
+           "description": "type mapsetting extends handle",
+           "scope": "source.vjass"
+       },
+        "vrmapdensity": {
+           "prefix": "vrmapdensity",
+           "body": "vrmapdensity",
+           "description": "type mapdensity extends handle",
+           "scope": "source.vjass"
+       },
+        "vrmapcontrol": {
+           "prefix": "vrmapcontrol",
+           "body": "vrmapcontrol",
+           "description": "type mapcontrol extends handle",
+           "scope": "source.vjass"
+       },
+        "vrplayerslotstate": {
+           "prefix": "vrplayerslotstate",
+           "body": "vrplayerslotstate",
+           "description": "type playerslotstate extends handle",
+           "scope": "source.vjass"
+       },
+        "vrvolumegroup": {
+           "prefix": "vrvolumegroup",
+           "body": "vrvolumegroup",
+           "description": "type volumegroup extends handle",
+           "scope": "source.vjass"
+       },
+        "vrcamerafield": {
+           "prefix": "vrcamerafield",
+           "body": "vrcamerafield",
+           "description": "type camerafield extends handle",
+           "scope": "source.vjass"
+       },
+        "vrcamerasetup": {
+           "prefix": "vrcamerasetup",
+           "body": "vrcamerasetup",
+           "description": "type camerasetup extends handle",
+           "scope": "source.vjass"
+       },
+        "vrplayercolor": {
+           "prefix": "vrplayercolor",
+           "body": "vrplayercolor",
+           "description": "type playercolor extends handle",
+           "scope": "source.vjass"
+       },
+        "vrplacement": {
+           "prefix": "vrplacement",
+           "body": "vrplacement",
+           "description": "type placement extends handle",
+           "scope": "source.vjass"
+       },
+        "vrstartlocprio": {
+           "prefix": "vrstartlocprio",
+           "body": "vrstartlocprio",
+           "description": "type startlocprio extends handle",
+           "scope": "source.vjass"
+       },
+        "vrraritycontrol": {
+           "prefix": "vrraritycontrol",
+           "body": "vrraritycontrol",
+           "description": "type raritycontrol extends handle",
+           "scope": "source.vjass"
+       },
+        "vrblendmode": {
+           "prefix": "vrblendmode",
+           "body": "vrblendmode",
+           "description": "type blendmode extends handle",
+           "scope": "source.vjass"
+       },
+        "vrtexmapflags": {
+           "prefix": "vrtexmapflags",
+           "body": "vrtexmapflags",
+           "description": "type texmapflags extends handle",
+           "scope": "source.vjass"
+       },
+        "vreffect": {
+           "prefix": "vreffect",
+           "body": "vreffect",
+           "description": "type effect extends agent",
+           "scope": "source.vjass"
+       },
+        "vreffecttype": {
+           "prefix": "vreffecttype",
+           "body": "vreffecttype",
+           "description": "type effecttype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrweathereffect": {
+           "prefix": "vrweathereffect",
+           "body": "vrweathereffect",
+           "description": "type weathereffect extends handle",
+           "scope": "source.vjass"
+       },
+        "vrterraindeformation": {
+           "prefix": "vrterraindeformation",
+           "body": "vrterraindeformation",
+           "description": "type terraindeformation extends handle",
+           "scope": "source.vjass"
+       },
+        "vrfogstate": {
+           "prefix": "vrfogstate",
+           "body": "vrfogstate",
+           "description": "type fogstate extends handle",
+           "scope": "source.vjass"
+       },
+        "vrfogmodifier": {
+           "prefix": "vrfogmodifier",
+           "body": "vrfogmodifier",
+           "description": "type fogmodifier extends agent",
+           "scope": "source.vjass"
+       },
+        "vrdialog": {
+           "prefix": "vrdialog",
+           "body": "vrdialog",
+           "description": "type dialog extends agent",
+           "scope": "source.vjass"
+       },
+        "vrbutton": {
+           "prefix": "vrbutton",
+           "body": "vrbutton",
+           "description": "type button extends agent",
+           "scope": "source.vjass"
+       },
+        "vrquest": {
+           "prefix": "vrquest",
+           "body": "vrquest",
+           "description": "type quest extends agent",
+           "scope": "source.vjass"
+       },
+        "vrquestitem": {
+           "prefix": "vrquestitem",
+           "body": "vrquestitem",
+           "description": "type questitem extends agent",
+           "scope": "source.vjass"
+       },
+        "vrdefeatcondition": {
+           "prefix": "vrdefeatcondition",
+           "body": "vrdefeatcondition",
+           "description": "type defeatcondition extends agent",
+           "scope": "source.vjass"
+       },
+        "vrtimerdialog": {
+           "prefix": "vrtimerdialog",
+           "body": "vrtimerdialog",
+           "description": "type timerdialog extends agent",
+           "scope": "source.vjass"
+       },
+        "vrleaderboard": {
+           "prefix": "vrleaderboard",
+           "body": "vrleaderboard",
+           "description": "type leaderboard extends agent",
+           "scope": "source.vjass"
+       },
+        "vrmultiboard": {
+           "prefix": "vrmultiboard",
+           "body": "vrmultiboard",
+           "description": "type multiboard extends agent",
+           "scope": "source.vjass"
+       },
+        "vrmultiboarditem": {
+           "prefix": "vrmultiboarditem",
+           "body": "vrmultiboarditem",
+           "description": "type multiboarditem extends agent",
+           "scope": "source.vjass"
+       },
+        "vrtrackable": {
+           "prefix": "vrtrackable",
+           "body": "vrtrackable",
+           "description": "type trackable extends agent",
+           "scope": "source.vjass"
+       },
+        "vrgamecache": {
+           "prefix": "vrgamecache",
+           "body": "vrgamecache",
+           "description": "type gamecache extends agent",
+           "scope": "source.vjass"
+       },
+        "vrversion": {
+           "prefix": "vrversion",
+           "body": "vrversion",
+           "description": "type version extends handle",
+           "scope": "source.vjass"
+       },
+        "vritemtype": {
+           "prefix": "vritemtype",
+           "body": "vritemtype",
+           "description": "type itemtype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrtexttag": {
+           "prefix": "vrtexttag",
+           "body": "vrtexttag",
+           "description": "type texttag extends handle",
+           "scope": "source.vjass"
+       },
+        "vrattacktype": {
+           "prefix": "vrattacktype",
+           "body": "vrattacktype",
+           "description": "type attacktype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrdamagetype": {
+           "prefix": "vrdamagetype",
+           "body": "vrdamagetype",
+           "description": "type damagetype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrweapontype": {
+           "prefix": "vrweapontype",
+           "body": "vrweapontype",
+           "description": "type weapontype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrsoundtype": {
+           "prefix": "vrsoundtype",
+           "body": "vrsoundtype",
+           "description": "type soundtype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrlightning": {
+           "prefix": "vrlightning",
+           "body": "vrlightning",
+           "description": "type lightning extends handle",
+           "scope": "source.vjass"
+       },
+        "vrpathingtype": {
+           "prefix": "vrpathingtype",
+           "body": "vrpathingtype",
+           "description": "type pathingtype extends handle",
+           "scope": "source.vjass"
+       },
+        "vrimage": {
+           "prefix": "vrimage",
+           "body": "vrimage",
+           "description": "type image extends handle",
+           "scope": "source.vjass"
+       },
+        "vrubersplat": {
+           "prefix": "vrubersplat",
+           "body": "vrubersplat",
+           "description": "type ubersplat extends handle",
+           "scope": "source.vjass"
+       },
+        "vrhashtable": {
+           "prefix": "vrhashtable",
+           "body": "vrhashtable",
+           "description": "type hashtable extends agent",
+           "scope": "source.vjass"
+       }
+}

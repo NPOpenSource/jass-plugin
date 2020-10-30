@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 functionList=[]
+variableList=[]
 
 #pragma mark  -
 def replaceKeyValue(template,key,value):
@@ -11,6 +12,17 @@ parseCmdList=[]
 def installParseCmd(cmd):
     global parseCmdList
     parseCmdList.append(cmd)
+
+def parseVariable(list,line):
+    global variableList
+    if len(list)>1:
+        if list[0] == "type":
+            name=list[1].replace("\t","")
+            des=list[0]+" "+name+" "+list[2]+" "+list[3]
+            variableList.append({"name":name,"desc":des})
+
+installParseCmd(parseVariable)
+
 
 def parseFunctionParamers(index,list,callBackParamers):
     key =""
@@ -64,21 +76,27 @@ def readfile(pathname):
                 
 readfile("common.j")
 
-print(functionList)
+#print(functionList)
+print(variableList)
 
 #pragma mark  - public
-def getFunctionTemplate():
+
+
+def getSnippetTemplate():
     return'''        "value1": {
            "prefix": "value1",
            "body": "value2",
-           "description": "value1",
+           "description": "value3",
            "scope": "source.vjass"
        },\n'''
 
-
-
-
-
+template=getSnippetTemplate()
+def getSnippetItem(value1,value2,value3):
+    global template
+    text=replaceKeyValue(template,"value1",value1);
+    text=replaceKeyValue(text,"value2",value2);
+    text=replaceKeyValue(text,"value3",value3);
+    return text
 #pragma mark  - writefile
 
 writeCmdList=[]
@@ -86,8 +104,25 @@ writeCmdList=[]
 def installWriteCmd(cmd,fileName):
     global writeCmdList
     writeCmdList.append({'func':cmd,'fileName':fileName})
+ 
+
+ 
+def writeVariable(f):
+    global variableList
+    temp=""
+    for item in variableList:
+        print(item)
+        name=item["name"]
+        des=item["desc"]
+        value1="vr"+name
+        value2=des
+        temp=temp+getSnippetItem(value1,value1,value2)
+    return temp
     
-def getSnippetsBody(item):
+installWriteCmd(writeVariable,"vj_snippets_variable_cj")
+
+
+def getFunSnippetsBody(item):
     name=item["name"]
     paramers=item["paramers"]
     functionName=name+"("
@@ -102,23 +137,19 @@ def getSnippetsBody(item):
     functionName=functionName+")"
     return functionName
     
-    
+
+
+
 def writeFun(f):
     global functionList
-    f.write("{\n")
-    template=getFunctionTemplate()
     temp=""
     for item in functionList:
         name=item["name"]
         paramers=item["paramers"]
         value1="fn"+name
-        value2=getSnippetsBody(item)
-        text=replaceKeyValue(template,"value1",value1);
-        text=replaceKeyValue(text,"value2",value2);
-        temp=temp+text
-    temp=temp[:-2]
-    f.write(temp)
-    f.write("\n}\n")
+        value2=getFunSnippetsBody(item)
+        temp=temp+getSnippetItem(value1,value2,value1)
+    return temp
 
 installWriteCmd(writeFun,"vj_snippets_function_cj")
 
@@ -129,7 +160,12 @@ def writeFile():
         fileName= item['fileName']
         funcName=item['func']
         f = open(fileName+".json", "w+")
-        funcName(f)
+        f.write("{\n")
+        temp=funcName(f)
+        temp=temp[:-2]
+        f.write(temp)
+        f.write("\n}\n")
+        
         f.close()
         
 writeFile()
