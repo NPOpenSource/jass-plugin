@@ -1,547 +1,547 @@
 {
-        "nmagent": {
-           "prefix": "nmagent",
-           "body": "nmagent",
+        "tyagent": {
+           "prefix": "tyagent",
+           "body": "agent",
            "description": "type agent extends handle",
            "scope": "source.vjass"
        },
-        "nmevent": {
-           "prefix": "nmevent",
-           "body": "nmevent",
+        "tyevent": {
+           "prefix": "tyevent",
+           "body": "event",
            "description": "type event extends agent",
            "scope": "source.vjass"
        },
-        "nmplayer": {
-           "prefix": "nmplayer",
-           "body": "nmplayer",
+        "typlayer": {
+           "prefix": "typlayer",
+           "body": "player",
            "description": "type player extends agent",
            "scope": "source.vjass"
        },
-        "nmwidget": {
-           "prefix": "nmwidget",
-           "body": "nmwidget",
+        "tywidget": {
+           "prefix": "tywidget",
+           "body": "widget",
            "description": "type widget extends agent",
            "scope": "source.vjass"
        },
-        "nmunit": {
-           "prefix": "nmunit",
-           "body": "nmunit",
+        "tyunit": {
+           "prefix": "tyunit",
+           "body": "unit",
            "description": "type unit extends widget",
            "scope": "source.vjass"
        },
-        "nmdestructable": {
-           "prefix": "nmdestructable",
-           "body": "nmdestructable",
+        "tydestructable": {
+           "prefix": "tydestructable",
+           "body": "destructable",
            "description": "type destructable extends widget",
            "scope": "source.vjass"
        },
-        "nmitem": {
-           "prefix": "nmitem",
-           "body": "nmitem",
+        "tyitem": {
+           "prefix": "tyitem",
+           "body": "item",
            "description": "type item extends widget",
            "scope": "source.vjass"
        },
-        "nmability": {
-           "prefix": "nmability",
-           "body": "nmability",
+        "tyability": {
+           "prefix": "tyability",
+           "body": "ability",
            "description": "type ability extends agent",
            "scope": "source.vjass"
        },
-        "nmbuff": {
-           "prefix": "nmbuff",
-           "body": "nmbuff",
+        "tybuff": {
+           "prefix": "tybuff",
+           "body": "buff",
            "description": "type buff extends ability",
            "scope": "source.vjass"
        },
-        "nmforce": {
-           "prefix": "nmforce",
-           "body": "nmforce",
+        "tyforce": {
+           "prefix": "tyforce",
+           "body": "force",
            "description": "type force extends agent",
            "scope": "source.vjass"
        },
-        "nmgroup": {
-           "prefix": "nmgroup",
-           "body": "nmgroup",
+        "tygroup": {
+           "prefix": "tygroup",
+           "body": "group",
            "description": "type group extends agent",
            "scope": "source.vjass"
        },
-        "nmtrigger": {
-           "prefix": "nmtrigger",
-           "body": "nmtrigger",
+        "tytrigger": {
+           "prefix": "tytrigger",
+           "body": "trigger",
            "description": "type trigger extends agent",
            "scope": "source.vjass"
        },
-        "nmtriggercondition": {
-           "prefix": "nmtriggercondition",
-           "body": "nmtriggercondition",
+        "tytriggercondition": {
+           "prefix": "tytriggercondition",
+           "body": "triggercondition",
            "description": "type triggercondition extends agent",
            "scope": "source.vjass"
        },
-        "nmtriggeraction": {
-           "prefix": "nmtriggeraction",
-           "body": "nmtriggeraction",
+        "tytriggeraction": {
+           "prefix": "tytriggeraction",
+           "body": "triggeraction",
            "description": "type triggeraction extends handle",
            "scope": "source.vjass"
        },
-        "nmtimer": {
-           "prefix": "nmtimer",
-           "body": "nmtimer",
+        "tytimer": {
+           "prefix": "tytimer",
+           "body": "timer",
            "description": "type timer extends agent",
            "scope": "source.vjass"
        },
-        "nmlocation": {
-           "prefix": "nmlocation",
-           "body": "nmlocation",
+        "tylocation": {
+           "prefix": "tylocation",
+           "body": "location",
            "description": "type location extends agent",
            "scope": "source.vjass"
        },
-        "nmregion": {
-           "prefix": "nmregion",
-           "body": "nmregion",
+        "tyregion": {
+           "prefix": "tyregion",
+           "body": "region",
            "description": "type region extends agent",
            "scope": "source.vjass"
        },
-        "nmrect": {
-           "prefix": "nmrect",
-           "body": "nmrect",
+        "tyrect": {
+           "prefix": "tyrect",
+           "body": "rect",
            "description": "type rect extends agent",
            "scope": "source.vjass"
        },
-        "nmboolexpr": {
-           "prefix": "nmboolexpr",
-           "body": "nmboolexpr",
+        "tyboolexpr": {
+           "prefix": "tyboolexpr",
+           "body": "boolexpr",
            "description": "type boolexpr extends agent",
            "scope": "source.vjass"
        },
-        "nmsound": {
-           "prefix": "nmsound",
-           "body": "nmsound",
+        "tysound": {
+           "prefix": "tysound",
+           "body": "sound",
            "description": "type sound extends agent",
            "scope": "source.vjass"
        },
-        "nmconditionfunc": {
-           "prefix": "nmconditionfunc",
-           "body": "nmconditionfunc",
+        "tyconditionfunc": {
+           "prefix": "tyconditionfunc",
+           "body": "conditionfunc",
            "description": "type conditionfunc extends boolexpr",
            "scope": "source.vjass"
        },
-        "nmfilterfunc": {
-           "prefix": "nmfilterfunc",
-           "body": "nmfilterfunc",
+        "tyfilterfunc": {
+           "prefix": "tyfilterfunc",
+           "body": "filterfunc",
            "description": "type filterfunc extends boolexpr",
            "scope": "source.vjass"
        },
-        "nmunitpool": {
-           "prefix": "nmunitpool",
-           "body": "nmunitpool",
+        "tyunitpool": {
+           "prefix": "tyunitpool",
+           "body": "unitpool",
            "description": "type unitpool extends handle",
            "scope": "source.vjass"
        },
-        "nmitempool": {
-           "prefix": "nmitempool",
-           "body": "nmitempool",
+        "tyitempool": {
+           "prefix": "tyitempool",
+           "body": "itempool",
            "description": "type itempool extends handle",
            "scope": "source.vjass"
        },
-        "nmrace": {
-           "prefix": "nmrace",
-           "body": "nmrace",
+        "tyrace": {
+           "prefix": "tyrace",
+           "body": "race",
            "description": "type race extends handle",
            "scope": "source.vjass"
        },
-        "nmalliancetype": {
-           "prefix": "nmalliancetype",
-           "body": "nmalliancetype",
+        "tyalliancetype": {
+           "prefix": "tyalliancetype",
+           "body": "alliancetype",
            "description": "type alliancetype extends handle",
            "scope": "source.vjass"
        },
-        "nmracepreference": {
-           "prefix": "nmracepreference",
-           "body": "nmracepreference",
+        "tyracepreference": {
+           "prefix": "tyracepreference",
+           "body": "racepreference",
            "description": "type racepreference extends handle",
            "scope": "source.vjass"
        },
-        "nmgamestate": {
-           "prefix": "nmgamestate",
-           "body": "nmgamestate",
+        "tygamestate": {
+           "prefix": "tygamestate",
+           "body": "gamestate",
            "description": "type gamestate extends handle",
            "scope": "source.vjass"
        },
-        "nmigamestate": {
-           "prefix": "nmigamestate",
-           "body": "nmigamestate",
+        "tyigamestate": {
+           "prefix": "tyigamestate",
+           "body": "igamestate",
            "description": "type igamestate extends gamestate",
            "scope": "source.vjass"
        },
-        "nmfgamestate": {
-           "prefix": "nmfgamestate",
-           "body": "nmfgamestate",
+        "tyfgamestate": {
+           "prefix": "tyfgamestate",
+           "body": "fgamestate",
            "description": "type fgamestate extends gamestate",
            "scope": "source.vjass"
        },
-        "nmplayerstate": {
-           "prefix": "nmplayerstate",
-           "body": "nmplayerstate",
+        "typlayerstate": {
+           "prefix": "typlayerstate",
+           "body": "playerstate",
            "description": "type playerstate extends handle",
            "scope": "source.vjass"
        },
-        "nmplayerscore": {
-           "prefix": "nmplayerscore",
-           "body": "nmplayerscore",
+        "typlayerscore": {
+           "prefix": "typlayerscore",
+           "body": "playerscore",
            "description": "type playerscore extends handle",
            "scope": "source.vjass"
        },
-        "nmplayergameresult": {
-           "prefix": "nmplayergameresult",
-           "body": "nmplayergameresult",
+        "typlayergameresult": {
+           "prefix": "typlayergameresult",
+           "body": "playergameresult",
            "description": "type playergameresult extends handle",
            "scope": "source.vjass"
        },
-        "nmunitstate": {
-           "prefix": "nmunitstate",
-           "body": "nmunitstate",
+        "tyunitstate": {
+           "prefix": "tyunitstate",
+           "body": "unitstate",
            "description": "type unitstate extends handle",
            "scope": "source.vjass"
        },
-        "nmaidifficulty": {
-           "prefix": "nmaidifficulty",
-           "body": "nmaidifficulty",
+        "tyaidifficulty": {
+           "prefix": "tyaidifficulty",
+           "body": "aidifficulty",
            "description": "type aidifficulty extends handle",
            "scope": "source.vjass"
        },
-        "nmeventid": {
-           "prefix": "nmeventid",
-           "body": "nmeventid",
+        "tyeventid": {
+           "prefix": "tyeventid",
+           "body": "eventid",
            "description": "type eventid extends handle",
            "scope": "source.vjass"
        },
-        "nmgameevent": {
-           "prefix": "nmgameevent",
-           "body": "nmgameevent",
+        "tygameevent": {
+           "prefix": "tygameevent",
+           "body": "gameevent",
            "description": "type gameevent extends eventid",
            "scope": "source.vjass"
        },
-        "nmplayerevent": {
-           "prefix": "nmplayerevent",
-           "body": "nmplayerevent",
+        "typlayerevent": {
+           "prefix": "typlayerevent",
+           "body": "playerevent",
            "description": "type playerevent extends eventid",
            "scope": "source.vjass"
        },
-        "nmplayerunitevent": {
-           "prefix": "nmplayerunitevent",
-           "body": "nmplayerunitevent",
+        "typlayerunitevent": {
+           "prefix": "typlayerunitevent",
+           "body": "playerunitevent",
            "description": "type playerunitevent extends eventid",
            "scope": "source.vjass"
        },
-        "nmunitevent": {
-           "prefix": "nmunitevent",
-           "body": "nmunitevent",
+        "tyunitevent": {
+           "prefix": "tyunitevent",
+           "body": "unitevent",
            "description": "type unitevent extends eventid",
            "scope": "source.vjass"
        },
-        "nmlimitop": {
-           "prefix": "nmlimitop",
-           "body": "nmlimitop",
+        "tylimitop": {
+           "prefix": "tylimitop",
+           "body": "limitop",
            "description": "type limitop extends eventid",
            "scope": "source.vjass"
        },
-        "nmwidgetevent": {
-           "prefix": "nmwidgetevent",
-           "body": "nmwidgetevent",
+        "tywidgetevent": {
+           "prefix": "tywidgetevent",
+           "body": "widgetevent",
            "description": "type widgetevent extends eventid",
            "scope": "source.vjass"
        },
-        "nmdialogevent": {
-           "prefix": "nmdialogevent",
-           "body": "nmdialogevent",
+        "tydialogevent": {
+           "prefix": "tydialogevent",
+           "body": "dialogevent",
            "description": "type dialogevent extends eventid",
            "scope": "source.vjass"
        },
-        "nmunittype": {
-           "prefix": "nmunittype",
-           "body": "nmunittype",
+        "tyunittype": {
+           "prefix": "tyunittype",
+           "body": "unittype",
            "description": "type unittype extends handle",
            "scope": "source.vjass"
        },
-        "nmgamespeed": {
-           "prefix": "nmgamespeed",
-           "body": "nmgamespeed",
+        "tygamespeed": {
+           "prefix": "tygamespeed",
+           "body": "gamespeed",
            "description": "type gamespeed extends handle",
            "scope": "source.vjass"
        },
-        "nmgamedifficulty": {
-           "prefix": "nmgamedifficulty",
-           "body": "nmgamedifficulty",
+        "tygamedifficulty": {
+           "prefix": "tygamedifficulty",
+           "body": "gamedifficulty",
            "description": "type gamedifficulty extends handle",
            "scope": "source.vjass"
        },
-        "nmgametype": {
-           "prefix": "nmgametype",
-           "body": "nmgametype",
+        "tygametype": {
+           "prefix": "tygametype",
+           "body": "gametype",
            "description": "type gametype extends handle",
            "scope": "source.vjass"
        },
-        "nmmapflag": {
-           "prefix": "nmmapflag",
-           "body": "nmmapflag",
+        "tymapflag": {
+           "prefix": "tymapflag",
+           "body": "mapflag",
            "description": "type mapflag extends handle",
            "scope": "source.vjass"
        },
-        "nmmapvisibility": {
-           "prefix": "nmmapvisibility",
-           "body": "nmmapvisibility",
+        "tymapvisibility": {
+           "prefix": "tymapvisibility",
+           "body": "mapvisibility",
            "description": "type mapvisibility extends handle",
            "scope": "source.vjass"
        },
-        "nmmapsetting": {
-           "prefix": "nmmapsetting",
-           "body": "nmmapsetting",
+        "tymapsetting": {
+           "prefix": "tymapsetting",
+           "body": "mapsetting",
            "description": "type mapsetting extends handle",
            "scope": "source.vjass"
        },
-        "nmmapdensity": {
-           "prefix": "nmmapdensity",
-           "body": "nmmapdensity",
+        "tymapdensity": {
+           "prefix": "tymapdensity",
+           "body": "mapdensity",
            "description": "type mapdensity extends handle",
            "scope": "source.vjass"
        },
-        "nmmapcontrol": {
-           "prefix": "nmmapcontrol",
-           "body": "nmmapcontrol",
+        "tymapcontrol": {
+           "prefix": "tymapcontrol",
+           "body": "mapcontrol",
            "description": "type mapcontrol extends handle",
            "scope": "source.vjass"
        },
-        "nmplayerslotstate": {
-           "prefix": "nmplayerslotstate",
-           "body": "nmplayerslotstate",
+        "typlayerslotstate": {
+           "prefix": "typlayerslotstate",
+           "body": "playerslotstate",
            "description": "type playerslotstate extends handle",
            "scope": "source.vjass"
        },
-        "nmvolumegroup": {
-           "prefix": "nmvolumegroup",
-           "body": "nmvolumegroup",
+        "tyvolumegroup": {
+           "prefix": "tyvolumegroup",
+           "body": "volumegroup",
            "description": "type volumegroup extends handle",
            "scope": "source.vjass"
        },
-        "nmcamerafield": {
-           "prefix": "nmcamerafield",
-           "body": "nmcamerafield",
+        "tycamerafield": {
+           "prefix": "tycamerafield",
+           "body": "camerafield",
            "description": "type camerafield extends handle",
            "scope": "source.vjass"
        },
-        "nmcamerasetup": {
-           "prefix": "nmcamerasetup",
-           "body": "nmcamerasetup",
+        "tycamerasetup": {
+           "prefix": "tycamerasetup",
+           "body": "camerasetup",
            "description": "type camerasetup extends handle",
            "scope": "source.vjass"
        },
-        "nmplayercolor": {
-           "prefix": "nmplayercolor",
-           "body": "nmplayercolor",
+        "typlayercolor": {
+           "prefix": "typlayercolor",
+           "body": "playercolor",
            "description": "type playercolor extends handle",
            "scope": "source.vjass"
        },
-        "nmplacement": {
-           "prefix": "nmplacement",
-           "body": "nmplacement",
+        "typlacement": {
+           "prefix": "typlacement",
+           "body": "placement",
            "description": "type placement extends handle",
            "scope": "source.vjass"
        },
-        "nmstartlocprio": {
-           "prefix": "nmstartlocprio",
-           "body": "nmstartlocprio",
+        "tystartlocprio": {
+           "prefix": "tystartlocprio",
+           "body": "startlocprio",
            "description": "type startlocprio extends handle",
            "scope": "source.vjass"
        },
-        "nmraritycontrol": {
-           "prefix": "nmraritycontrol",
-           "body": "nmraritycontrol",
+        "tyraritycontrol": {
+           "prefix": "tyraritycontrol",
+           "body": "raritycontrol",
            "description": "type raritycontrol extends handle",
            "scope": "source.vjass"
        },
-        "nmblendmode": {
-           "prefix": "nmblendmode",
-           "body": "nmblendmode",
+        "tyblendmode": {
+           "prefix": "tyblendmode",
+           "body": "blendmode",
            "description": "type blendmode extends handle",
            "scope": "source.vjass"
        },
-        "nmtexmapflags": {
-           "prefix": "nmtexmapflags",
-           "body": "nmtexmapflags",
+        "tytexmapflags": {
+           "prefix": "tytexmapflags",
+           "body": "texmapflags",
            "description": "type texmapflags extends handle",
            "scope": "source.vjass"
        },
-        "nmeffect": {
-           "prefix": "nmeffect",
-           "body": "nmeffect",
+        "tyeffect": {
+           "prefix": "tyeffect",
+           "body": "effect",
            "description": "type effect extends agent",
            "scope": "source.vjass"
        },
-        "nmeffecttype": {
-           "prefix": "nmeffecttype",
-           "body": "nmeffecttype",
+        "tyeffecttype": {
+           "prefix": "tyeffecttype",
+           "body": "effecttype",
            "description": "type effecttype extends handle",
            "scope": "source.vjass"
        },
-        "nmweathereffect": {
-           "prefix": "nmweathereffect",
-           "body": "nmweathereffect",
+        "tyweathereffect": {
+           "prefix": "tyweathereffect",
+           "body": "weathereffect",
            "description": "type weathereffect extends handle",
            "scope": "source.vjass"
        },
-        "nmterraindeformation": {
-           "prefix": "nmterraindeformation",
-           "body": "nmterraindeformation",
+        "tyterraindeformation": {
+           "prefix": "tyterraindeformation",
+           "body": "terraindeformation",
            "description": "type terraindeformation extends handle",
            "scope": "source.vjass"
        },
-        "nmfogstate": {
-           "prefix": "nmfogstate",
-           "body": "nmfogstate",
+        "tyfogstate": {
+           "prefix": "tyfogstate",
+           "body": "fogstate",
            "description": "type fogstate extends handle",
            "scope": "source.vjass"
        },
-        "nmfogmodifier": {
-           "prefix": "nmfogmodifier",
-           "body": "nmfogmodifier",
+        "tyfogmodifier": {
+           "prefix": "tyfogmodifier",
+           "body": "fogmodifier",
            "description": "type fogmodifier extends agent",
            "scope": "source.vjass"
        },
-        "nmdialog": {
-           "prefix": "nmdialog",
-           "body": "nmdialog",
+        "tydialog": {
+           "prefix": "tydialog",
+           "body": "dialog",
            "description": "type dialog extends agent",
            "scope": "source.vjass"
        },
-        "nmbutton": {
-           "prefix": "nmbutton",
-           "body": "nmbutton",
+        "tybutton": {
+           "prefix": "tybutton",
+           "body": "button",
            "description": "type button extends agent",
            "scope": "source.vjass"
        },
-        "nmquest": {
-           "prefix": "nmquest",
-           "body": "nmquest",
+        "tyquest": {
+           "prefix": "tyquest",
+           "body": "quest",
            "description": "type quest extends agent",
            "scope": "source.vjass"
        },
-        "nmquestitem": {
-           "prefix": "nmquestitem",
-           "body": "nmquestitem",
+        "tyquestitem": {
+           "prefix": "tyquestitem",
+           "body": "questitem",
            "description": "type questitem extends agent",
            "scope": "source.vjass"
        },
-        "nmdefeatcondition": {
-           "prefix": "nmdefeatcondition",
-           "body": "nmdefeatcondition",
+        "tydefeatcondition": {
+           "prefix": "tydefeatcondition",
+           "body": "defeatcondition",
            "description": "type defeatcondition extends agent",
            "scope": "source.vjass"
        },
-        "nmtimerdialog": {
-           "prefix": "nmtimerdialog",
-           "body": "nmtimerdialog",
+        "tytimerdialog": {
+           "prefix": "tytimerdialog",
+           "body": "timerdialog",
            "description": "type timerdialog extends agent",
            "scope": "source.vjass"
        },
-        "nmleaderboard": {
-           "prefix": "nmleaderboard",
-           "body": "nmleaderboard",
+        "tyleaderboard": {
+           "prefix": "tyleaderboard",
+           "body": "leaderboard",
            "description": "type leaderboard extends agent",
            "scope": "source.vjass"
        },
-        "nmmultiboard": {
-           "prefix": "nmmultiboard",
-           "body": "nmmultiboard",
+        "tymultiboard": {
+           "prefix": "tymultiboard",
+           "body": "multiboard",
            "description": "type multiboard extends agent",
            "scope": "source.vjass"
        },
-        "nmmultiboarditem": {
-           "prefix": "nmmultiboarditem",
-           "body": "nmmultiboarditem",
+        "tymultiboarditem": {
+           "prefix": "tymultiboarditem",
+           "body": "multiboarditem",
            "description": "type multiboarditem extends agent",
            "scope": "source.vjass"
        },
-        "nmtrackable": {
-           "prefix": "nmtrackable",
-           "body": "nmtrackable",
+        "tytrackable": {
+           "prefix": "tytrackable",
+           "body": "trackable",
            "description": "type trackable extends agent",
            "scope": "source.vjass"
        },
-        "nmgamecache": {
-           "prefix": "nmgamecache",
-           "body": "nmgamecache",
+        "tygamecache": {
+           "prefix": "tygamecache",
+           "body": "gamecache",
            "description": "type gamecache extends agent",
            "scope": "source.vjass"
        },
-        "nmversion": {
-           "prefix": "nmversion",
-           "body": "nmversion",
+        "tyversion": {
+           "prefix": "tyversion",
+           "body": "version",
            "description": "type version extends handle",
            "scope": "source.vjass"
        },
-        "nmitemtype": {
-           "prefix": "nmitemtype",
-           "body": "nmitemtype",
+        "tyitemtype": {
+           "prefix": "tyitemtype",
+           "body": "itemtype",
            "description": "type itemtype extends handle",
            "scope": "source.vjass"
        },
-        "nmtexttag": {
-           "prefix": "nmtexttag",
-           "body": "nmtexttag",
+        "tytexttag": {
+           "prefix": "tytexttag",
+           "body": "texttag",
            "description": "type texttag extends handle",
            "scope": "source.vjass"
        },
-        "nmattacktype": {
-           "prefix": "nmattacktype",
-           "body": "nmattacktype",
+        "tyattacktype": {
+           "prefix": "tyattacktype",
+           "body": "attacktype",
            "description": "type attacktype extends handle",
            "scope": "source.vjass"
        },
-        "nmdamagetype": {
-           "prefix": "nmdamagetype",
-           "body": "nmdamagetype",
+        "tydamagetype": {
+           "prefix": "tydamagetype",
+           "body": "damagetype",
            "description": "type damagetype extends handle",
            "scope": "source.vjass"
        },
-        "nmweapontype": {
-           "prefix": "nmweapontype",
-           "body": "nmweapontype",
+        "tyweapontype": {
+           "prefix": "tyweapontype",
+           "body": "weapontype",
            "description": "type weapontype extends handle",
            "scope": "source.vjass"
        },
-        "nmsoundtype": {
-           "prefix": "nmsoundtype",
-           "body": "nmsoundtype",
+        "tysoundtype": {
+           "prefix": "tysoundtype",
+           "body": "soundtype",
            "description": "type soundtype extends handle",
            "scope": "source.vjass"
        },
-        "nmlightning": {
-           "prefix": "nmlightning",
-           "body": "nmlightning",
+        "tylightning": {
+           "prefix": "tylightning",
+           "body": "lightning",
            "description": "type lightning extends handle",
            "scope": "source.vjass"
        },
-        "nmpathingtype": {
-           "prefix": "nmpathingtype",
-           "body": "nmpathingtype",
+        "typathingtype": {
+           "prefix": "typathingtype",
+           "body": "pathingtype",
            "description": "type pathingtype extends handle",
            "scope": "source.vjass"
        },
-        "nmimage": {
-           "prefix": "nmimage",
-           "body": "nmimage",
+        "tyimage": {
+           "prefix": "tyimage",
+           "body": "image",
            "description": "type image extends handle",
            "scope": "source.vjass"
        },
-        "nmubersplat": {
-           "prefix": "nmubersplat",
-           "body": "nmubersplat",
+        "tyubersplat": {
+           "prefix": "tyubersplat",
+           "body": "ubersplat",
            "description": "type ubersplat extends handle",
            "scope": "source.vjass"
        },
-        "nmhashtable": {
-           "prefix": "nmhashtable",
-           "body": "nmhashtable",
+        "tyhashtable": {
+           "prefix": "tyhashtable",
+           "body": "hashtable",
            "description": "type hashtable extends agent",
            "scope": "source.vjass"
        }

@@ -2,8 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 functionList=[]
-variableTypeList=[]
-ConstantList=[]
+enumList=[]
 
 #pragma mark  -
 def replaceKeyValue(template,key,value):
@@ -13,17 +12,6 @@ parseCmdList=[]
 def installParseCmd(cmd):
     global parseCmdList
     parseCmdList.append(cmd)
-
-def parseVariable(list,line):
-    global variableTypeList
-    if len(list)>1:
-        if list[0] == "type":
-            name=list[1].replace("\t","")
-            des=list[0]+" "+name+" "+list[2]+" "+list[3]
-            variableTypeList.append({"name":name,"desc":des})
-
-installParseCmd(parseVariable)
-
 
 def parseFunctionParamers(index,list,callBackParamers):
     key =""
@@ -41,16 +29,8 @@ def parseFunctionParamers(index,list,callBackParamers):
     
 def parseFunction(list,line):
     global functionList
-    if len(list) >= 3:
-        if(list[0]=="constant" and list[1]=="native" and list[3]=="takes"):
-            name =list[2].replace("\t","")
-            mapParamers={}
-            currentIndex=parseFunctionParamers(4,list,mapParamers)
-            returnValue=list[currentIndex+1]
-            functionMap={"name":name,"paramers":mapParamers,"return":returnValue}
-            functionList.append(functionMap)
-            return True
-        if(list[0]=="native" and list[2]=="takes"):
+    if len(list) >= 2:
+        if(list[0]=="function" and list[2]=="takes"):
             name =list[1].replace("\t","")
             mapParamers={}
             currentIndex=parseFunctionParamers(3,list,mapParamers)
@@ -62,19 +42,48 @@ def parseFunction(list,line):
             
 installParseCmd(parseFunction)
 
+parseSignal=False
+
 def parseEnum(list,line):
-    global ConstantList
-    if len(list)>=4:
-        if(list[0]=="constant" and list[3]=="="):
-            name =list[2].replace("\t","")
-            type =list[1].replace("\t","")
-            value=list[4].replace("\t","")
-            mapParamers={"name":name,"type":type,"value":value}
-            ConstantList.append(mapParamers)
-            return True
+    global enumList
+    global parseSignal
+    if(len(list)==1):
+        if list[0]=="globals":
+            parseSignal=True
+            return False
+    if(len(list)==1):
+        if list[0]=="endglobals":
+            parseSignal=False
+            return False
+    if parseSignal==True:
+        if len(list)>=4:
+            if(list[3]=="="):
+                name =list[2].replace("\t","")
+                type =list[1].replace("\t","")
+                value=list[4].replace("\t","")
+                suff=list[0].replace("\t","")
+                mapParamers={"name":name,"type":type,"value":value,"suff":suff}
+                enumList.append(mapParamers)
+                return True
+            if (list[2]=="="):
+                 name =list[1].replace("\t","")
+                 type =list[0].replace("\t","")
+                 value=list[3].replace("\t","")
+                 mapParamers={"name":name,"type":type,"value":value}
+                 enumList.append(mapParamers)
+                 return True
+        if(len(list)>0):
+            if (list[0].startswith("//")):
+                return False
+            if len(list)>=3:
+                name=list[2].replace("\t","")
+                type =list[0].replace("\t","")+" "+list[1].replace("\t","")
+                mapParamers={"name":name,"type":type}
+                enumList.append(mapParamers)
+                return True
     return False
     
-installParseCmd(parseEnum)
+#installParseCmd(parseEnum)
 
 
 #pragma mark  -  readfile
@@ -90,10 +99,10 @@ def readfile(pathname):
                     break
                 
                 
-readfile("common.j")
+readfile("blizzard.j")
 
 #print(functionList)
-print(ConstantList)
+#print(enumList)
 
 #pragma mark  - public
 
@@ -121,34 +130,19 @@ def installWriteCmd(cmd,fileName):
     global writeCmdList
     writeCmdList.append({'func':cmd,'fileName':fileName})
  
-
- 
-def writeVariableType(f):
-    global variableTypeList
+def writeEnum(f):
+    global variableList
     temp=""
-    for item in variableTypeList:
-        name=item["name"]
-        des=item["desc"]
-        value1="ty"+name
-        value2=des
-        temp=temp+getSnippetItem(value1,name,value2)
-    return temp
-    
-installWriteCmd(writeVariableType,"vj_snippets_variableType_cj")
-
-def writeConstant(f):
-    global variableTypeList
-    temp=""
-    for item in ConstantList:
+    for item in enumList:
         name=item["name"]
         type=item["type"]
         value=item["value"]
-        value1="cn"+name
+        value1="vr"+name
         value2="constant "+type+" "+name+" = "+value
-        temp=temp+getSnippetItem(value1,name,value2)
+        temp=temp+getSnippetItem(value1,value1,value2)
     return temp
     
-installWriteCmd(writeConstant,"vj_snippets_constant_cj")
+#installWriteCmd(writeEnum,"vj_snippets_enum_cj")
 
 
 def getFunSnippetsBody(item):
@@ -157,7 +151,6 @@ def getFunSnippetsBody(item):
     functionName=name+"("
     if (len(paramers) == 0):
         functionName=functionName+"${0:nothing},"
-##    ${1:function_name}
     index = 0;
     for item in paramers:
         functionName=functionName+"${"+str(index)+":"+item+" "+paramers[item]+"},"
@@ -170,6 +163,7 @@ def writeFun(f):
     global functionList
     temp=""
     for item in functionList:
+        print(item)
         name=item["name"]
         paramers=item["paramers"]
         value1="fn"+name
@@ -177,7 +171,7 @@ def writeFun(f):
         temp=temp+getSnippetItem(value1,value2,value1)
     return temp
 
-installWriteCmd(writeFun,"vj_snippets_function_cj")
+installWriteCmd(writeFun,"vj_snippets_function_bj")
 
 
 #pragma mark  - writeFile
