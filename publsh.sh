@@ -9,10 +9,8 @@ readVersion(){
     done < $versionfile
 }
 readVersion
-echo $version
-
+echo "最后的版本号:"$version
 vsce package
-
 list=`ls *.vsix`
 lastVersion=""
 for element in $list
@@ -27,5 +25,5 @@ fi
 
 vsce publish
 echo $lastVersion > $versionfile
-
+echo "当前版本号:"$lastVersion
 

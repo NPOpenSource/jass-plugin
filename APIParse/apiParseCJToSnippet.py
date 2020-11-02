@@ -62,7 +62,7 @@ def parseFunction(list,line):
             
 installParseCmd(parseFunction)
 
-def parseEnum(list,line):
+def parseConstant(list,line):
     global ConstantList
     if len(list)>=4:
         if(list[0]=="constant" and list[3]=="="):
@@ -74,7 +74,7 @@ def parseEnum(list,line):
             return True
     return False
     
-installParseCmd(parseEnum)
+installParseCmd(parseConstant)
 
 
 #pragma mark  -  readfile
@@ -137,7 +137,7 @@ def writeVariableType(f):
 installWriteCmd(writeVariableType,"vj_snippets_variableType_cj")
 
 def writeConstant(f):
-    global variableTypeList
+    global ConstantList
     temp=""
     for item in ConstantList:
         name=item["name"]

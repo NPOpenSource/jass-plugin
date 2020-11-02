@@ -2,7 +2,8 @@
 # -*- coding: UTF-8 -*-
 
 functionList=[]
-enumList=[]
+constantList=[]
+variableList=[]
 
 #pragma mark  -
 def replaceKeyValue(template,key,value):
@@ -44,8 +45,8 @@ installParseCmd(parseFunction)
 
 parseSignal=False
 
-def parseEnum(list,line):
-    global enumList
+def parseConstant(list,line):
+    global constantList
     global parseSignal
     if(len(list)==1):
         if list[0]=="globals":
@@ -63,14 +64,31 @@ def parseEnum(list,line):
                 value=list[4].replace("\t","")
                 suff=list[0].replace("\t","")
                 mapParamers={"name":name,"type":type,"value":value,"suff":suff}
-                enumList.append(mapParamers)
+                constantList.append(mapParamers)
                 return True
+    return False
+    
+installParseCmd(parseConstant)
+
+def parseVariable(list,line):
+    global variableList
+    global parseSignal
+    if(len(list)==1):
+        if list[0]=="globals":
+            parseSignal=True
+            return False
+    if(len(list)==1):
+        if list[0]=="endglobals":
+            parseSignal=False
+            return False
+    if parseSignal==True:
+        if len(list)>=4:
             if (list[2]=="="):
                  name =list[1].replace("\t","")
                  type =list[0].replace("\t","")
                  value=list[3].replace("\t","")
                  mapParamers={"name":name,"type":type,"value":value}
-                 enumList.append(mapParamers)
+                 variableList.append(mapParamers)
                  return True
         if(len(list)>0):
             if (list[0].startswith("//")):
@@ -79,11 +97,11 @@ def parseEnum(list,line):
                 name=list[2].replace("\t","")
                 type =list[0].replace("\t","")+" "+list[1].replace("\t","")
                 mapParamers={"name":name,"type":type}
-                enumList.append(mapParamers)
+                variableList.append(mapParamers)
                 return True
     return False
     
-#installParseCmd(parseEnum)
+installParseCmd(parseVariable)
 
 
 #pragma mark  -  readfile
@@ -130,19 +148,38 @@ def installWriteCmd(cmd,fileName):
     global writeCmdList
     writeCmdList.append({'func':cmd,'fileName':fileName})
  
-def writeEnum(f):
-    global variableList
+def writeConstant(f):
+    global constantList
     temp=""
-    for item in enumList:
+    for item in constantList:
         name=item["name"]
         type=item["type"]
         value=item["value"]
-        value1="vr"+name
+        value1="cn"+name
         value2="constant "+type+" "+name+" = "+value
-        temp=temp+getSnippetItem(value1,value1,value2)
+        temp=temp+getSnippetItem(value1,name,value2)
     return temp
     
-#installWriteCmd(writeEnum,"vj_snippets_enum_cj")
+installWriteCmd(writeConstant,"vj_snippets_constant_bj")
+
+def writeVariable(f):
+    global variableList
+    temp=""
+    for item in variableList:
+        name=item["name"]
+        type=item["type"]
+        value = ""
+        if item.has_key("value"):
+            value=item["value"]
+        value1="vr"+name
+        value2=type+" "+name
+        if value != "":
+            value2 = value2+" = "+value
+        temp=temp+getSnippetItem(value1,name,value2)
+    return temp
+    
+installWriteCmd(writeVariable,"vj_snippets_variable_bj")
+
 
 
 def getFunSnippetsBody(item):
@@ -185,7 +222,6 @@ def writeFile():
         temp=temp[:-2]
         f.write(temp)
         f.write("\n}\n")
-        
         f.close()
         
 writeFile()
