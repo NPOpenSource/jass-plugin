@@ -3,6 +3,7 @@
 
 functionList=[]
 variableList=[]
+enumList=[]
 
 #pragma mark  -
 def replaceKeyValue(template,key,value):
@@ -61,6 +62,21 @@ def parseFunction(list,line):
             
 installParseCmd(parseFunction)
 
+def parseEnum(list,line):
+    global enumList
+    if len(list)>=4:
+        if(list[0]=="constant" and list[3]=="="):
+            name =list[2].replace("\t","")
+            type =list[1].replace("\t","")
+            value=list[4].replace("\t","")
+            mapParamers={"name":name,"type":type,"value":value}
+            enumList.append(mapParamers)
+            return True
+    return False
+    
+installParseCmd(parseEnum)
+
+
 #pragma mark  -  readfile
 def readfile(pathname):
     content=""
@@ -77,7 +93,7 @@ def readfile(pathname):
 readfile("common.j")
 
 #print(functionList)
-print(variableList)
+print(enumList)
 
 #pragma mark  - public
 
@@ -111,15 +127,28 @@ def writeVariable(f):
     global variableList
     temp=""
     for item in variableList:
-        print(item)
         name=item["name"]
         des=item["desc"]
-        value1="vr"+name
+        value1="nm"+name
         value2=des
         temp=temp+getSnippetItem(value1,value1,value2)
     return temp
     
 installWriteCmd(writeVariable,"vj_snippets_variable_cj")
+
+def writeEnum(f):
+    global variableList
+    temp=""
+    for item in enumList:
+        name=item["name"]
+        type=item["type"]
+        value=item["value"]
+        value1="vr"+name
+        value2="constant "+type+" "+name+" = "+value
+        temp=temp+getSnippetItem(value1,value1,value2)
+    return temp
+    
+installWriteCmd(writeEnum,"vj_snippets_enum_cj")
 
 
 def getFunSnippetsBody(item):
@@ -136,9 +165,6 @@ def getFunSnippetsBody(item):
     functionName=functionName[:-1]
     functionName=functionName+")"
     return functionName
-    
-
-
 
 def writeFun(f):
     global functionList
