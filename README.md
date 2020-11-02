@@ -17,7 +17,10 @@
     函数前缀:fn
     
 
-### 有问题请联系QQ826834678
+有问题请联系QQ826834678 或者登录[github](https://github.com/NPOpenSource/jass-plugin.git)评论或者留言. 
+
+要是喜欢的话,请去github献上你的小爱心
+
 
 
     
