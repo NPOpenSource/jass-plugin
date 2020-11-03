@@ -129,7 +129,7 @@ def writeVariableType(f):
     for item in variableTypeList:
         name=item["name"]
         des=item["desc"]
-        value1="ty"+name
+        value1=name
         value2=des
         temp=temp+getSnippetItem(value1,name,value2)
     return temp

@@ -1,546 +1,546 @@
 {
-        "tyagent": {
-           "prefix": "tyagent",
+        "agent": {
+           "prefix": "agent",
            "body": "agent",
            "description": "type agent extends handle",
            "scope": "source.vjass"
        },
-        "tyevent": {
-           "prefix": "tyevent",
+        "event": {
+           "prefix": "event",
            "body": "event",
            "description": "type event extends agent",
            "scope": "source.vjass"
        },
-        "typlayer": {
-           "prefix": "typlayer",
+        "player": {
+           "prefix": "player",
            "body": "player",
            "description": "type player extends agent",
            "scope": "source.vjass"
        },
-        "tywidget": {
-           "prefix": "tywidget",
+        "widget": {
+           "prefix": "widget",
            "body": "widget",
            "description": "type widget extends agent",
            "scope": "source.vjass"
        },
-        "tyunit": {
-           "prefix": "tyunit",
+        "unit": {
+           "prefix": "unit",
            "body": "unit",
            "description": "type unit extends widget",
            "scope": "source.vjass"
        },
-        "tydestructable": {
-           "prefix": "tydestructable",
+        "destructable": {
+           "prefix": "destructable",
            "body": "destructable",
            "description": "type destructable extends widget",
            "scope": "source.vjass"
        },
-        "tyitem": {
-           "prefix": "tyitem",
+        "item": {
+           "prefix": "item",
            "body": "item",
            "description": "type item extends widget",
            "scope": "source.vjass"
        },
-        "tyability": {
-           "prefix": "tyability",
+        "ability": {
+           "prefix": "ability",
            "body": "ability",
            "description": "type ability extends agent",
            "scope": "source.vjass"
        },
-        "tybuff": {
-           "prefix": "tybuff",
+        "buff": {
+           "prefix": "buff",
            "body": "buff",
            "description": "type buff extends ability",
            "scope": "source.vjass"
        },
-        "tyforce": {
-           "prefix": "tyforce",
+        "force": {
+           "prefix": "force",
            "body": "force",
            "description": "type force extends agent",
            "scope": "source.vjass"
        },
-        "tygroup": {
-           "prefix": "tygroup",
+        "group": {
+           "prefix": "group",
            "body": "group",
            "description": "type group extends agent",
            "scope": "source.vjass"
        },
-        "tytrigger": {
-           "prefix": "tytrigger",
+        "trigger": {
+           "prefix": "trigger",
            "body": "trigger",
            "description": "type trigger extends agent",
            "scope": "source.vjass"
        },
-        "tytriggercondition": {
-           "prefix": "tytriggercondition",
+        "triggercondition": {
+           "prefix": "triggercondition",
            "body": "triggercondition",
            "description": "type triggercondition extends agent",
            "scope": "source.vjass"
        },
-        "tytriggeraction": {
-           "prefix": "tytriggeraction",
+        "triggeraction": {
+           "prefix": "triggeraction",
            "body": "triggeraction",
            "description": "type triggeraction extends handle",
            "scope": "source.vjass"
        },
-        "tytimer": {
-           "prefix": "tytimer",
+        "timer": {
+           "prefix": "timer",
            "body": "timer",
            "description": "type timer extends agent",
            "scope": "source.vjass"
        },
-        "tylocation": {
-           "prefix": "tylocation",
+        "location": {
+           "prefix": "location",
            "body": "location",
            "description": "type location extends agent",
            "scope": "source.vjass"
        },
-        "tyregion": {
-           "prefix": "tyregion",
+        "region": {
+           "prefix": "region",
            "body": "region",
            "description": "type region extends agent",
            "scope": "source.vjass"
        },
-        "tyrect": {
-           "prefix": "tyrect",
+        "rect": {
+           "prefix": "rect",
            "body": "rect",
            "description": "type rect extends agent",
            "scope": "source.vjass"
        },
-        "tyboolexpr": {
-           "prefix": "tyboolexpr",
+        "boolexpr": {
+           "prefix": "boolexpr",
            "body": "boolexpr",
            "description": "type boolexpr extends agent",
            "scope": "source.vjass"
        },
-        "tysound": {
-           "prefix": "tysound",
+        "sound": {
+           "prefix": "sound",
            "body": "sound",
            "description": "type sound extends agent",
            "scope": "source.vjass"
        },
-        "tyconditionfunc": {
-           "prefix": "tyconditionfunc",
+        "conditionfunc": {
+           "prefix": "conditionfunc",
            "body": "conditionfunc",
            "description": "type conditionfunc extends boolexpr",
            "scope": "source.vjass"
        },
-        "tyfilterfunc": {
-           "prefix": "tyfilterfunc",
+        "filterfunc": {
+           "prefix": "filterfunc",
            "body": "filterfunc",
            "description": "type filterfunc extends boolexpr",
            "scope": "source.vjass"
        },
-        "tyunitpool": {
-           "prefix": "tyunitpool",
+        "unitpool": {
+           "prefix": "unitpool",
            "body": "unitpool",
            "description": "type unitpool extends handle",
            "scope": "source.vjass"
        },
-        "tyitempool": {
-           "prefix": "tyitempool",
+        "itempool": {
+           "prefix": "itempool",
            "body": "itempool",
            "description": "type itempool extends handle",
            "scope": "source.vjass"
        },
-        "tyrace": {
-           "prefix": "tyrace",
+        "race": {
+           "prefix": "race",
            "body": "race",
            "description": "type race extends handle",
            "scope": "source.vjass"
        },
-        "tyalliancetype": {
-           "prefix": "tyalliancetype",
+        "alliancetype": {
+           "prefix": "alliancetype",
            "body": "alliancetype",
            "description": "type alliancetype extends handle",
            "scope": "source.vjass"
        },
-        "tyracepreference": {
-           "prefix": "tyracepreference",
+        "racepreference": {
+           "prefix": "racepreference",
            "body": "racepreference",
            "description": "type racepreference extends handle",
            "scope": "source.vjass"
        },
-        "tygamestate": {
-           "prefix": "tygamestate",
+        "gamestate": {
+           "prefix": "gamestate",
            "body": "gamestate",
            "description": "type gamestate extends handle",
            "scope": "source.vjass"
        },
-        "tyigamestate": {
-           "prefix": "tyigamestate",
+        "igamestate": {
+           "prefix": "igamestate",
            "body": "igamestate",
            "description": "type igamestate extends gamestate",
            "scope": "source.vjass"
        },
-        "tyfgamestate": {
-           "prefix": "tyfgamestate",
+        "fgamestate": {
+           "prefix": "fgamestate",
            "body": "fgamestate",
            "description": "type fgamestate extends gamestate",
            "scope": "source.vjass"
        },
-        "typlayerstate": {
-           "prefix": "typlayerstate",
+        "playerstate": {
+           "prefix": "playerstate",
            "body": "playerstate",
            "description": "type playerstate extends handle",
            "scope": "source.vjass"
        },
-        "typlayerscore": {
-           "prefix": "typlayerscore",
+        "playerscore": {
+           "prefix": "playerscore",
            "body": "playerscore",
            "description": "type playerscore extends handle",
            "scope": "source.vjass"
        },
-        "typlayergameresult": {
-           "prefix": "typlayergameresult",
+        "playergameresult": {
+           "prefix": "playergameresult",
            "body": "playergameresult",
            "description": "type playergameresult extends handle",
            "scope": "source.vjass"
        },
-        "tyunitstate": {
-           "prefix": "tyunitstate",
+        "unitstate": {
+           "prefix": "unitstate",
            "body": "unitstate",
            "description": "type unitstate extends handle",
            "scope": "source.vjass"
        },
-        "tyaidifficulty": {
-           "prefix": "tyaidifficulty",
+        "aidifficulty": {
+           "prefix": "aidifficulty",
            "body": "aidifficulty",
            "description": "type aidifficulty extends handle",
            "scope": "source.vjass"
        },
-        "tyeventid": {
-           "prefix": "tyeventid",
+        "eventid": {
+           "prefix": "eventid",
            "body": "eventid",
            "description": "type eventid extends handle",
            "scope": "source.vjass"
        },
-        "tygameevent": {
-           "prefix": "tygameevent",
+        "gameevent": {
+           "prefix": "gameevent",
            "body": "gameevent",
            "description": "type gameevent extends eventid",
            "scope": "source.vjass"
        },
-        "typlayerevent": {
-           "prefix": "typlayerevent",
+        "playerevent": {
+           "prefix": "playerevent",
            "body": "playerevent",
            "description": "type playerevent extends eventid",
            "scope": "source.vjass"
        },
-        "typlayerunitevent": {
-           "prefix": "typlayerunitevent",
+        "playerunitevent": {
+           "prefix": "playerunitevent",
            "body": "playerunitevent",
            "description": "type playerunitevent extends eventid",
            "scope": "source.vjass"
        },
-        "tyunitevent": {
-           "prefix": "tyunitevent",
+        "unitevent": {
+           "prefix": "unitevent",
            "body": "unitevent",
            "description": "type unitevent extends eventid",
            "scope": "source.vjass"
        },
-        "tylimitop": {
-           "prefix": "tylimitop",
+        "limitop": {
+           "prefix": "limitop",
            "body": "limitop",
            "description": "type limitop extends eventid",
            "scope": "source.vjass"
        },
-        "tywidgetevent": {
-           "prefix": "tywidgetevent",
+        "widgetevent": {
+           "prefix": "widgetevent",
            "body": "widgetevent",
            "description": "type widgetevent extends eventid",
            "scope": "source.vjass"
        },
-        "tydialogevent": {
-           "prefix": "tydialogevent",
+        "dialogevent": {
+           "prefix": "dialogevent",
            "body": "dialogevent",
            "description": "type dialogevent extends eventid",
            "scope": "source.vjass"
        },
-        "tyunittype": {
-           "prefix": "tyunittype",
+        "unittype": {
+           "prefix": "unittype",
            "body": "unittype",
            "description": "type unittype extends handle",
            "scope": "source.vjass"
        },
-        "tygamespeed": {
-           "prefix": "tygamespeed",
+        "gamespeed": {
+           "prefix": "gamespeed",
            "body": "gamespeed",
            "description": "type gamespeed extends handle",
            "scope": "source.vjass"
        },
-        "tygamedifficulty": {
-           "prefix": "tygamedifficulty",
+        "gamedifficulty": {
+           "prefix": "gamedifficulty",
            "body": "gamedifficulty",
            "description": "type gamedifficulty extends handle",
            "scope": "source.vjass"
        },
-        "tygametype": {
-           "prefix": "tygametype",
+        "gametype": {
+           "prefix": "gametype",
            "body": "gametype",
            "description": "type gametype extends handle",
            "scope": "source.vjass"
        },
-        "tymapflag": {
-           "prefix": "tymapflag",
+        "mapflag": {
+           "prefix": "mapflag",
            "body": "mapflag",
            "description": "type mapflag extends handle",
            "scope": "source.vjass"
        },
-        "tymapvisibility": {
-           "prefix": "tymapvisibility",
+        "mapvisibility": {
+           "prefix": "mapvisibility",
            "body": "mapvisibility",
            "description": "type mapvisibility extends handle",
            "scope": "source.vjass"
        },
-        "tymapsetting": {
-           "prefix": "tymapsetting",
+        "mapsetting": {
+           "prefix": "mapsetting",
            "body": "mapsetting",
            "description": "type mapsetting extends handle",
            "scope": "source.vjass"
        },
-        "tymapdensity": {
-           "prefix": "tymapdensity",
+        "mapdensity": {
+           "prefix": "mapdensity",
            "body": "mapdensity",
            "description": "type mapdensity extends handle",
            "scope": "source.vjass"
        },
-        "tymapcontrol": {
-           "prefix": "tymapcontrol",
+        "mapcontrol": {
+           "prefix": "mapcontrol",
            "body": "mapcontrol",
            "description": "type mapcontrol extends handle",
            "scope": "source.vjass"
        },
-        "typlayerslotstate": {
-           "prefix": "typlayerslotstate",
+        "playerslotstate": {
+           "prefix": "playerslotstate",
            "body": "playerslotstate",
            "description": "type playerslotstate extends handle",
            "scope": "source.vjass"
        },
-        "tyvolumegroup": {
-           "prefix": "tyvolumegroup",
+        "volumegroup": {
+           "prefix": "volumegroup",
            "body": "volumegroup",
            "description": "type volumegroup extends handle",
            "scope": "source.vjass"
        },
-        "tycamerafield": {
-           "prefix": "tycamerafield",
+        "camerafield": {
+           "prefix": "camerafield",
            "body": "camerafield",
            "description": "type camerafield extends handle",
            "scope": "source.vjass"
        },
-        "tycamerasetup": {
-           "prefix": "tycamerasetup",
+        "camerasetup": {
+           "prefix": "camerasetup",
            "body": "camerasetup",
            "description": "type camerasetup extends handle",
            "scope": "source.vjass"
        },
-        "typlayercolor": {
-           "prefix": "typlayercolor",
+        "playercolor": {
+           "prefix": "playercolor",
            "body": "playercolor",
            "description": "type playercolor extends handle",
            "scope": "source.vjass"
        },
-        "typlacement": {
-           "prefix": "typlacement",
+        "placement": {
+           "prefix": "placement",
            "body": "placement",
            "description": "type placement extends handle",
            "scope": "source.vjass"
        },
-        "tystartlocprio": {
-           "prefix": "tystartlocprio",
+        "startlocprio": {
+           "prefix": "startlocprio",
            "body": "startlocprio",
            "description": "type startlocprio extends handle",
            "scope": "source.vjass"
        },
-        "tyraritycontrol": {
-           "prefix": "tyraritycontrol",
+        "raritycontrol": {
+           "prefix": "raritycontrol",
            "body": "raritycontrol",
            "description": "type raritycontrol extends handle",
            "scope": "source.vjass"
        },
-        "tyblendmode": {
-           "prefix": "tyblendmode",
+        "blendmode": {
+           "prefix": "blendmode",
            "body": "blendmode",
            "description": "type blendmode extends handle",
            "scope": "source.vjass"
        },
-        "tytexmapflags": {
-           "prefix": "tytexmapflags",
+        "texmapflags": {
+           "prefix": "texmapflags",
            "body": "texmapflags",
            "description": "type texmapflags extends handle",
            "scope": "source.vjass"
        },
-        "tyeffect": {
-           "prefix": "tyeffect",
+        "effect": {
+           "prefix": "effect",
            "body": "effect",
            "description": "type effect extends agent",
            "scope": "source.vjass"
        },
-        "tyeffecttype": {
-           "prefix": "tyeffecttype",
+        "effecttype": {
+           "prefix": "effecttype",
            "body": "effecttype",
            "description": "type effecttype extends handle",
            "scope": "source.vjass"
        },
-        "tyweathereffect": {
-           "prefix": "tyweathereffect",
+        "weathereffect": {
+           "prefix": "weathereffect",
            "body": "weathereffect",
            "description": "type weathereffect extends handle",
            "scope": "source.vjass"
        },
-        "tyterraindeformation": {
-           "prefix": "tyterraindeformation",
+        "terraindeformation": {
+           "prefix": "terraindeformation",
            "body": "terraindeformation",
            "description": "type terraindeformation extends handle",
            "scope": "source.vjass"
        },
-        "tyfogstate": {
-           "prefix": "tyfogstate",
+        "fogstate": {
+           "prefix": "fogstate",
            "body": "fogstate",
            "description": "type fogstate extends handle",
            "scope": "source.vjass"
        },
-        "tyfogmodifier": {
-           "prefix": "tyfogmodifier",
+        "fogmodifier": {
+           "prefix": "fogmodifier",
            "body": "fogmodifier",
            "description": "type fogmodifier extends agent",
            "scope": "source.vjass"
        },
-        "tydialog": {
-           "prefix": "tydialog",
+        "dialog": {
+           "prefix": "dialog",
            "body": "dialog",
            "description": "type dialog extends agent",
            "scope": "source.vjass"
        },
-        "tybutton": {
-           "prefix": "tybutton",
+        "button": {
+           "prefix": "button",
            "body": "button",
            "description": "type button extends agent",
            "scope": "source.vjass"
        },
-        "tyquest": {
-           "prefix": "tyquest",
+        "quest": {
+           "prefix": "quest",
            "body": "quest",
            "description": "type quest extends agent",
            "scope": "source.vjass"
        },
-        "tyquestitem": {
-           "prefix": "tyquestitem",
+        "questitem": {
+           "prefix": "questitem",
            "body": "questitem",
            "description": "type questitem extends agent",
            "scope": "source.vjass"
        },
-        "tydefeatcondition": {
-           "prefix": "tydefeatcondition",
+        "defeatcondition": {
+           "prefix": "defeatcondition",
            "body": "defeatcondition",
            "description": "type defeatcondition extends agent",
            "scope": "source.vjass"
        },
-        "tytimerdialog": {
-           "prefix": "tytimerdialog",
+        "timerdialog": {
+           "prefix": "timerdialog",
            "body": "timerdialog",
            "description": "type timerdialog extends agent",
            "scope": "source.vjass"
        },
-        "tyleaderboard": {
-           "prefix": "tyleaderboard",
+        "leaderboard": {
+           "prefix": "leaderboard",
            "body": "leaderboard",
            "description": "type leaderboard extends agent",
            "scope": "source.vjass"
        },
-        "tymultiboard": {
-           "prefix": "tymultiboard",
+        "multiboard": {
+           "prefix": "multiboard",
            "body": "multiboard",
            "description": "type multiboard extends agent",
            "scope": "source.vjass"
        },
-        "tymultiboarditem": {
-           "prefix": "tymultiboarditem",
+        "multiboarditem": {
+           "prefix": "multiboarditem",
            "body": "multiboarditem",
            "description": "type multiboarditem extends agent",
            "scope": "source.vjass"
        },
-        "tytrackable": {
-           "prefix": "tytrackable",
+        "trackable": {
+           "prefix": "trackable",
            "body": "trackable",
            "description": "type trackable extends agent",
            "scope": "source.vjass"
        },
-        "tygamecache": {
-           "prefix": "tygamecache",
+        "gamecache": {
+           "prefix": "gamecache",
            "body": "gamecache",
            "description": "type gamecache extends agent",
            "scope": "source.vjass"
        },
-        "tyversion": {
-           "prefix": "tyversion",
+        "version": {
+           "prefix": "version",
            "body": "version",
            "description": "type version extends handle",
            "scope": "source.vjass"
        },
-        "tyitemtype": {
-           "prefix": "tyitemtype",
+        "itemtype": {
+           "prefix": "itemtype",
            "body": "itemtype",
            "description": "type itemtype extends handle",
            "scope": "source.vjass"
        },
-        "tytexttag": {
-           "prefix": "tytexttag",
+        "texttag": {
+           "prefix": "texttag",
            "body": "texttag",
            "description": "type texttag extends handle",
            "scope": "source.vjass"
        },
-        "tyattacktype": {
-           "prefix": "tyattacktype",
+        "attacktype": {
+           "prefix": "attacktype",
            "body": "attacktype",
            "description": "type attacktype extends handle",
            "scope": "source.vjass"
        },
-        "tydamagetype": {
-           "prefix": "tydamagetype",
+        "damagetype": {
+           "prefix": "damagetype",
            "body": "damagetype",
            "description": "type damagetype extends handle",
            "scope": "source.vjass"
        },
-        "tyweapontype": {
-           "prefix": "tyweapontype",
+        "weapontype": {
+           "prefix": "weapontype",
            "body": "weapontype",
            "description": "type weapontype extends handle",
            "scope": "source.vjass"
        },
-        "tysoundtype": {
-           "prefix": "tysoundtype",
+        "soundtype": {
+           "prefix": "soundtype",
            "body": "soundtype",
            "description": "type soundtype extends handle",
            "scope": "source.vjass"
        },
-        "tylightning": {
-           "prefix": "tylightning",
+        "lightning": {
+           "prefix": "lightning",
            "body": "lightning",
            "description": "type lightning extends handle",
            "scope": "source.vjass"
        },
-        "typathingtype": {
-           "prefix": "typathingtype",
+        "pathingtype": {
+           "prefix": "pathingtype",
            "body": "pathingtype",
            "description": "type pathingtype extends handle",
            "scope": "source.vjass"
        },
-        "tyimage": {
-           "prefix": "tyimage",
+        "image": {
+           "prefix": "image",
            "body": "image",
            "description": "type image extends handle",
            "scope": "source.vjass"
        },
-        "tyubersplat": {
-           "prefix": "tyubersplat",
+        "ubersplat": {
+           "prefix": "ubersplat",
            "body": "ubersplat",
            "description": "type ubersplat extends handle",
            "scope": "source.vjass"
        },
-        "tyhashtable": {
-           "prefix": "tyhashtable",
+        "hashtable": {
+           "prefix": "hashtable",
            "body": "hashtable",
            "description": "type hashtable extends agent",
            "scope": "source.vjass"

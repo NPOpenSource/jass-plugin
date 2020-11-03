@@ -2,7 +2,7 @@
 	"name": "jass-plugin",
 	"displayName": "jass-plugin",
 	"description": "jass",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"engines": {
 		"vscode": "^1.50.0"
 	},
@@ -56,7 +56,12 @@
 			{
 				"language": "vjass",
 				"path": "./APIParse/vj_snippets_variable_bj.json"
+			},
+			{
+				"language": "vjass",
+				"path": "./snippets/jass_variable_snippets.json"
 			}
+		
 		]
 	},
 	"scripts": {

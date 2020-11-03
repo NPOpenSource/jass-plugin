@@ -1,0 +1,26 @@
+{
+    "int": {
+		"prefix": "integer",
+		"body": "integer",
+		"description": "整形",
+		"scope": "source.vjass"
+    },
+    "real": {
+		"prefix": "real",
+		"body": "real",
+		"description": "实数",
+		"scope": "source.vjass"
+    },
+    "array": {
+		"prefix": "array",
+		"body": "array",
+		"description": "数组",
+		"scope": "source.vjass"
+    },
+    "boolean": {
+		"prefix": "boolean",
+		"body": "boolean",
+		"description": "布尔值",
+		"scope": "source.vjass"
+    }
+}
