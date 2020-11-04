@@ -482,7 +482,7 @@
         "vrbj_cineFadeContinueTex": {
            "prefix": "vrbj_cineFadeContinueTex",
            "body": "bj_cineFadeContinueTex",
-           "description": "string bj_cineFadeContinueTex = """,
+           "description": "string bj_cineFadeContinueTex = \"\"",
            "scope": "source.vjass"
        },
         "vrbj_queuedExecTotal": {
@@ -890,7 +890,7 @@
         "vrbj_lastPlayedMusic": {
            "prefix": "vrbj_lastPlayedMusic",
            "body": "bj_lastPlayedMusic",
-           "description": "string bj_lastPlayedMusic = """,
+           "description": "string bj_lastPlayedMusic = \"\"",
            "scope": "source.vjass"
        },
         "vrbj_lastTransmissionDuration": {

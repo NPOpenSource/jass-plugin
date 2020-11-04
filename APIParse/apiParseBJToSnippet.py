@@ -36,7 +36,7 @@ def parseFunction(list,line):
             mapParamers={}
             currentIndex=parseFunctionParamers(3,list,mapParamers)
             returnValue=list[currentIndex+1]
-            functionMap={"name":name,"paramers":mapParamers,"return":returnValue}
+            functionMap={"name":name,"paramers":mapParamers,"return":returnValue,"line":' '.join(line.split()).replace("\r","").replace("\n","")}
             functionList.append(functionMap)
             return True
     return False
@@ -171,6 +171,9 @@ def writeVariable(f):
         value = ""
         if item.has_key("value"):
             value=item["value"]
+            if value == '""':
+                value='\\"\\"'
+                print(value)
         value1="vr"+name
         value2=type+" "+name
         if value != "":
@@ -187,8 +190,8 @@ def getFunSnippetsBody(item):
     paramers=item["paramers"]
     functionName=name+"("
     if (len(paramers) == 0):
-        functionName=functionName+"${0:nothing},"
-    index = 0;
+        functionName=functionName+"${1:nothing},"
+    index = 1;
     for item in paramers:
         functionName=functionName+"${"+str(index)+":"+item+" "+paramers[item]+"},"
         index=index+1
@@ -200,12 +203,12 @@ def writeFun(f):
     global functionList
     temp=""
     for item in functionList:
-        print(item)
         name=item["name"]
         paramers=item["paramers"]
+        des=item["line"]
         value1="fn"+name
         value2=getFunSnippetsBody(item)
-        temp=temp+getSnippetItem(value1,value2,value1)
+        temp=temp+getSnippetItem(value1,value2,des)
     return temp
 
 installWriteCmd(writeFun,"vj_snippets_function_bj")

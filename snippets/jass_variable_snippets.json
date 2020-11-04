@@ -1,26 +1,38 @@
 {
     "int": {
-		"prefix": "integer",
-		"body": "integer",
-		"description": "整形",
-		"scope": "source.vjass"
+        "prefix": "integer",
+        "body": "integer",
+        "description": "整形",
+        "scope": "source.vjass"
     },
     "real": {
-		"prefix": "real",
-		"body": "real",
-		"description": "实数",
-		"scope": "source.vjass"
+        "prefix": "real",
+        "body": "real",
+        "description": "实数",
+        "scope": "source.vjass"
     },
     "array": {
-		"prefix": "array",
-		"body": "array",
-		"description": "数组",
-		"scope": "source.vjass"
+        "prefix": "array",
+        "body": "array",
+        "description": "数组",
+        "scope": "source.vjass"
     },
     "boolean": {
-		"prefix": "boolean",
-		"body": "boolean",
-		"description": "布尔值",
-		"scope": "source.vjass"
+        "prefix": "boolean",
+        "body": "boolean",
+        "description": "布尔值",
+        "scope": "source.vjass"
+    },
+    "local": {
+        "prefix": "local",
+        "body": "local",
+        "description": "局部变量声明",
+        "scope": "source.vjass"
+    },
+    "set": {
+        "prefix": "set",
+        "body": "set",
+        "description": "局部变量声明",
+        "scope": "source.vjass"
     }
 }

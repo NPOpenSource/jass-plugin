@@ -1,6 +1,9 @@
 # Change Log
 
 
+1.0.0 增加函数提示功能
+
+0.0.10 修改函数自动提示选择参数从第二个选取的bug
 0.0.9 增加 integer  array boolean real 的自动补全  去掉变量类型的前缀 ty(因为变量本身就很短,再加个前缀区别没用)
 0.0.8 增加blizzard.j 变量的自动补全  前缀  vr 
 0.0.7 增加blizzard.j 常量的自动补全 前缀cn          (constant)
