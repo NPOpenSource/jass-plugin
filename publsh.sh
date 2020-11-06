@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 versionfile="version.txt"
 version="jass-plugin-0.0.1.vsix"

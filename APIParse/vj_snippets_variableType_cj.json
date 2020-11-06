@@ -2,546 +2,637 @@
         "agent": {
            "prefix": "agent",
            "body": "agent",
+           "completion": "agent",
            "description": "type agent extends handle",
            "scope": "source.vjass"
        },
         "event": {
            "prefix": "event",
            "body": "event",
+           "completion": "event",
            "description": "type event extends agent",
            "scope": "source.vjass"
        },
         "player": {
            "prefix": "player",
            "body": "player",
+           "completion": "player",
            "description": "type player extends agent",
            "scope": "source.vjass"
        },
         "widget": {
            "prefix": "widget",
            "body": "widget",
+           "completion": "widget",
            "description": "type widget extends agent",
            "scope": "source.vjass"
        },
         "unit": {
            "prefix": "unit",
            "body": "unit",
+           "completion": "unit",
            "description": "type unit extends widget",
            "scope": "source.vjass"
        },
         "destructable": {
            "prefix": "destructable",
            "body": "destructable",
+           "completion": "destructable",
            "description": "type destructable extends widget",
            "scope": "source.vjass"
        },
         "item": {
            "prefix": "item",
            "body": "item",
+           "completion": "item",
            "description": "type item extends widget",
            "scope": "source.vjass"
        },
         "ability": {
            "prefix": "ability",
            "body": "ability",
+           "completion": "ability",
            "description": "type ability extends agent",
            "scope": "source.vjass"
        },
         "buff": {
            "prefix": "buff",
            "body": "buff",
+           "completion": "buff",
            "description": "type buff extends ability",
            "scope": "source.vjass"
        },
         "force": {
            "prefix": "force",
            "body": "force",
+           "completion": "force",
            "description": "type force extends agent",
            "scope": "source.vjass"
        },
         "group": {
            "prefix": "group",
            "body": "group",
+           "completion": "group",
            "description": "type group extends agent",
            "scope": "source.vjass"
        },
         "trigger": {
            "prefix": "trigger",
            "body": "trigger",
+           "completion": "trigger",
            "description": "type trigger extends agent",
            "scope": "source.vjass"
        },
         "triggercondition": {
            "prefix": "triggercondition",
            "body": "triggercondition",
+           "completion": "triggercondition",
            "description": "type triggercondition extends agent",
            "scope": "source.vjass"
        },
         "triggeraction": {
            "prefix": "triggeraction",
            "body": "triggeraction",
+           "completion": "triggeraction",
            "description": "type triggeraction extends handle",
            "scope": "source.vjass"
        },
         "timer": {
            "prefix": "timer",
            "body": "timer",
+           "completion": "timer",
            "description": "type timer extends agent",
            "scope": "source.vjass"
        },
         "location": {
            "prefix": "location",
            "body": "location",
+           "completion": "location",
            "description": "type location extends agent",
            "scope": "source.vjass"
        },
         "region": {
            "prefix": "region",
            "body": "region",
+           "completion": "region",
            "description": "type region extends agent",
            "scope": "source.vjass"
        },
         "rect": {
            "prefix": "rect",
            "body": "rect",
+           "completion": "rect",
            "description": "type rect extends agent",
            "scope": "source.vjass"
        },
         "boolexpr": {
            "prefix": "boolexpr",
            "body": "boolexpr",
+           "completion": "boolexpr",
            "description": "type boolexpr extends agent",
            "scope": "source.vjass"
        },
         "sound": {
            "prefix": "sound",
            "body": "sound",
+           "completion": "sound",
            "description": "type sound extends agent",
            "scope": "source.vjass"
        },
         "conditionfunc": {
            "prefix": "conditionfunc",
            "body": "conditionfunc",
+           "completion": "conditionfunc",
            "description": "type conditionfunc extends boolexpr",
            "scope": "source.vjass"
        },
         "filterfunc": {
            "prefix": "filterfunc",
            "body": "filterfunc",
+           "completion": "filterfunc",
            "description": "type filterfunc extends boolexpr",
            "scope": "source.vjass"
        },
         "unitpool": {
            "prefix": "unitpool",
            "body": "unitpool",
+           "completion": "unitpool",
            "description": "type unitpool extends handle",
            "scope": "source.vjass"
        },
         "itempool": {
            "prefix": "itempool",
            "body": "itempool",
+           "completion": "itempool",
            "description": "type itempool extends handle",
            "scope": "source.vjass"
        },
         "race": {
            "prefix": "race",
            "body": "race",
+           "completion": "race",
            "description": "type race extends handle",
            "scope": "source.vjass"
        },
         "alliancetype": {
            "prefix": "alliancetype",
            "body": "alliancetype",
+           "completion": "alliancetype",
            "description": "type alliancetype extends handle",
            "scope": "source.vjass"
        },
         "racepreference": {
            "prefix": "racepreference",
            "body": "racepreference",
+           "completion": "racepreference",
            "description": "type racepreference extends handle",
            "scope": "source.vjass"
        },
         "gamestate": {
            "prefix": "gamestate",
            "body": "gamestate",
+           "completion": "gamestate",
            "description": "type gamestate extends handle",
            "scope": "source.vjass"
        },
         "igamestate": {
            "prefix": "igamestate",
            "body": "igamestate",
+           "completion": "igamestate",
            "description": "type igamestate extends gamestate",
            "scope": "source.vjass"
        },
         "fgamestate": {
            "prefix": "fgamestate",
            "body": "fgamestate",
+           "completion": "fgamestate",
            "description": "type fgamestate extends gamestate",
            "scope": "source.vjass"
        },
         "playerstate": {
            "prefix": "playerstate",
            "body": "playerstate",
+           "completion": "playerstate",
            "description": "type playerstate extends handle",
            "scope": "source.vjass"
        },
         "playerscore": {
            "prefix": "playerscore",
            "body": "playerscore",
+           "completion": "playerscore",
            "description": "type playerscore extends handle",
            "scope": "source.vjass"
        },
         "playergameresult": {
            "prefix": "playergameresult",
            "body": "playergameresult",
+           "completion": "playergameresult",
            "description": "type playergameresult extends handle",
            "scope": "source.vjass"
        },
         "unitstate": {
            "prefix": "unitstate",
            "body": "unitstate",
+           "completion": "unitstate",
            "description": "type unitstate extends handle",
            "scope": "source.vjass"
        },
         "aidifficulty": {
            "prefix": "aidifficulty",
            "body": "aidifficulty",
+           "completion": "aidifficulty",
            "description": "type aidifficulty extends handle",
            "scope": "source.vjass"
        },
         "eventid": {
            "prefix": "eventid",
            "body": "eventid",
+           "completion": "eventid",
            "description": "type eventid extends handle",
            "scope": "source.vjass"
        },
         "gameevent": {
            "prefix": "gameevent",
            "body": "gameevent",
+           "completion": "gameevent",
            "description": "type gameevent extends eventid",
            "scope": "source.vjass"
        },
         "playerevent": {
            "prefix": "playerevent",
            "body": "playerevent",
+           "completion": "playerevent",
            "description": "type playerevent extends eventid",
            "scope": "source.vjass"
        },
         "playerunitevent": {
            "prefix": "playerunitevent",
            "body": "playerunitevent",
+           "completion": "playerunitevent",
            "description": "type playerunitevent extends eventid",
            "scope": "source.vjass"
        },
         "unitevent": {
            "prefix": "unitevent",
            "body": "unitevent",
+           "completion": "unitevent",
            "description": "type unitevent extends eventid",
            "scope": "source.vjass"
        },
         "limitop": {
            "prefix": "limitop",
            "body": "limitop",
+           "completion": "limitop",
            "description": "type limitop extends eventid",
            "scope": "source.vjass"
        },
         "widgetevent": {
            "prefix": "widgetevent",
            "body": "widgetevent",
+           "completion": "widgetevent",
            "description": "type widgetevent extends eventid",
            "scope": "source.vjass"
        },
         "dialogevent": {
            "prefix": "dialogevent",
            "body": "dialogevent",
+           "completion": "dialogevent",
            "description": "type dialogevent extends eventid",
            "scope": "source.vjass"
        },
         "unittype": {
            "prefix": "unittype",
            "body": "unittype",
+           "completion": "unittype",
            "description": "type unittype extends handle",
            "scope": "source.vjass"
        },
         "gamespeed": {
            "prefix": "gamespeed",
            "body": "gamespeed",
+           "completion": "gamespeed",
            "description": "type gamespeed extends handle",
            "scope": "source.vjass"
        },
         "gamedifficulty": {
            "prefix": "gamedifficulty",
            "body": "gamedifficulty",
+           "completion": "gamedifficulty",
            "description": "type gamedifficulty extends handle",
            "scope": "source.vjass"
        },
         "gametype": {
            "prefix": "gametype",
            "body": "gametype",
+           "completion": "gametype",
            "description": "type gametype extends handle",
            "scope": "source.vjass"
        },
         "mapflag": {
            "prefix": "mapflag",
            "body": "mapflag",
+           "completion": "mapflag",
            "description": "type mapflag extends handle",
            "scope": "source.vjass"
        },
         "mapvisibility": {
            "prefix": "mapvisibility",
            "body": "mapvisibility",
+           "completion": "mapvisibility",
            "description": "type mapvisibility extends handle",
            "scope": "source.vjass"
        },
         "mapsetting": {
            "prefix": "mapsetting",
            "body": "mapsetting",
+           "completion": "mapsetting",
            "description": "type mapsetting extends handle",
            "scope": "source.vjass"
        },
         "mapdensity": {
            "prefix": "mapdensity",
            "body": "mapdensity",
+           "completion": "mapdensity",
            "description": "type mapdensity extends handle",
            "scope": "source.vjass"
        },
         "mapcontrol": {
            "prefix": "mapcontrol",
            "body": "mapcontrol",
+           "completion": "mapcontrol",
            "description": "type mapcontrol extends handle",
            "scope": "source.vjass"
        },
         "playerslotstate": {
            "prefix": "playerslotstate",
            "body": "playerslotstate",
+           "completion": "playerslotstate",
            "description": "type playerslotstate extends handle",
            "scope": "source.vjass"
        },
         "volumegroup": {
            "prefix": "volumegroup",
            "body": "volumegroup",
+           "completion": "volumegroup",
            "description": "type volumegroup extends handle",
            "scope": "source.vjass"
        },
         "camerafield": {
            "prefix": "camerafield",
            "body": "camerafield",
+           "completion": "camerafield",
            "description": "type camerafield extends handle",
            "scope": "source.vjass"
        },
         "camerasetup": {
            "prefix": "camerasetup",
            "body": "camerasetup",
+           "completion": "camerasetup",
            "description": "type camerasetup extends handle",
            "scope": "source.vjass"
        },
         "playercolor": {
            "prefix": "playercolor",
            "body": "playercolor",
+           "completion": "playercolor",
            "description": "type playercolor extends handle",
            "scope": "source.vjass"
        },
         "placement": {
            "prefix": "placement",
            "body": "placement",
+           "completion": "placement",
            "description": "type placement extends handle",
            "scope": "source.vjass"
        },
         "startlocprio": {
            "prefix": "startlocprio",
            "body": "startlocprio",
+           "completion": "startlocprio",
            "description": "type startlocprio extends handle",
            "scope": "source.vjass"
        },
         "raritycontrol": {
            "prefix": "raritycontrol",
            "body": "raritycontrol",
+           "completion": "raritycontrol",
            "description": "type raritycontrol extends handle",
            "scope": "source.vjass"
        },
         "blendmode": {
            "prefix": "blendmode",
            "body": "blendmode",
+           "completion": "blendmode",
            "description": "type blendmode extends handle",
            "scope": "source.vjass"
        },
         "texmapflags": {
            "prefix": "texmapflags",
            "body": "texmapflags",
+           "completion": "texmapflags",
            "description": "type texmapflags extends handle",
            "scope": "source.vjass"
        },
         "effect": {
            "prefix": "effect",
            "body": "effect",
+           "completion": "effect",
            "description": "type effect extends agent",
            "scope": "source.vjass"
        },
         "effecttype": {
            "prefix": "effecttype",
            "body": "effecttype",
+           "completion": "effecttype",
            "description": "type effecttype extends handle",
            "scope": "source.vjass"
        },
         "weathereffect": {
            "prefix": "weathereffect",
            "body": "weathereffect",
+           "completion": "weathereffect",
            "description": "type weathereffect extends handle",
            "scope": "source.vjass"
        },
         "terraindeformation": {
            "prefix": "terraindeformation",
            "body": "terraindeformation",
+           "completion": "terraindeformation",
            "description": "type terraindeformation extends handle",
            "scope": "source.vjass"
        },
         "fogstate": {
            "prefix": "fogstate",
            "body": "fogstate",
+           "completion": "fogstate",
            "description": "type fogstate extends handle",
            "scope": "source.vjass"
        },
         "fogmodifier": {
            "prefix": "fogmodifier",
            "body": "fogmodifier",
+           "completion": "fogmodifier",
            "description": "type fogmodifier extends agent",
            "scope": "source.vjass"
        },
         "dialog": {
            "prefix": "dialog",
            "body": "dialog",
+           "completion": "dialog",
            "description": "type dialog extends agent",
            "scope": "source.vjass"
        },
         "button": {
            "prefix": "button",
            "body": "button",
+           "completion": "button",
            "description": "type button extends agent",
            "scope": "source.vjass"
        },
         "quest": {
            "prefix": "quest",
            "body": "quest",
+           "completion": "quest",
            "description": "type quest extends agent",
            "scope": "source.vjass"
        },
         "questitem": {
            "prefix": "questitem",
            "body": "questitem",
+           "completion": "questitem",
            "description": "type questitem extends agent",
            "scope": "source.vjass"
        },
         "defeatcondition": {
            "prefix": "defeatcondition",
            "body": "defeatcondition",
+           "completion": "defeatcondition",
            "description": "type defeatcondition extends agent",
            "scope": "source.vjass"
        },
         "timerdialog": {
            "prefix": "timerdialog",
            "body": "timerdialog",
+           "completion": "timerdialog",
            "description": "type timerdialog extends agent",
            "scope": "source.vjass"
        },
         "leaderboard": {
            "prefix": "leaderboard",
            "body": "leaderboard",
+           "completion": "leaderboard",
            "description": "type leaderboard extends agent",
            "scope": "source.vjass"
        },
         "multiboard": {
            "prefix": "multiboard",
            "body": "multiboard",
+           "completion": "multiboard",
            "description": "type multiboard extends agent",
            "scope": "source.vjass"
        },
         "multiboarditem": {
            "prefix": "multiboarditem",
            "body": "multiboarditem",
+           "completion": "multiboarditem",
            "description": "type multiboarditem extends agent",
            "scope": "source.vjass"
        },
         "trackable": {
            "prefix": "trackable",
            "body": "trackable",
+           "completion": "trackable",
            "description": "type trackable extends agent",
            "scope": "source.vjass"
        },
         "gamecache": {
            "prefix": "gamecache",
            "body": "gamecache",
+           "completion": "gamecache",
            "description": "type gamecache extends agent",
            "scope": "source.vjass"
        },
         "version": {
            "prefix": "version",
            "body": "version",
+           "completion": "version",
            "description": "type version extends handle",
            "scope": "source.vjass"
        },
         "itemtype": {
            "prefix": "itemtype",
            "body": "itemtype",
+           "completion": "itemtype",
            "description": "type itemtype extends handle",
            "scope": "source.vjass"
        },
         "texttag": {
            "prefix": "texttag",
            "body": "texttag",
+           "completion": "texttag",
            "description": "type texttag extends handle",
            "scope": "source.vjass"
        },
         "attacktype": {
            "prefix": "attacktype",
            "body": "attacktype",
+           "completion": "attacktype",
            "description": "type attacktype extends handle",
            "scope": "source.vjass"
        },
         "damagetype": {
            "prefix": "damagetype",
            "body": "damagetype",
+           "completion": "damagetype",
            "description": "type damagetype extends handle",
            "scope": "source.vjass"
        },
         "weapontype": {
            "prefix": "weapontype",
            "body": "weapontype",
+           "completion": "weapontype",
            "description": "type weapontype extends handle",
            "scope": "source.vjass"
        },
         "soundtype": {
            "prefix": "soundtype",
            "body": "soundtype",
+           "completion": "soundtype",
            "description": "type soundtype extends handle",
            "scope": "source.vjass"
        },
         "lightning": {
            "prefix": "lightning",
            "body": "lightning",
+           "completion": "lightning",
            "description": "type lightning extends handle",
            "scope": "source.vjass"
        },
         "pathingtype": {
            "prefix": "pathingtype",
            "body": "pathingtype",
+           "completion": "pathingtype",
            "description": "type pathingtype extends handle",
            "scope": "source.vjass"
        },
         "image": {
            "prefix": "image",
            "body": "image",
+           "completion": "image",
            "description": "type image extends handle",
            "scope": "source.vjass"
        },
         "ubersplat": {
            "prefix": "ubersplat",
            "body": "ubersplat",
+           "completion": "ubersplat",
            "description": "type ubersplat extends handle",
            "scope": "source.vjass"
        },
         "hashtable": {
            "prefix": "hashtable",
            "body": "hashtable",
+           "completion": "hashtable",
            "description": "type hashtable extends agent",
            "scope": "source.vjass"
        }

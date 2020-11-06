@@ -20,14 +20,14 @@ class hoverProvider {
         const line = document.lineAt(position);
         const lineText = line.text;
         const range = document.getWordRangeAtPosition(position);
-        const startLoc = range.start.character;
+        // const startLoc = range.start.character;
         const endLoc = range.end.character;
         const lineLenth = lineText.length;
 
         const word = document.getText(range);
         //函数只匹配 xxx(格式的
-        console.log(lineText);
-        console.log(word);
+        // console.log(lineText);
+        // console.log(word);
         var checklist = [];
         if (endLoc == lineLenth) {
             checklist.push({ "suff": utilHelper.conSuff, "value": bjConstant });
@@ -38,11 +38,9 @@ class hoverProvider {
 
             const nextCha = lineText.substring(endLoc, endLoc + 1);
             if (nextCha == "(") {
-                console.log(nextCha);
                 checklist.push({ "suff": utilHelper.funSuff, "value": bjFunJson });
                 checklist.push({ "suff": utilHelper.funSuff, "value": cjFunJson });
             } else {
-                console.log(nextCha);
                 checklist.push({ "suff": utilHelper.conSuff, "value": bjConstant });
                 checklist.push({ "suff": utilHelper.conSuff, "value": cjConstant });
                 checklist.push({ "suff": utilHelper.varSuff, "value": bjVariable });

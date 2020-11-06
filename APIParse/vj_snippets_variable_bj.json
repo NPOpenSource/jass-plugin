@@ -2,1002 +2,1169 @@
         "vrbj_FORCE_ALL_PLAYERS": {
            "prefix": "vrbj_FORCE_ALL_PLAYERS",
            "body": "bj_FORCE_ALL_PLAYERS",
+            "completion": "bj_FORCE_ALL_PLAYERS",
            "description": "force bj_FORCE_ALL_PLAYERS = null",
            "scope": "source.vjass"
        },
         "vrbj_FORCE_PLAYER": {
            "prefix": "vrbj_FORCE_PLAYER",
            "body": "bj_FORCE_PLAYER",
+            "completion": "bj_FORCE_PLAYER",
            "description": "force array bj_FORCE_PLAYER",
            "scope": "source.vjass"
        },
         "vrbj_MELEE_MAX_TWINKED_HEROES": {
            "prefix": "vrbj_MELEE_MAX_TWINKED_HEROES",
            "body": "bj_MELEE_MAX_TWINKED_HEROES",
+            "completion": "bj_MELEE_MAX_TWINKED_HEROES",
            "description": "integer bj_MELEE_MAX_TWINKED_HEROES = 0",
            "scope": "source.vjass"
        },
         "vrbj_mapInitialPlayableArea": {
            "prefix": "vrbj_mapInitialPlayableArea",
            "body": "bj_mapInitialPlayableArea",
+            "completion": "bj_mapInitialPlayableArea",
            "description": "rect bj_mapInitialPlayableArea = null",
            "scope": "source.vjass"
        },
         "vrbj_mapInitialCameraBounds": {
            "prefix": "vrbj_mapInitialCameraBounds",
            "body": "bj_mapInitialCameraBounds",
+            "completion": "bj_mapInitialCameraBounds",
            "description": "rect bj_mapInitialCameraBounds = null",
            "scope": "source.vjass"
        },
         "vrbj_forLoopAIndex": {
            "prefix": "vrbj_forLoopAIndex",
            "body": "bj_forLoopAIndex",
+            "completion": "bj_forLoopAIndex",
            "description": "integer bj_forLoopAIndex = 0",
            "scope": "source.vjass"
        },
         "vrbj_forLoopBIndex": {
            "prefix": "vrbj_forLoopBIndex",
            "body": "bj_forLoopBIndex",
+            "completion": "bj_forLoopBIndex",
            "description": "integer bj_forLoopBIndex = 0",
            "scope": "source.vjass"
        },
         "vrbj_forLoopAIndexEnd": {
            "prefix": "vrbj_forLoopAIndexEnd",
            "body": "bj_forLoopAIndexEnd",
+            "completion": "bj_forLoopAIndexEnd",
            "description": "integer bj_forLoopAIndexEnd = 0",
            "scope": "source.vjass"
        },
         "vrbj_forLoopBIndexEnd": {
            "prefix": "vrbj_forLoopBIndexEnd",
            "body": "bj_forLoopBIndexEnd",
+            "completion": "bj_forLoopBIndexEnd",
            "description": "integer bj_forLoopBIndexEnd = 0",
            "scope": "source.vjass"
        },
         "vrbj_slotControlReady": {
            "prefix": "vrbj_slotControlReady",
            "body": "bj_slotControlReady",
+            "completion": "bj_slotControlReady",
            "description": "boolean bj_slotControlReady = false",
            "scope": "source.vjass"
        },
         "vrbj_slotControlUsed": {
            "prefix": "vrbj_slotControlUsed",
            "body": "bj_slotControlUsed",
+            "completion": "bj_slotControlUsed",
            "description": "boolean array bj_slotControlUsed",
            "scope": "source.vjass"
        },
         "vrbj_slotControl": {
            "prefix": "vrbj_slotControl",
            "body": "bj_slotControl",
+            "completion": "bj_slotControl",
            "description": "mapcontrol array bj_slotControl",
            "scope": "source.vjass"
        },
         "vrbj_gameStartedTimer": {
            "prefix": "vrbj_gameStartedTimer",
            "body": "bj_gameStartedTimer",
+            "completion": "bj_gameStartedTimer",
            "description": "timer bj_gameStartedTimer = null",
            "scope": "source.vjass"
        },
         "vrbj_gameStarted": {
            "prefix": "vrbj_gameStarted",
            "body": "bj_gameStarted",
+            "completion": "bj_gameStarted",
            "description": "boolean bj_gameStarted = false",
            "scope": "source.vjass"
        },
         "vrbj_volumeGroupsTimer": {
            "prefix": "vrbj_volumeGroupsTimer",
            "body": "bj_volumeGroupsTimer",
+            "completion": "bj_volumeGroupsTimer",
            "description": "timer bj_volumeGroupsTimer = CreateTimer()",
            "scope": "source.vjass"
        },
         "vrbj_isSinglePlayer": {
            "prefix": "vrbj_isSinglePlayer",
            "body": "bj_isSinglePlayer",
+            "completion": "bj_isSinglePlayer",
            "description": "boolean bj_isSinglePlayer = false",
            "scope": "source.vjass"
        },
         "vrbj_dncSoundsDay": {
            "prefix": "vrbj_dncSoundsDay",
            "body": "bj_dncSoundsDay",
+            "completion": "bj_dncSoundsDay",
            "description": "trigger bj_dncSoundsDay = null",
            "scope": "source.vjass"
        },
         "vrbj_dncSoundsNight": {
            "prefix": "vrbj_dncSoundsNight",
            "body": "bj_dncSoundsNight",
+            "completion": "bj_dncSoundsNight",
            "description": "trigger bj_dncSoundsNight = null",
            "scope": "source.vjass"
        },
         "vrbj_dayAmbientSound": {
            "prefix": "vrbj_dayAmbientSound",
            "body": "bj_dayAmbientSound",
+            "completion": "bj_dayAmbientSound",
            "description": "sound bj_dayAmbientSound = null",
            "scope": "source.vjass"
        },
         "vrbj_nightAmbientSound": {
            "prefix": "vrbj_nightAmbientSound",
            "body": "bj_nightAmbientSound",
+            "completion": "bj_nightAmbientSound",
            "description": "sound bj_nightAmbientSound = null",
            "scope": "source.vjass"
        },
         "vrbj_dncSoundsDawn": {
            "prefix": "vrbj_dncSoundsDawn",
            "body": "bj_dncSoundsDawn",
+            "completion": "bj_dncSoundsDawn",
            "description": "trigger bj_dncSoundsDawn = null",
            "scope": "source.vjass"
        },
         "vrbj_dncSoundsDusk": {
            "prefix": "vrbj_dncSoundsDusk",
            "body": "bj_dncSoundsDusk",
+            "completion": "bj_dncSoundsDusk",
            "description": "trigger bj_dncSoundsDusk = null",
            "scope": "source.vjass"
        },
         "vrbj_dawnSound": {
            "prefix": "vrbj_dawnSound",
            "body": "bj_dawnSound",
+            "completion": "bj_dawnSound",
            "description": "sound bj_dawnSound = null",
            "scope": "source.vjass"
        },
         "vrbj_duskSound": {
            "prefix": "vrbj_duskSound",
            "body": "bj_duskSound",
+            "completion": "bj_duskSound",
            "description": "sound bj_duskSound = null",
            "scope": "source.vjass"
        },
         "vrbj_useDawnDuskSounds": {
            "prefix": "vrbj_useDawnDuskSounds",
            "body": "bj_useDawnDuskSounds",
+            "completion": "bj_useDawnDuskSounds",
            "description": "boolean bj_useDawnDuskSounds = true",
            "scope": "source.vjass"
        },
         "vrbj_dncIsDaytime": {
            "prefix": "vrbj_dncIsDaytime",
            "body": "bj_dncIsDaytime",
+            "completion": "bj_dncIsDaytime",
            "description": "boolean bj_dncIsDaytime = false",
            "scope": "source.vjass"
        },
         "vrbj_pingMinimapSound": {
            "prefix": "vrbj_pingMinimapSound",
            "body": "bj_pingMinimapSound",
+            "completion": "bj_pingMinimapSound",
            "description": "//sound bj_pingMinimapSound = null",
            "scope": "source.vjass"
        },
         "vrbj_rescueSound": {
            "prefix": "vrbj_rescueSound",
            "body": "bj_rescueSound",
+            "completion": "bj_rescueSound",
            "description": "sound bj_rescueSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questDiscoveredSound": {
            "prefix": "vrbj_questDiscoveredSound",
            "body": "bj_questDiscoveredSound",
+            "completion": "bj_questDiscoveredSound",
            "description": "sound bj_questDiscoveredSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questUpdatedSound": {
            "prefix": "vrbj_questUpdatedSound",
            "body": "bj_questUpdatedSound",
+            "completion": "bj_questUpdatedSound",
            "description": "sound bj_questUpdatedSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questCompletedSound": {
            "prefix": "vrbj_questCompletedSound",
            "body": "bj_questCompletedSound",
+            "completion": "bj_questCompletedSound",
            "description": "sound bj_questCompletedSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questFailedSound": {
            "prefix": "vrbj_questFailedSound",
            "body": "bj_questFailedSound",
+            "completion": "bj_questFailedSound",
            "description": "sound bj_questFailedSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questHintSound": {
            "prefix": "vrbj_questHintSound",
            "body": "bj_questHintSound",
+            "completion": "bj_questHintSound",
            "description": "sound bj_questHintSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questSecretSound": {
            "prefix": "vrbj_questSecretSound",
            "body": "bj_questSecretSound",
+            "completion": "bj_questSecretSound",
            "description": "sound bj_questSecretSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questItemAcquiredSound": {
            "prefix": "vrbj_questItemAcquiredSound",
            "body": "bj_questItemAcquiredSound",
+            "completion": "bj_questItemAcquiredSound",
            "description": "sound bj_questItemAcquiredSound = null",
            "scope": "source.vjass"
        },
         "vrbj_questWarningSound": {
            "prefix": "vrbj_questWarningSound",
            "body": "bj_questWarningSound",
+            "completion": "bj_questWarningSound",
            "description": "sound bj_questWarningSound = null",
            "scope": "source.vjass"
        },
         "vrbj_victoryDialogSound": {
            "prefix": "vrbj_victoryDialogSound",
            "body": "bj_victoryDialogSound",
+            "completion": "bj_victoryDialogSound",
            "description": "sound bj_victoryDialogSound = null",
            "scope": "source.vjass"
        },
         "vrbj_defeatDialogSound": {
            "prefix": "vrbj_defeatDialogSound",
            "body": "bj_defeatDialogSound",
+            "completion": "bj_defeatDialogSound",
            "description": "sound bj_defeatDialogSound = null",
            "scope": "source.vjass"
        },
         "vrbj_stockItemPurchased": {
            "prefix": "vrbj_stockItemPurchased",
            "body": "bj_stockItemPurchased",
+            "completion": "bj_stockItemPurchased",
            "description": "trigger bj_stockItemPurchased = null",
            "scope": "source.vjass"
        },
         "vrbj_stockUpdateTimer": {
            "prefix": "vrbj_stockUpdateTimer",
            "body": "bj_stockUpdateTimer",
+            "completion": "bj_stockUpdateTimer",
            "description": "timer bj_stockUpdateTimer = null",
            "scope": "source.vjass"
        },
         "vrbj_stockAllowedPermanent": {
            "prefix": "vrbj_stockAllowedPermanent",
            "body": "bj_stockAllowedPermanent",
+            "completion": "bj_stockAllowedPermanent",
            "description": "boolean array bj_stockAllowedPermanent",
            "scope": "source.vjass"
        },
         "vrbj_stockAllowedCharged": {
            "prefix": "vrbj_stockAllowedCharged",
            "body": "bj_stockAllowedCharged",
+            "completion": "bj_stockAllowedCharged",
            "description": "boolean array bj_stockAllowedCharged",
            "scope": "source.vjass"
        },
         "vrbj_stockAllowedArtifact": {
            "prefix": "vrbj_stockAllowedArtifact",
            "body": "bj_stockAllowedArtifact",
+            "completion": "bj_stockAllowedArtifact",
            "description": "boolean array bj_stockAllowedArtifact",
            "scope": "source.vjass"
        },
         "vrbj_stockPickedItemLevel": {
            "prefix": "vrbj_stockPickedItemLevel",
            "body": "bj_stockPickedItemLevel",
+            "completion": "bj_stockPickedItemLevel",
            "description": "integer bj_stockPickedItemLevel = 0",
            "scope": "source.vjass"
        },
         "vrbj_meleeVisibilityTrained": {
            "prefix": "vrbj_meleeVisibilityTrained",
            "body": "bj_meleeVisibilityTrained",
+            "completion": "bj_meleeVisibilityTrained",
            "description": "trigger bj_meleeVisibilityTrained = null",
            "scope": "source.vjass"
        },
         "vrbj_meleeVisibilityIsDay": {
            "prefix": "vrbj_meleeVisibilityIsDay",
            "body": "bj_meleeVisibilityIsDay",
+            "completion": "bj_meleeVisibilityIsDay",
            "description": "boolean bj_meleeVisibilityIsDay = true",
            "scope": "source.vjass"
        },
         "vrbj_meleeGrantHeroItems": {
            "prefix": "vrbj_meleeGrantHeroItems",
            "body": "bj_meleeGrantHeroItems",
+            "completion": "bj_meleeGrantHeroItems",
            "description": "boolean bj_meleeGrantHeroItems = false",
            "scope": "source.vjass"
        },
         "vrbj_meleeNearestMineToLoc": {
            "prefix": "vrbj_meleeNearestMineToLoc",
            "body": "bj_meleeNearestMineToLoc",
+            "completion": "bj_meleeNearestMineToLoc",
            "description": "location bj_meleeNearestMineToLoc = null",
            "scope": "source.vjass"
        },
         "vrbj_meleeNearestMine": {
            "prefix": "vrbj_meleeNearestMine",
            "body": "bj_meleeNearestMine",
+            "completion": "bj_meleeNearestMine",
            "description": "unit bj_meleeNearestMine = null",
            "scope": "source.vjass"
        },
         "vrbj_meleeNearestMineDist": {
            "prefix": "vrbj_meleeNearestMineDist",
            "body": "bj_meleeNearestMineDist",
+            "completion": "bj_meleeNearestMineDist",
            "description": "real bj_meleeNearestMineDist = 0.00",
            "scope": "source.vjass"
        },
         "vrbj_meleeGameOver": {
            "prefix": "vrbj_meleeGameOver",
            "body": "bj_meleeGameOver",
+            "completion": "bj_meleeGameOver",
            "description": "boolean bj_meleeGameOver = false",
            "scope": "source.vjass"
        },
         "vrbj_meleeDefeated": {
            "prefix": "vrbj_meleeDefeated",
            "body": "bj_meleeDefeated",
+            "completion": "bj_meleeDefeated",
            "description": "boolean array bj_meleeDefeated",
            "scope": "source.vjass"
        },
         "vrbj_meleeVictoried": {
            "prefix": "vrbj_meleeVictoried",
            "body": "bj_meleeVictoried",
+            "completion": "bj_meleeVictoried",
            "description": "boolean array bj_meleeVictoried",
            "scope": "source.vjass"
        },
         "vrbj_ghoul": {
            "prefix": "vrbj_ghoul",
            "body": "bj_ghoul",
+            "completion": "bj_ghoul",
            "description": "unit array bj_ghoul",
            "scope": "source.vjass"
        },
         "vrbj_crippledTimer": {
            "prefix": "vrbj_crippledTimer",
            "body": "bj_crippledTimer",
+            "completion": "bj_crippledTimer",
            "description": "timer array bj_crippledTimer",
            "scope": "source.vjass"
        },
         "vrbj_crippledTimerWindows": {
            "prefix": "vrbj_crippledTimerWindows",
            "body": "bj_crippledTimerWindows",
+            "completion": "bj_crippledTimerWindows",
            "description": "timerdialog array bj_crippledTimerWindows",
            "scope": "source.vjass"
        },
         "vrbj_playerIsCrippled": {
            "prefix": "vrbj_playerIsCrippled",
            "body": "bj_playerIsCrippled",
+            "completion": "bj_playerIsCrippled",
            "description": "boolean array bj_playerIsCrippled",
            "scope": "source.vjass"
        },
         "vrbj_playerIsExposed": {
            "prefix": "vrbj_playerIsExposed",
            "body": "bj_playerIsExposed",
+            "completion": "bj_playerIsExposed",
            "description": "boolean array bj_playerIsExposed",
            "scope": "source.vjass"
        },
         "vrbj_finishSoonAllExposed": {
            "prefix": "vrbj_finishSoonAllExposed",
            "body": "bj_finishSoonAllExposed",
+            "completion": "bj_finishSoonAllExposed",
            "description": "boolean bj_finishSoonAllExposed = false",
            "scope": "source.vjass"
        },
         "vrbj_finishSoonTimerDialog": {
            "prefix": "vrbj_finishSoonTimerDialog",
            "body": "bj_finishSoonTimerDialog",
+            "completion": "bj_finishSoonTimerDialog",
            "description": "timerdialog bj_finishSoonTimerDialog = null",
            "scope": "source.vjass"
        },
         "vrbj_meleeTwinkedHeroes": {
            "prefix": "vrbj_meleeTwinkedHeroes",
            "body": "bj_meleeTwinkedHeroes",
+            "completion": "bj_meleeTwinkedHeroes",
            "description": "integer array bj_meleeTwinkedHeroes",
            "scope": "source.vjass"
        },
         "vrbj_rescueUnitBehavior": {
            "prefix": "vrbj_rescueUnitBehavior",
            "body": "bj_rescueUnitBehavior",
+            "completion": "bj_rescueUnitBehavior",
            "description": "trigger bj_rescueUnitBehavior = null",
            "scope": "source.vjass"
        },
         "vrbj_rescueChangeColorUnit": {
            "prefix": "vrbj_rescueChangeColorUnit",
            "body": "bj_rescueChangeColorUnit",
+            "completion": "bj_rescueChangeColorUnit",
            "description": "boolean bj_rescueChangeColorUnit = true",
            "scope": "source.vjass"
        },
         "vrbj_rescueChangeColorBldg": {
            "prefix": "vrbj_rescueChangeColorBldg",
            "body": "bj_rescueChangeColorBldg",
+            "completion": "bj_rescueChangeColorBldg",
            "description": "boolean bj_rescueChangeColorBldg = true",
            "scope": "source.vjass"
        },
         "vrbj_cineSceneEndingTimer": {
            "prefix": "vrbj_cineSceneEndingTimer",
            "body": "bj_cineSceneEndingTimer",
+            "completion": "bj_cineSceneEndingTimer",
            "description": "timer bj_cineSceneEndingTimer = null",
            "scope": "source.vjass"
        },
         "vrbj_cineSceneLastSound": {
            "prefix": "vrbj_cineSceneLastSound",
            "body": "bj_cineSceneLastSound",
+            "completion": "bj_cineSceneLastSound",
            "description": "sound bj_cineSceneLastSound = null",
            "scope": "source.vjass"
        },
         "vrbj_cineSceneBeingSkipped": {
            "prefix": "vrbj_cineSceneBeingSkipped",
            "body": "bj_cineSceneBeingSkipped",
+            "completion": "bj_cineSceneBeingSkipped",
            "description": "trigger bj_cineSceneBeingSkipped = null",
            "scope": "source.vjass"
        },
         "vrbj_cineModePriorSpeed": {
            "prefix": "vrbj_cineModePriorSpeed",
            "body": "bj_cineModePriorSpeed",
+            "completion": "bj_cineModePriorSpeed",
            "description": "gamespeed bj_cineModePriorSpeed = MAP_SPEED_NORMAL",
            "scope": "source.vjass"
        },
         "vrbj_cineModePriorFogSetting": {
            "prefix": "vrbj_cineModePriorFogSetting",
            "body": "bj_cineModePriorFogSetting",
+            "completion": "bj_cineModePriorFogSetting",
            "description": "boolean bj_cineModePriorFogSetting = false",
            "scope": "source.vjass"
        },
         "vrbj_cineModePriorMaskSetting": {
            "prefix": "vrbj_cineModePriorMaskSetting",
            "body": "bj_cineModePriorMaskSetting",
+            "completion": "bj_cineModePriorMaskSetting",
            "description": "boolean bj_cineModePriorMaskSetting = false",
            "scope": "source.vjass"
        },
         "vrbj_cineModeAlreadyIn": {
            "prefix": "vrbj_cineModeAlreadyIn",
            "body": "bj_cineModeAlreadyIn",
+            "completion": "bj_cineModeAlreadyIn",
            "description": "boolean bj_cineModeAlreadyIn = false",
            "scope": "source.vjass"
        },
         "vrbj_cineModePriorDawnDusk": {
            "prefix": "vrbj_cineModePriorDawnDusk",
            "body": "bj_cineModePriorDawnDusk",
+            "completion": "bj_cineModePriorDawnDusk",
            "description": "boolean bj_cineModePriorDawnDusk = false",
            "scope": "source.vjass"
        },
         "vrbj_cineModeSavedSeed": {
            "prefix": "vrbj_cineModeSavedSeed",
            "body": "bj_cineModeSavedSeed",
+            "completion": "bj_cineModeSavedSeed",
            "description": "integer bj_cineModeSavedSeed = 0",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeFinishTimer": {
            "prefix": "vrbj_cineFadeFinishTimer",
            "body": "bj_cineFadeFinishTimer",
+            "completion": "bj_cineFadeFinishTimer",
            "description": "timer bj_cineFadeFinishTimer = null",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueTimer": {
            "prefix": "vrbj_cineFadeContinueTimer",
            "body": "bj_cineFadeContinueTimer",
+            "completion": "bj_cineFadeContinueTimer",
            "description": "timer bj_cineFadeContinueTimer = null",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueRed": {
            "prefix": "vrbj_cineFadeContinueRed",
            "body": "bj_cineFadeContinueRed",
+            "completion": "bj_cineFadeContinueRed",
            "description": "real bj_cineFadeContinueRed = 0",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueGreen": {
            "prefix": "vrbj_cineFadeContinueGreen",
            "body": "bj_cineFadeContinueGreen",
+            "completion": "bj_cineFadeContinueGreen",
            "description": "real bj_cineFadeContinueGreen = 0",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueBlue": {
            "prefix": "vrbj_cineFadeContinueBlue",
            "body": "bj_cineFadeContinueBlue",
+            "completion": "bj_cineFadeContinueBlue",
            "description": "real bj_cineFadeContinueBlue = 0",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueTrans": {
            "prefix": "vrbj_cineFadeContinueTrans",
            "body": "bj_cineFadeContinueTrans",
+            "completion": "bj_cineFadeContinueTrans",
            "description": "real bj_cineFadeContinueTrans = 0",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueDuration": {
            "prefix": "vrbj_cineFadeContinueDuration",
            "body": "bj_cineFadeContinueDuration",
+            "completion": "bj_cineFadeContinueDuration",
            "description": "real bj_cineFadeContinueDuration = 0",
            "scope": "source.vjass"
        },
         "vrbj_cineFadeContinueTex": {
            "prefix": "vrbj_cineFadeContinueTex",
            "body": "bj_cineFadeContinueTex",
+            "completion": "bj_cineFadeContinueTex",
            "description": "string bj_cineFadeContinueTex = \"\"",
            "scope": "source.vjass"
        },
         "vrbj_queuedExecTotal": {
            "prefix": "vrbj_queuedExecTotal",
            "body": "bj_queuedExecTotal",
+            "completion": "bj_queuedExecTotal",
            "description": "integer bj_queuedExecTotal = 0",
            "scope": "source.vjass"
        },
         "vrbj_queuedExecTriggers": {
            "prefix": "vrbj_queuedExecTriggers",
            "body": "bj_queuedExecTriggers",
+            "completion": "bj_queuedExecTriggers",
            "description": "trigger array bj_queuedExecTriggers",
            "scope": "source.vjass"
        },
         "vrbj_queuedExecUseConds": {
            "prefix": "vrbj_queuedExecUseConds",
            "body": "bj_queuedExecUseConds",
+            "completion": "bj_queuedExecUseConds",
            "description": "boolean array bj_queuedExecUseConds",
            "scope": "source.vjass"
        },
         "vrbj_queuedExecTimeoutTimer": {
            "prefix": "vrbj_queuedExecTimeoutTimer",
            "body": "bj_queuedExecTimeoutTimer",
+            "completion": "bj_queuedExecTimeoutTimer",
            "description": "timer bj_queuedExecTimeoutTimer = CreateTimer()",
            "scope": "source.vjass"
        },
         "vrbj_queuedExecTimeout": {
            "prefix": "vrbj_queuedExecTimeout",
            "body": "bj_queuedExecTimeout",
+            "completion": "bj_queuedExecTimeout",
            "description": "trigger bj_queuedExecTimeout = null",
            "scope": "source.vjass"
        },
         "vrbj_destInRegionDiesCount": {
            "prefix": "vrbj_destInRegionDiesCount",
            "body": "bj_destInRegionDiesCount",
+            "completion": "bj_destInRegionDiesCount",
            "description": "integer bj_destInRegionDiesCount = 0",
            "scope": "source.vjass"
        },
         "vrbj_destInRegionDiesTrig": {
            "prefix": "vrbj_destInRegionDiesTrig",
            "body": "bj_destInRegionDiesTrig",
+            "completion": "bj_destInRegionDiesTrig",
            "description": "trigger bj_destInRegionDiesTrig = null",
            "scope": "source.vjass"
        },
         "vrbj_groupCountUnits": {
            "prefix": "vrbj_groupCountUnits",
            "body": "bj_groupCountUnits",
+            "completion": "bj_groupCountUnits",
            "description": "integer bj_groupCountUnits = 0",
            "scope": "source.vjass"
        },
         "vrbj_forceCountPlayers": {
            "prefix": "vrbj_forceCountPlayers",
            "body": "bj_forceCountPlayers",
+            "completion": "bj_forceCountPlayers",
            "description": "integer bj_forceCountPlayers = 0",
            "scope": "source.vjass"
        },
         "vrbj_groupEnumTypeId": {
            "prefix": "vrbj_groupEnumTypeId",
            "body": "bj_groupEnumTypeId",
+            "completion": "bj_groupEnumTypeId",
            "description": "integer bj_groupEnumTypeId = 0",
            "scope": "source.vjass"
        },
         "vrbj_groupEnumOwningPlayer": {
            "prefix": "vrbj_groupEnumOwningPlayer",
            "body": "bj_groupEnumOwningPlayer",
+            "completion": "bj_groupEnumOwningPlayer",
            "description": "player bj_groupEnumOwningPlayer = null",
            "scope": "source.vjass"
        },
         "vrbj_groupAddGroupDest": {
            "prefix": "vrbj_groupAddGroupDest",
            "body": "bj_groupAddGroupDest",
+            "completion": "bj_groupAddGroupDest",
            "description": "group bj_groupAddGroupDest = null",
            "scope": "source.vjass"
        },
         "vrbj_groupRemoveGroupDest": {
            "prefix": "vrbj_groupRemoveGroupDest",
            "body": "bj_groupRemoveGroupDest",
+            "completion": "bj_groupRemoveGroupDest",
            "description": "group bj_groupRemoveGroupDest = null",
            "scope": "source.vjass"
        },
         "vrbj_groupRandomConsidered": {
            "prefix": "vrbj_groupRandomConsidered",
            "body": "bj_groupRandomConsidered",
+            "completion": "bj_groupRandomConsidered",
            "description": "integer bj_groupRandomConsidered = 0",
            "scope": "source.vjass"
        },
         "vrbj_groupRandomCurrentPick": {
            "prefix": "vrbj_groupRandomCurrentPick",
            "body": "bj_groupRandomCurrentPick",
+            "completion": "bj_groupRandomCurrentPick",
            "description": "unit bj_groupRandomCurrentPick = null",
            "scope": "source.vjass"
        },
         "vrbj_groupLastCreatedDest": {
            "prefix": "vrbj_groupLastCreatedDest",
            "body": "bj_groupLastCreatedDest",
+            "completion": "bj_groupLastCreatedDest",
            "description": "group bj_groupLastCreatedDest = null",
            "scope": "source.vjass"
        },
         "vrbj_randomSubGroupGroup": {
            "prefix": "vrbj_randomSubGroupGroup",
            "body": "bj_randomSubGroupGroup",
+            "completion": "bj_randomSubGroupGroup",
            "description": "group bj_randomSubGroupGroup = null",
            "scope": "source.vjass"
        },
         "vrbj_randomSubGroupWant": {
            "prefix": "vrbj_randomSubGroupWant",
            "body": "bj_randomSubGroupWant",
+            "completion": "bj_randomSubGroupWant",
            "description": "integer bj_randomSubGroupWant = 0",
            "scope": "source.vjass"
        },
         "vrbj_randomSubGroupTotal": {
            "prefix": "vrbj_randomSubGroupTotal",
            "body": "bj_randomSubGroupTotal",
+            "completion": "bj_randomSubGroupTotal",
            "description": "integer bj_randomSubGroupTotal = 0",
            "scope": "source.vjass"
        },
         "vrbj_randomSubGroupChance": {
            "prefix": "vrbj_randomSubGroupChance",
            "body": "bj_randomSubGroupChance",
+            "completion": "bj_randomSubGroupChance",
            "description": "real bj_randomSubGroupChance = 0",
            "scope": "source.vjass"
        },
         "vrbj_destRandomConsidered": {
            "prefix": "vrbj_destRandomConsidered",
            "body": "bj_destRandomConsidered",
+            "completion": "bj_destRandomConsidered",
            "description": "integer bj_destRandomConsidered = 0",
            "scope": "source.vjass"
        },
         "vrbj_destRandomCurrentPick": {
            "prefix": "vrbj_destRandomCurrentPick",
            "body": "bj_destRandomCurrentPick",
+            "completion": "bj_destRandomCurrentPick",
            "description": "destructable bj_destRandomCurrentPick = null",
            "scope": "source.vjass"
        },
         "vrbj_elevatorWallBlocker": {
            "prefix": "vrbj_elevatorWallBlocker",
            "body": "bj_elevatorWallBlocker",
+            "completion": "bj_elevatorWallBlocker",
            "description": "destructable bj_elevatorWallBlocker = null",
            "scope": "source.vjass"
        },
         "vrbj_elevatorNeighbor": {
            "prefix": "vrbj_elevatorNeighbor",
            "body": "bj_elevatorNeighbor",
+            "completion": "bj_elevatorNeighbor",
            "description": "destructable bj_elevatorNeighbor = null",
            "scope": "source.vjass"
        },
         "vrbj_itemRandomConsidered": {
            "prefix": "vrbj_itemRandomConsidered",
            "body": "bj_itemRandomConsidered",
+            "completion": "bj_itemRandomConsidered",
            "description": "integer bj_itemRandomConsidered = 0",
            "scope": "source.vjass"
        },
         "vrbj_itemRandomCurrentPick": {
            "prefix": "vrbj_itemRandomCurrentPick",
            "body": "bj_itemRandomCurrentPick",
+            "completion": "bj_itemRandomCurrentPick",
            "description": "item bj_itemRandomCurrentPick = null",
            "scope": "source.vjass"
        },
         "vrbj_forceRandomConsidered": {
            "prefix": "vrbj_forceRandomConsidered",
            "body": "bj_forceRandomConsidered",
+            "completion": "bj_forceRandomConsidered",
            "description": "integer bj_forceRandomConsidered = 0",
            "scope": "source.vjass"
        },
         "vrbj_forceRandomCurrentPick": {
            "prefix": "vrbj_forceRandomCurrentPick",
            "body": "bj_forceRandomCurrentPick",
+            "completion": "bj_forceRandomCurrentPick",
            "description": "player bj_forceRandomCurrentPick = null",
            "scope": "source.vjass"
        },
         "vrbj_makeUnitRescuableUnit": {
            "prefix": "vrbj_makeUnitRescuableUnit",
            "body": "bj_makeUnitRescuableUnit",
+            "completion": "bj_makeUnitRescuableUnit",
            "description": "unit bj_makeUnitRescuableUnit = null",
            "scope": "source.vjass"
        },
         "vrbj_makeUnitRescuableFlag": {
            "prefix": "vrbj_makeUnitRescuableFlag",
            "body": "bj_makeUnitRescuableFlag",
+            "completion": "bj_makeUnitRescuableFlag",
            "description": "boolean bj_makeUnitRescuableFlag = true",
            "scope": "source.vjass"
        },
         "vrbj_pauseAllUnitsFlag": {
            "prefix": "vrbj_pauseAllUnitsFlag",
            "body": "bj_pauseAllUnitsFlag",
+            "completion": "bj_pauseAllUnitsFlag",
            "description": "boolean bj_pauseAllUnitsFlag = true",
            "scope": "source.vjass"
        },
         "vrbj_enumDestructableCenter": {
            "prefix": "vrbj_enumDestructableCenter",
            "body": "bj_enumDestructableCenter",
+            "completion": "bj_enumDestructableCenter",
            "description": "location bj_enumDestructableCenter = null",
            "scope": "source.vjass"
        },
         "vrbj_enumDestructableRadius": {
            "prefix": "vrbj_enumDestructableRadius",
            "body": "bj_enumDestructableRadius",
+            "completion": "bj_enumDestructableRadius",
            "description": "real bj_enumDestructableRadius = 0",
            "scope": "source.vjass"
        },
         "vrbj_setPlayerTargetColor": {
            "prefix": "vrbj_setPlayerTargetColor",
            "body": "bj_setPlayerTargetColor",
+            "completion": "bj_setPlayerTargetColor",
            "description": "playercolor bj_setPlayerTargetColor = null",
            "scope": "source.vjass"
        },
         "vrbj_isUnitGroupDeadResult": {
            "prefix": "vrbj_isUnitGroupDeadResult",
            "body": "bj_isUnitGroupDeadResult",
+            "completion": "bj_isUnitGroupDeadResult",
            "description": "boolean bj_isUnitGroupDeadResult = true",
            "scope": "source.vjass"
        },
         "vrbj_isUnitGroupEmptyResult": {
            "prefix": "vrbj_isUnitGroupEmptyResult",
            "body": "bj_isUnitGroupEmptyResult",
+            "completion": "bj_isUnitGroupEmptyResult",
            "description": "boolean bj_isUnitGroupEmptyResult = true",
            "scope": "source.vjass"
        },
         "vrbj_isUnitGroupInRectResult": {
            "prefix": "vrbj_isUnitGroupInRectResult",
            "body": "bj_isUnitGroupInRectResult",
+            "completion": "bj_isUnitGroupInRectResult",
            "description": "boolean bj_isUnitGroupInRectResult = true",
            "scope": "source.vjass"
        },
         "vrbj_isUnitGroupInRectRect": {
            "prefix": "vrbj_isUnitGroupInRectRect",
            "body": "bj_isUnitGroupInRectRect",
+            "completion": "bj_isUnitGroupInRectRect",
            "description": "rect bj_isUnitGroupInRectRect = null",
            "scope": "source.vjass"
        },
         "vrbj_changeLevelShowScores": {
            "prefix": "vrbj_changeLevelShowScores",
            "body": "bj_changeLevelShowScores",
+            "completion": "bj_changeLevelShowScores",
            "description": "boolean bj_changeLevelShowScores = false",
            "scope": "source.vjass"
        },
         "vrbj_changeLevelMapName": {
            "prefix": "vrbj_changeLevelMapName",
            "body": "bj_changeLevelMapName",
+            "completion": "bj_changeLevelMapName",
            "description": "string bj_changeLevelMapName = null",
            "scope": "source.vjass"
        },
         "vrbj_suspendDecayFleshGroup": {
            "prefix": "vrbj_suspendDecayFleshGroup",
            "body": "bj_suspendDecayFleshGroup",
+            "completion": "bj_suspendDecayFleshGroup",
            "description": "group bj_suspendDecayFleshGroup = CreateGroup()",
            "scope": "source.vjass"
        },
         "vrbj_suspendDecayBoneGroup": {
            "prefix": "vrbj_suspendDecayBoneGroup",
            "body": "bj_suspendDecayBoneGroup",
+            "completion": "bj_suspendDecayBoneGroup",
            "description": "group bj_suspendDecayBoneGroup = CreateGroup()",
            "scope": "source.vjass"
        },
         "vrbj_delayedSuspendDecayTimer": {
            "prefix": "vrbj_delayedSuspendDecayTimer",
            "body": "bj_delayedSuspendDecayTimer",
+            "completion": "bj_delayedSuspendDecayTimer",
            "description": "timer bj_delayedSuspendDecayTimer = CreateTimer()",
            "scope": "source.vjass"
        },
         "vrbj_delayedSuspendDecayTrig": {
            "prefix": "vrbj_delayedSuspendDecayTrig",
            "body": "bj_delayedSuspendDecayTrig",
+            "completion": "bj_delayedSuspendDecayTrig",
            "description": "trigger bj_delayedSuspendDecayTrig = null",
            "scope": "source.vjass"
        },
         "vrbj_livingPlayerUnitsTypeId": {
            "prefix": "vrbj_livingPlayerUnitsTypeId",
            "body": "bj_livingPlayerUnitsTypeId",
+            "completion": "bj_livingPlayerUnitsTypeId",
            "description": "integer bj_livingPlayerUnitsTypeId = 0",
            "scope": "source.vjass"
        },
         "vrbj_lastDyingWidget": {
            "prefix": "vrbj_lastDyingWidget",
            "body": "bj_lastDyingWidget",
+            "completion": "bj_lastDyingWidget",
            "description": "widget bj_lastDyingWidget = null",
            "scope": "source.vjass"
        },
         "vrbj_randDistCount": {
            "prefix": "vrbj_randDistCount",
            "body": "bj_randDistCount",
+            "completion": "bj_randDistCount",
            "description": "integer bj_randDistCount = 0",
            "scope": "source.vjass"
        },
         "vrbj_randDistID": {
            "prefix": "vrbj_randDistID",
            "body": "bj_randDistID",
+            "completion": "bj_randDistID",
            "description": "integer array bj_randDistID",
            "scope": "source.vjass"
        },
         "vrbj_randDistChance": {
            "prefix": "vrbj_randDistChance",
            "body": "bj_randDistChance",
+            "completion": "bj_randDistChance",
            "description": "integer array bj_randDistChance",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedUnit": {
            "prefix": "vrbj_lastCreatedUnit",
            "body": "bj_lastCreatedUnit",
+            "completion": "bj_lastCreatedUnit",
            "description": "unit bj_lastCreatedUnit = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedItem": {
            "prefix": "vrbj_lastCreatedItem",
            "body": "bj_lastCreatedItem",
+            "completion": "bj_lastCreatedItem",
            "description": "item bj_lastCreatedItem = null",
            "scope": "source.vjass"
        },
         "vrbj_lastRemovedItem": {
            "prefix": "vrbj_lastRemovedItem",
            "body": "bj_lastRemovedItem",
+            "completion": "bj_lastRemovedItem",
            "description": "item bj_lastRemovedItem = null",
            "scope": "source.vjass"
        },
         "vrbj_lastHauntedGoldMine": {
            "prefix": "vrbj_lastHauntedGoldMine",
            "body": "bj_lastHauntedGoldMine",
+            "completion": "bj_lastHauntedGoldMine",
            "description": "unit bj_lastHauntedGoldMine = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedDestructable": {
            "prefix": "vrbj_lastCreatedDestructable",
            "body": "bj_lastCreatedDestructable",
+            "completion": "bj_lastCreatedDestructable",
            "description": "destructable bj_lastCreatedDestructable = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedGroup": {
            "prefix": "vrbj_lastCreatedGroup",
            "body": "bj_lastCreatedGroup",
+            "completion": "bj_lastCreatedGroup",
            "description": "group bj_lastCreatedGroup = CreateGroup()",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedFogModifier": {
            "prefix": "vrbj_lastCreatedFogModifier",
            "body": "bj_lastCreatedFogModifier",
+            "completion": "bj_lastCreatedFogModifier",
            "description": "fogmodifier bj_lastCreatedFogModifier = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedEffect": {
            "prefix": "vrbj_lastCreatedEffect",
            "body": "bj_lastCreatedEffect",
+            "completion": "bj_lastCreatedEffect",
            "description": "effect bj_lastCreatedEffect = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedWeatherEffect": {
            "prefix": "vrbj_lastCreatedWeatherEffect",
            "body": "bj_lastCreatedWeatherEffect",
+            "completion": "bj_lastCreatedWeatherEffect",
            "description": "weathereffect bj_lastCreatedWeatherEffect = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedTerrainDeformation": {
            "prefix": "vrbj_lastCreatedTerrainDeformation",
            "body": "bj_lastCreatedTerrainDeformation",
+            "completion": "bj_lastCreatedTerrainDeformation",
            "description": "terraindeformation bj_lastCreatedTerrainDeformation = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedQuest": {
            "prefix": "vrbj_lastCreatedQuest",
            "body": "bj_lastCreatedQuest",
+            "completion": "bj_lastCreatedQuest",
            "description": "quest bj_lastCreatedQuest = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedQuestItem": {
            "prefix": "vrbj_lastCreatedQuestItem",
            "body": "bj_lastCreatedQuestItem",
+            "completion": "bj_lastCreatedQuestItem",
            "description": "questitem bj_lastCreatedQuestItem = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedDefeatCondition": {
            "prefix": "vrbj_lastCreatedDefeatCondition",
            "body": "bj_lastCreatedDefeatCondition",
+            "completion": "bj_lastCreatedDefeatCondition",
            "description": "defeatcondition bj_lastCreatedDefeatCondition = null",
            "scope": "source.vjass"
        },
         "vrbj_lastStartedTimer": {
            "prefix": "vrbj_lastStartedTimer",
            "body": "bj_lastStartedTimer",
+            "completion": "bj_lastStartedTimer",
            "description": "timer bj_lastStartedTimer = CreateTimer()",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedTimerDialog": {
            "prefix": "vrbj_lastCreatedTimerDialog",
            "body": "bj_lastCreatedTimerDialog",
+            "completion": "bj_lastCreatedTimerDialog",
            "description": "timerdialog bj_lastCreatedTimerDialog = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedLeaderboard": {
            "prefix": "vrbj_lastCreatedLeaderboard",
            "body": "bj_lastCreatedLeaderboard",
+            "completion": "bj_lastCreatedLeaderboard",
            "description": "leaderboard bj_lastCreatedLeaderboard = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedMultiboard": {
            "prefix": "vrbj_lastCreatedMultiboard",
            "body": "bj_lastCreatedMultiboard",
+            "completion": "bj_lastCreatedMultiboard",
            "description": "multiboard bj_lastCreatedMultiboard = null",
            "scope": "source.vjass"
        },
         "vrbj_lastPlayedSound": {
            "prefix": "vrbj_lastPlayedSound",
            "body": "bj_lastPlayedSound",
+            "completion": "bj_lastPlayedSound",
            "description": "sound bj_lastPlayedSound = null",
            "scope": "source.vjass"
        },
         "vrbj_lastPlayedMusic": {
            "prefix": "vrbj_lastPlayedMusic",
            "body": "bj_lastPlayedMusic",
+            "completion": "bj_lastPlayedMusic",
            "description": "string bj_lastPlayedMusic = \"\"",
            "scope": "source.vjass"
        },
         "vrbj_lastTransmissionDuration": {
            "prefix": "vrbj_lastTransmissionDuration",
            "body": "bj_lastTransmissionDuration",
+            "completion": "bj_lastTransmissionDuration",
            "description": "real bj_lastTransmissionDuration = 0",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedGameCache": {
            "prefix": "vrbj_lastCreatedGameCache",
            "body": "bj_lastCreatedGameCache",
+            "completion": "bj_lastCreatedGameCache",
            "description": "gamecache bj_lastCreatedGameCache = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedHashtable": {
            "prefix": "vrbj_lastCreatedHashtable",
            "body": "bj_lastCreatedHashtable",
+            "completion": "bj_lastCreatedHashtable",
            "description": "hashtable bj_lastCreatedHashtable = null",
            "scope": "source.vjass"
        },
         "vrbj_lastLoadedUnit": {
            "prefix": "vrbj_lastLoadedUnit",
            "body": "bj_lastLoadedUnit",
+            "completion": "bj_lastLoadedUnit",
            "description": "unit bj_lastLoadedUnit = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedButton": {
            "prefix": "vrbj_lastCreatedButton",
            "body": "bj_lastCreatedButton",
+            "completion": "bj_lastCreatedButton",
            "description": "button bj_lastCreatedButton = null",
            "scope": "source.vjass"
        },
         "vrbj_lastReplacedUnit": {
            "prefix": "vrbj_lastReplacedUnit",
            "body": "bj_lastReplacedUnit",
+            "completion": "bj_lastReplacedUnit",
            "description": "unit bj_lastReplacedUnit = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedTextTag": {
            "prefix": "vrbj_lastCreatedTextTag",
            "body": "bj_lastCreatedTextTag",
+            "completion": "bj_lastCreatedTextTag",
            "description": "texttag bj_lastCreatedTextTag = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedLightning": {
            "prefix": "vrbj_lastCreatedLightning",
            "body": "bj_lastCreatedLightning",
+            "completion": "bj_lastCreatedLightning",
            "description": "lightning bj_lastCreatedLightning = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedImage": {
            "prefix": "vrbj_lastCreatedImage",
            "body": "bj_lastCreatedImage",
+            "completion": "bj_lastCreatedImage",
            "description": "image bj_lastCreatedImage = null",
            "scope": "source.vjass"
        },
         "vrbj_lastCreatedUbersplat": {
            "prefix": "vrbj_lastCreatedUbersplat",
            "body": "bj_lastCreatedUbersplat",
+            "completion": "bj_lastCreatedUbersplat",
            "description": "ubersplat bj_lastCreatedUbersplat = null",
            "scope": "source.vjass"
        },
         "vrfilterIssueHauntOrderAtLocBJ": {
            "prefix": "vrfilterIssueHauntOrderAtLocBJ",
            "body": "filterIssueHauntOrderAtLocBJ",
+            "completion": "filterIssueHauntOrderAtLocBJ",
            "description": "boolexpr filterIssueHauntOrderAtLocBJ = null",
            "scope": "source.vjass"
        },
         "vrfilterEnumDestructablesInCircleBJ": {
            "prefix": "vrfilterEnumDestructablesInCircleBJ",
            "body": "filterEnumDestructablesInCircleBJ",
+            "completion": "filterEnumDestructablesInCircleBJ",
            "description": "boolexpr filterEnumDestructablesInCircleBJ = null",
            "scope": "source.vjass"
        },
         "vrfilterGetUnitsInRectOfPlayer": {
            "prefix": "vrfilterGetUnitsInRectOfPlayer",
            "body": "filterGetUnitsInRectOfPlayer",
+            "completion": "filterGetUnitsInRectOfPlayer",
            "description": "boolexpr filterGetUnitsInRectOfPlayer = null",
            "scope": "source.vjass"
        },
         "vrfilterGetUnitsOfTypeIdAll": {
            "prefix": "vrfilterGetUnitsOfTypeIdAll",
            "body": "filterGetUnitsOfTypeIdAll",
+            "completion": "filterGetUnitsOfTypeIdAll",
            "description": "boolexpr filterGetUnitsOfTypeIdAll = null",
            "scope": "source.vjass"
        },
         "vrfilterGetUnitsOfPlayerAndTypeId": {
            "prefix": "vrfilterGetUnitsOfPlayerAndTypeId",
            "body": "filterGetUnitsOfPlayerAndTypeId",
+            "completion": "filterGetUnitsOfPlayerAndTypeId",
            "description": "boolexpr filterGetUnitsOfPlayerAndTypeId = null",
            "scope": "source.vjass"
        },
         "vrfilterMeleeTrainedUnitIsHeroBJ": {
            "prefix": "vrfilterMeleeTrainedUnitIsHeroBJ",
            "body": "filterMeleeTrainedUnitIsHeroBJ",
+            "completion": "filterMeleeTrainedUnitIsHeroBJ",
            "description": "boolexpr filterMeleeTrainedUnitIsHeroBJ = null",
            "scope": "source.vjass"
        },
         "vrfilterLivingPlayerUnitsOfTypeId": {
            "prefix": "vrfilterLivingPlayerUnitsOfTypeId",
            "body": "filterLivingPlayerUnitsOfTypeId",
+            "completion": "filterLivingPlayerUnitsOfTypeId",
            "description": "boolexpr filterLivingPlayerUnitsOfTypeId = null",
            "scope": "source.vjass"
        },
         "vrbj_wantDestroyGroup": {
            "prefix": "vrbj_wantDestroyGroup",
            "body": "bj_wantDestroyGroup",
+            "completion": "bj_wantDestroyGroup",
            "description": "boolean bj_wantDestroyGroup = false",
            "scope": "source.vjass"
        }

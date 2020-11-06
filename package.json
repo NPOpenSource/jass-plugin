@@ -2,7 +2,7 @@
     "name": "jass-plugin",
     "displayName": "jass-plugin",
     "description": "jass",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.50.0"
     },
@@ -53,7 +53,7 @@
             },
             {
                 "language": "vjass",
-                "path": "./APIParse/vj_snippets_variableType_cj.json"
+                "path": "./APIParse/vj_snippets_function_bj.json"
             },
             {
                 "language": "vjass",
@@ -61,7 +61,11 @@
             },
             {
                 "language": "vjass",
-                "path": "./APIParse/vj_snippets_function_bj.json"
+                "path": "./APIParse/vj_snippets_constant_bj.json"
+            },
+            {
+                "language": "vjass",
+                "path": "./APIParse/vj_snippets_variableType_cj.json"
             },
             {
                 "language": "vjass",

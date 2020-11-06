@@ -2,2550 +2,2975 @@
         "cnFALSE": {
            "prefix": "cnFALSE",
            "body": "FALSE",
+           "completion": "FALSE",
            "description": "constant boolean FALSE = false",
            "scope": "source.vjass"
        },
         "cnTRUE": {
            "prefix": "cnTRUE",
            "body": "TRUE",
+           "completion": "TRUE",
            "description": "constant boolean TRUE = true",
            "scope": "source.vjass"
        },
         "cnJASS_MAX_ARRAY_SIZE": {
            "prefix": "cnJASS_MAX_ARRAY_SIZE",
            "body": "JASS_MAX_ARRAY_SIZE",
+           "completion": "JASS_MAX_ARRAY_SIZE",
            "description": "constant integer JASS_MAX_ARRAY_SIZE = 8192",
            "scope": "source.vjass"
        },
         "cnPLAYER_NEUTRAL_PASSIVE": {
            "prefix": "cnPLAYER_NEUTRAL_PASSIVE",
            "body": "PLAYER_NEUTRAL_PASSIVE",
+           "completion": "PLAYER_NEUTRAL_PASSIVE",
            "description": "constant integer PLAYER_NEUTRAL_PASSIVE = 15",
            "scope": "source.vjass"
        },
         "cnPLAYER_NEUTRAL_AGGRESSIVE": {
            "prefix": "cnPLAYER_NEUTRAL_AGGRESSIVE",
            "body": "PLAYER_NEUTRAL_AGGRESSIVE",
+           "completion": "PLAYER_NEUTRAL_AGGRESSIVE",
            "description": "constant integer PLAYER_NEUTRAL_AGGRESSIVE = 12",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_RED": {
            "prefix": "cnPLAYER_COLOR_RED",
            "body": "PLAYER_COLOR_RED",
+           "completion": "PLAYER_COLOR_RED",
            "description": "constant playercolor PLAYER_COLOR_RED = ConvertPlayerColor(0)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_BLUE": {
            "prefix": "cnPLAYER_COLOR_BLUE",
            "body": "PLAYER_COLOR_BLUE",
+           "completion": "PLAYER_COLOR_BLUE",
            "description": "constant playercolor PLAYER_COLOR_BLUE = ConvertPlayerColor(1)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_CYAN": {
            "prefix": "cnPLAYER_COLOR_CYAN",
            "body": "PLAYER_COLOR_CYAN",
+           "completion": "PLAYER_COLOR_CYAN",
            "description": "constant playercolor PLAYER_COLOR_CYAN = ConvertPlayerColor(2)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_PURPLE": {
            "prefix": "cnPLAYER_COLOR_PURPLE",
            "body": "PLAYER_COLOR_PURPLE",
+           "completion": "PLAYER_COLOR_PURPLE",
            "description": "constant playercolor PLAYER_COLOR_PURPLE = ConvertPlayerColor(3)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_YELLOW": {
            "prefix": "cnPLAYER_COLOR_YELLOW",
            "body": "PLAYER_COLOR_YELLOW",
+           "completion": "PLAYER_COLOR_YELLOW",
            "description": "constant playercolor PLAYER_COLOR_YELLOW = ConvertPlayerColor(4)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_ORANGE": {
            "prefix": "cnPLAYER_COLOR_ORANGE",
            "body": "PLAYER_COLOR_ORANGE",
+           "completion": "PLAYER_COLOR_ORANGE",
            "description": "constant playercolor PLAYER_COLOR_ORANGE = ConvertPlayerColor(5)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_GREEN": {
            "prefix": "cnPLAYER_COLOR_GREEN",
            "body": "PLAYER_COLOR_GREEN",
+           "completion": "PLAYER_COLOR_GREEN",
            "description": "constant playercolor PLAYER_COLOR_GREEN = ConvertPlayerColor(6)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_PINK": {
            "prefix": "cnPLAYER_COLOR_PINK",
            "body": "PLAYER_COLOR_PINK",
+           "completion": "PLAYER_COLOR_PINK",
            "description": "constant playercolor PLAYER_COLOR_PINK = ConvertPlayerColor(7)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_LIGHT_GRAY": {
            "prefix": "cnPLAYER_COLOR_LIGHT_GRAY",
            "body": "PLAYER_COLOR_LIGHT_GRAY",
+           "completion": "PLAYER_COLOR_LIGHT_GRAY",
            "description": "constant playercolor PLAYER_COLOR_LIGHT_GRAY = ConvertPlayerColor(8)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_LIGHT_BLUE": {
            "prefix": "cnPLAYER_COLOR_LIGHT_BLUE",
            "body": "PLAYER_COLOR_LIGHT_BLUE",
+           "completion": "PLAYER_COLOR_LIGHT_BLUE",
            "description": "constant playercolor PLAYER_COLOR_LIGHT_BLUE = ConvertPlayerColor(9)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_AQUA": {
            "prefix": "cnPLAYER_COLOR_AQUA",
            "body": "PLAYER_COLOR_AQUA",
+           "completion": "PLAYER_COLOR_AQUA",
            "description": "constant playercolor PLAYER_COLOR_AQUA = ConvertPlayerColor(10)",
            "scope": "source.vjass"
        },
         "cnPLAYER_COLOR_BROWN": {
            "prefix": "cnPLAYER_COLOR_BROWN",
            "body": "PLAYER_COLOR_BROWN",
+           "completion": "PLAYER_COLOR_BROWN",
            "description": "constant playercolor PLAYER_COLOR_BROWN = ConvertPlayerColor(11)",
            "scope": "source.vjass"
        },
         "cnRACE_HUMAN": {
            "prefix": "cnRACE_HUMAN",
            "body": "RACE_HUMAN",
+           "completion": "RACE_HUMAN",
            "description": "constant race RACE_HUMAN = ConvertRace(1)",
            "scope": "source.vjass"
        },
         "cnRACE_ORC": {
            "prefix": "cnRACE_ORC",
            "body": "RACE_ORC",
+           "completion": "RACE_ORC",
            "description": "constant race RACE_ORC = ConvertRace(2)",
            "scope": "source.vjass"
        },
         "cnRACE_UNDEAD": {
            "prefix": "cnRACE_UNDEAD",
            "body": "RACE_UNDEAD",
+           "completion": "RACE_UNDEAD",
            "description": "constant race RACE_UNDEAD = ConvertRace(3)",
            "scope": "source.vjass"
        },
         "cnRACE_NIGHTELF": {
            "prefix": "cnRACE_NIGHTELF",
            "body": "RACE_NIGHTELF",
+           "completion": "RACE_NIGHTELF",
            "description": "constant race RACE_NIGHTELF = ConvertRace(4)",
            "scope": "source.vjass"
        },
         "cnRACE_DEMON": {
            "prefix": "cnRACE_DEMON",
            "body": "RACE_DEMON",
+           "completion": "RACE_DEMON",
            "description": "constant race RACE_DEMON = ConvertRace(5)",
            "scope": "source.vjass"
        },
         "cnRACE_OTHER": {
            "prefix": "cnRACE_OTHER",
            "body": "RACE_OTHER",
+           "completion": "RACE_OTHER",
            "description": "constant race RACE_OTHER = ConvertRace(7)",
            "scope": "source.vjass"
        },
         "cnPLAYER_GAME_RESULT_VICTORY": {
            "prefix": "cnPLAYER_GAME_RESULT_VICTORY",
            "body": "PLAYER_GAME_RESULT_VICTORY",
+           "completion": "PLAYER_GAME_RESULT_VICTORY",
            "description": "constant playergameresult PLAYER_GAME_RESULT_VICTORY = ConvertPlayerGameResult(0)",
            "scope": "source.vjass"
        },
         "cnPLAYER_GAME_RESULT_DEFEAT": {
            "prefix": "cnPLAYER_GAME_RESULT_DEFEAT",
            "body": "PLAYER_GAME_RESULT_DEFEAT",
+           "completion": "PLAYER_GAME_RESULT_DEFEAT",
            "description": "constant playergameresult PLAYER_GAME_RESULT_DEFEAT = ConvertPlayerGameResult(1)",
            "scope": "source.vjass"
        },
         "cnPLAYER_GAME_RESULT_TIE": {
            "prefix": "cnPLAYER_GAME_RESULT_TIE",
            "body": "PLAYER_GAME_RESULT_TIE",
+           "completion": "PLAYER_GAME_RESULT_TIE",
            "description": "constant playergameresult PLAYER_GAME_RESULT_TIE = ConvertPlayerGameResult(2)",
            "scope": "source.vjass"
        },
         "cnPLAYER_GAME_RESULT_NEUTRAL": {
            "prefix": "cnPLAYER_GAME_RESULT_NEUTRAL",
            "body": "PLAYER_GAME_RESULT_NEUTRAL",
+           "completion": "PLAYER_GAME_RESULT_NEUTRAL",
            "description": "constant playergameresult PLAYER_GAME_RESULT_NEUTRAL = ConvertPlayerGameResult(3)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_PASSIVE": {
            "prefix": "cnALLIANCE_PASSIVE",
            "body": "ALLIANCE_PASSIVE",
+           "completion": "ALLIANCE_PASSIVE",
            "description": "constant alliancetype ALLIANCE_PASSIVE = ConvertAllianceType(0)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_HELP_REQUEST": {
            "prefix": "cnALLIANCE_HELP_REQUEST",
            "body": "ALLIANCE_HELP_REQUEST",
+           "completion": "ALLIANCE_HELP_REQUEST",
            "description": "constant alliancetype ALLIANCE_HELP_REQUEST = ConvertAllianceType(1)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_HELP_RESPONSE": {
            "prefix": "cnALLIANCE_HELP_RESPONSE",
            "body": "ALLIANCE_HELP_RESPONSE",
+           "completion": "ALLIANCE_HELP_RESPONSE",
            "description": "constant alliancetype ALLIANCE_HELP_RESPONSE = ConvertAllianceType(2)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_SHARED_XP": {
            "prefix": "cnALLIANCE_SHARED_XP",
            "body": "ALLIANCE_SHARED_XP",
+           "completion": "ALLIANCE_SHARED_XP",
            "description": "constant alliancetype ALLIANCE_SHARED_XP = ConvertAllianceType(3)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_SHARED_SPELLS": {
            "prefix": "cnALLIANCE_SHARED_SPELLS",
            "body": "ALLIANCE_SHARED_SPELLS",
+           "completion": "ALLIANCE_SHARED_SPELLS",
            "description": "constant alliancetype ALLIANCE_SHARED_SPELLS = ConvertAllianceType(4)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_SHARED_VISION": {
            "prefix": "cnALLIANCE_SHARED_VISION",
            "body": "ALLIANCE_SHARED_VISION",
+           "completion": "ALLIANCE_SHARED_VISION",
            "description": "constant alliancetype ALLIANCE_SHARED_VISION = ConvertAllianceType(5)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_SHARED_CONTROL": {
            "prefix": "cnALLIANCE_SHARED_CONTROL",
            "body": "ALLIANCE_SHARED_CONTROL",
+           "completion": "ALLIANCE_SHARED_CONTROL",
            "description": "constant alliancetype ALLIANCE_SHARED_CONTROL = ConvertAllianceType(6)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_RESCUABLE": {
            "prefix": "cnALLIANCE_RESCUABLE",
            "body": "ALLIANCE_RESCUABLE",
+           "completion": "ALLIANCE_RESCUABLE",
            "description": "constant alliancetype ALLIANCE_RESCUABLE = ConvertAllianceType(8)",
            "scope": "source.vjass"
        },
         "cnALLIANCE_SHARED_VISION_FORCED": {
            "prefix": "cnALLIANCE_SHARED_VISION_FORCED",
            "body": "ALLIANCE_SHARED_VISION_FORCED",
+           "completion": "ALLIANCE_SHARED_VISION_FORCED",
            "description": "constant alliancetype ALLIANCE_SHARED_VISION_FORCED = ConvertAllianceType(9)",
            "scope": "source.vjass"
        },
         "cnVERSION_REIGN_OF_CHAOS": {
            "prefix": "cnVERSION_REIGN_OF_CHAOS",
            "body": "VERSION_REIGN_OF_CHAOS",
+           "completion": "VERSION_REIGN_OF_CHAOS",
            "description": "constant version VERSION_REIGN_OF_CHAOS = ConvertVersion(0)",
            "scope": "source.vjass"
        },
         "cnVERSION_FROZEN_THRONE": {
            "prefix": "cnVERSION_FROZEN_THRONE",
            "body": "VERSION_FROZEN_THRONE",
+           "completion": "VERSION_FROZEN_THRONE",
            "description": "constant version VERSION_FROZEN_THRONE = ConvertVersion(1)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_NORMAL": {
            "prefix": "cnATTACK_TYPE_NORMAL",
            "body": "ATTACK_TYPE_NORMAL",
+           "completion": "ATTACK_TYPE_NORMAL",
            "description": "constant attacktype ATTACK_TYPE_NORMAL = ConvertAttackType(0)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_MELEE": {
            "prefix": "cnATTACK_TYPE_MELEE",
            "body": "ATTACK_TYPE_MELEE",
+           "completion": "ATTACK_TYPE_MELEE",
            "description": "constant attacktype ATTACK_TYPE_MELEE = ConvertAttackType(1)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_PIERCE": {
            "prefix": "cnATTACK_TYPE_PIERCE",
            "body": "ATTACK_TYPE_PIERCE",
+           "completion": "ATTACK_TYPE_PIERCE",
            "description": "constant attacktype ATTACK_TYPE_PIERCE = ConvertAttackType(2)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_SIEGE": {
            "prefix": "cnATTACK_TYPE_SIEGE",
            "body": "ATTACK_TYPE_SIEGE",
+           "completion": "ATTACK_TYPE_SIEGE",
            "description": "constant attacktype ATTACK_TYPE_SIEGE = ConvertAttackType(3)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_MAGIC": {
            "prefix": "cnATTACK_TYPE_MAGIC",
            "body": "ATTACK_TYPE_MAGIC",
+           "completion": "ATTACK_TYPE_MAGIC",
            "description": "constant attacktype ATTACK_TYPE_MAGIC = ConvertAttackType(4)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_CHAOS": {
            "prefix": "cnATTACK_TYPE_CHAOS",
            "body": "ATTACK_TYPE_CHAOS",
+           "completion": "ATTACK_TYPE_CHAOS",
            "description": "constant attacktype ATTACK_TYPE_CHAOS = ConvertAttackType(5)",
            "scope": "source.vjass"
        },
         "cnATTACK_TYPE_HERO": {
            "prefix": "cnATTACK_TYPE_HERO",
            "body": "ATTACK_TYPE_HERO",
+           "completion": "ATTACK_TYPE_HERO",
            "description": "constant attacktype ATTACK_TYPE_HERO = ConvertAttackType(6)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_UNKNOWN": {
            "prefix": "cnDAMAGE_TYPE_UNKNOWN",
            "body": "DAMAGE_TYPE_UNKNOWN",
+           "completion": "DAMAGE_TYPE_UNKNOWN",
            "description": "constant damagetype DAMAGE_TYPE_UNKNOWN = ConvertDamageType(0)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_NORMAL": {
            "prefix": "cnDAMAGE_TYPE_NORMAL",
            "body": "DAMAGE_TYPE_NORMAL",
+           "completion": "DAMAGE_TYPE_NORMAL",
            "description": "constant damagetype DAMAGE_TYPE_NORMAL = ConvertDamageType(4)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_ENHANCED": {
            "prefix": "cnDAMAGE_TYPE_ENHANCED",
            "body": "DAMAGE_TYPE_ENHANCED",
+           "completion": "DAMAGE_TYPE_ENHANCED",
            "description": "constant damagetype DAMAGE_TYPE_ENHANCED = ConvertDamageType(5)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_FIRE": {
            "prefix": "cnDAMAGE_TYPE_FIRE",
            "body": "DAMAGE_TYPE_FIRE",
+           "completion": "DAMAGE_TYPE_FIRE",
            "description": "constant damagetype DAMAGE_TYPE_FIRE = ConvertDamageType(8)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_COLD": {
            "prefix": "cnDAMAGE_TYPE_COLD",
            "body": "DAMAGE_TYPE_COLD",
+           "completion": "DAMAGE_TYPE_COLD",
            "description": "constant damagetype DAMAGE_TYPE_COLD = ConvertDamageType(9)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_LIGHTNING": {
            "prefix": "cnDAMAGE_TYPE_LIGHTNING",
            "body": "DAMAGE_TYPE_LIGHTNING",
+           "completion": "DAMAGE_TYPE_LIGHTNING",
            "description": "constant damagetype DAMAGE_TYPE_LIGHTNING = ConvertDamageType(10)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_POISON": {
            "prefix": "cnDAMAGE_TYPE_POISON",
            "body": "DAMAGE_TYPE_POISON",
+           "completion": "DAMAGE_TYPE_POISON",
            "description": "constant damagetype DAMAGE_TYPE_POISON = ConvertDamageType(11)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_DISEASE": {
            "prefix": "cnDAMAGE_TYPE_DISEASE",
            "body": "DAMAGE_TYPE_DISEASE",
+           "completion": "DAMAGE_TYPE_DISEASE",
            "description": "constant damagetype DAMAGE_TYPE_DISEASE = ConvertDamageType(12)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_DIVINE": {
            "prefix": "cnDAMAGE_TYPE_DIVINE",
            "body": "DAMAGE_TYPE_DIVINE",
+           "completion": "DAMAGE_TYPE_DIVINE",
            "description": "constant damagetype DAMAGE_TYPE_DIVINE = ConvertDamageType(13)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_MAGIC": {
            "prefix": "cnDAMAGE_TYPE_MAGIC",
            "body": "DAMAGE_TYPE_MAGIC",
+           "completion": "DAMAGE_TYPE_MAGIC",
            "description": "constant damagetype DAMAGE_TYPE_MAGIC = ConvertDamageType(14)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_SONIC": {
            "prefix": "cnDAMAGE_TYPE_SONIC",
            "body": "DAMAGE_TYPE_SONIC",
+           "completion": "DAMAGE_TYPE_SONIC",
            "description": "constant damagetype DAMAGE_TYPE_SONIC = ConvertDamageType(15)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_ACID": {
            "prefix": "cnDAMAGE_TYPE_ACID",
            "body": "DAMAGE_TYPE_ACID",
+           "completion": "DAMAGE_TYPE_ACID",
            "description": "constant damagetype DAMAGE_TYPE_ACID = ConvertDamageType(16)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_FORCE": {
            "prefix": "cnDAMAGE_TYPE_FORCE",
            "body": "DAMAGE_TYPE_FORCE",
+           "completion": "DAMAGE_TYPE_FORCE",
            "description": "constant damagetype DAMAGE_TYPE_FORCE = ConvertDamageType(17)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_DEATH": {
            "prefix": "cnDAMAGE_TYPE_DEATH",
            "body": "DAMAGE_TYPE_DEATH",
+           "completion": "DAMAGE_TYPE_DEATH",
            "description": "constant damagetype DAMAGE_TYPE_DEATH = ConvertDamageType(18)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_MIND": {
            "prefix": "cnDAMAGE_TYPE_MIND",
            "body": "DAMAGE_TYPE_MIND",
+           "completion": "DAMAGE_TYPE_MIND",
            "description": "constant damagetype DAMAGE_TYPE_MIND = ConvertDamageType(19)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_PLANT": {
            "prefix": "cnDAMAGE_TYPE_PLANT",
            "body": "DAMAGE_TYPE_PLANT",
+           "completion": "DAMAGE_TYPE_PLANT",
            "description": "constant damagetype DAMAGE_TYPE_PLANT = ConvertDamageType(20)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_DEFENSIVE": {
            "prefix": "cnDAMAGE_TYPE_DEFENSIVE",
            "body": "DAMAGE_TYPE_DEFENSIVE",
+           "completion": "DAMAGE_TYPE_DEFENSIVE",
            "description": "constant damagetype DAMAGE_TYPE_DEFENSIVE = ConvertDamageType(21)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_DEMOLITION": {
            "prefix": "cnDAMAGE_TYPE_DEMOLITION",
            "body": "DAMAGE_TYPE_DEMOLITION",
+           "completion": "DAMAGE_TYPE_DEMOLITION",
            "description": "constant damagetype DAMAGE_TYPE_DEMOLITION = ConvertDamageType(22)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_SLOW_POISON": {
            "prefix": "cnDAMAGE_TYPE_SLOW_POISON",
            "body": "DAMAGE_TYPE_SLOW_POISON",
+           "completion": "DAMAGE_TYPE_SLOW_POISON",
            "description": "constant damagetype DAMAGE_TYPE_SLOW_POISON = ConvertDamageType(23)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_SPIRIT_LINK": {
            "prefix": "cnDAMAGE_TYPE_SPIRIT_LINK",
            "body": "DAMAGE_TYPE_SPIRIT_LINK",
+           "completion": "DAMAGE_TYPE_SPIRIT_LINK",
            "description": "constant damagetype DAMAGE_TYPE_SPIRIT_LINK = ConvertDamageType(24)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_SHADOW_STRIKE": {
            "prefix": "cnDAMAGE_TYPE_SHADOW_STRIKE",
            "body": "DAMAGE_TYPE_SHADOW_STRIKE",
+           "completion": "DAMAGE_TYPE_SHADOW_STRIKE",
            "description": "constant damagetype DAMAGE_TYPE_SHADOW_STRIKE = ConvertDamageType(25)",
            "scope": "source.vjass"
        },
         "cnDAMAGE_TYPE_UNIVERSAL": {
            "prefix": "cnDAMAGE_TYPE_UNIVERSAL",
            "body": "DAMAGE_TYPE_UNIVERSAL",
+           "completion": "DAMAGE_TYPE_UNIVERSAL",
            "description": "constant damagetype DAMAGE_TYPE_UNIVERSAL = ConvertDamageType(26)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WHOKNOWS": {
            "prefix": "cnWEAPON_TYPE_WHOKNOWS",
            "body": "WEAPON_TYPE_WHOKNOWS",
+           "completion": "WEAPON_TYPE_WHOKNOWS",
            "description": "constant weapontype WEAPON_TYPE_WHOKNOWS = ConvertWeaponType(0)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_LIGHT_CHOP": {
            "prefix": "cnWEAPON_TYPE_METAL_LIGHT_CHOP",
            "body": "WEAPON_TYPE_METAL_LIGHT_CHOP",
+           "completion": "WEAPON_TYPE_METAL_LIGHT_CHOP",
            "description": "constant weapontype WEAPON_TYPE_METAL_LIGHT_CHOP = ConvertWeaponType(1)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_MEDIUM_CHOP": {
            "prefix": "cnWEAPON_TYPE_METAL_MEDIUM_CHOP",
            "body": "WEAPON_TYPE_METAL_MEDIUM_CHOP",
+           "completion": "WEAPON_TYPE_METAL_MEDIUM_CHOP",
            "description": "constant weapontype WEAPON_TYPE_METAL_MEDIUM_CHOP = ConvertWeaponType(2)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_HEAVY_CHOP": {
            "prefix": "cnWEAPON_TYPE_METAL_HEAVY_CHOP",
            "body": "WEAPON_TYPE_METAL_HEAVY_CHOP",
+           "completion": "WEAPON_TYPE_METAL_HEAVY_CHOP",
            "description": "constant weapontype WEAPON_TYPE_METAL_HEAVY_CHOP = ConvertWeaponType(3)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_LIGHT_SLICE": {
            "prefix": "cnWEAPON_TYPE_METAL_LIGHT_SLICE",
            "body": "WEAPON_TYPE_METAL_LIGHT_SLICE",
+           "completion": "WEAPON_TYPE_METAL_LIGHT_SLICE",
            "description": "constant weapontype WEAPON_TYPE_METAL_LIGHT_SLICE = ConvertWeaponType(4)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_MEDIUM_SLICE": {
            "prefix": "cnWEAPON_TYPE_METAL_MEDIUM_SLICE",
            "body": "WEAPON_TYPE_METAL_MEDIUM_SLICE",
+           "completion": "WEAPON_TYPE_METAL_MEDIUM_SLICE",
            "description": "constant weapontype WEAPON_TYPE_METAL_MEDIUM_SLICE = ConvertWeaponType(5)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_HEAVY_SLICE": {
            "prefix": "cnWEAPON_TYPE_METAL_HEAVY_SLICE",
            "body": "WEAPON_TYPE_METAL_HEAVY_SLICE",
+           "completion": "WEAPON_TYPE_METAL_HEAVY_SLICE",
            "description": "constant weapontype WEAPON_TYPE_METAL_HEAVY_SLICE = ConvertWeaponType(6)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_MEDIUM_BASH": {
            "prefix": "cnWEAPON_TYPE_METAL_MEDIUM_BASH",
            "body": "WEAPON_TYPE_METAL_MEDIUM_BASH",
+           "completion": "WEAPON_TYPE_METAL_MEDIUM_BASH",
            "description": "constant weapontype WEAPON_TYPE_METAL_MEDIUM_BASH = ConvertWeaponType(7)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_HEAVY_BASH": {
            "prefix": "cnWEAPON_TYPE_METAL_HEAVY_BASH",
            "body": "WEAPON_TYPE_METAL_HEAVY_BASH",
+           "completion": "WEAPON_TYPE_METAL_HEAVY_BASH",
            "description": "constant weapontype WEAPON_TYPE_METAL_HEAVY_BASH = ConvertWeaponType(8)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_MEDIUM_STAB": {
            "prefix": "cnWEAPON_TYPE_METAL_MEDIUM_STAB",
            "body": "WEAPON_TYPE_METAL_MEDIUM_STAB",
+           "completion": "WEAPON_TYPE_METAL_MEDIUM_STAB",
            "description": "constant weapontype WEAPON_TYPE_METAL_MEDIUM_STAB = ConvertWeaponType(9)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_METAL_HEAVY_STAB": {
            "prefix": "cnWEAPON_TYPE_METAL_HEAVY_STAB",
            "body": "WEAPON_TYPE_METAL_HEAVY_STAB",
+           "completion": "WEAPON_TYPE_METAL_HEAVY_STAB",
            "description": "constant weapontype WEAPON_TYPE_METAL_HEAVY_STAB = ConvertWeaponType(10)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_LIGHT_SLICE": {
            "prefix": "cnWEAPON_TYPE_WOOD_LIGHT_SLICE",
            "body": "WEAPON_TYPE_WOOD_LIGHT_SLICE",
+           "completion": "WEAPON_TYPE_WOOD_LIGHT_SLICE",
            "description": "constant weapontype WEAPON_TYPE_WOOD_LIGHT_SLICE = ConvertWeaponType(11)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_MEDIUM_SLICE": {
            "prefix": "cnWEAPON_TYPE_WOOD_MEDIUM_SLICE",
            "body": "WEAPON_TYPE_WOOD_MEDIUM_SLICE",
+           "completion": "WEAPON_TYPE_WOOD_MEDIUM_SLICE",
            "description": "constant weapontype WEAPON_TYPE_WOOD_MEDIUM_SLICE = ConvertWeaponType(12)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_HEAVY_SLICE": {
            "prefix": "cnWEAPON_TYPE_WOOD_HEAVY_SLICE",
            "body": "WEAPON_TYPE_WOOD_HEAVY_SLICE",
+           "completion": "WEAPON_TYPE_WOOD_HEAVY_SLICE",
            "description": "constant weapontype WEAPON_TYPE_WOOD_HEAVY_SLICE = ConvertWeaponType(13)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_LIGHT_BASH": {
            "prefix": "cnWEAPON_TYPE_WOOD_LIGHT_BASH",
            "body": "WEAPON_TYPE_WOOD_LIGHT_BASH",
+           "completion": "WEAPON_TYPE_WOOD_LIGHT_BASH",
            "description": "constant weapontype WEAPON_TYPE_WOOD_LIGHT_BASH = ConvertWeaponType(14)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_MEDIUM_BASH": {
            "prefix": "cnWEAPON_TYPE_WOOD_MEDIUM_BASH",
            "body": "WEAPON_TYPE_WOOD_MEDIUM_BASH",
+           "completion": "WEAPON_TYPE_WOOD_MEDIUM_BASH",
            "description": "constant weapontype WEAPON_TYPE_WOOD_MEDIUM_BASH = ConvertWeaponType(15)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_HEAVY_BASH": {
            "prefix": "cnWEAPON_TYPE_WOOD_HEAVY_BASH",
            "body": "WEAPON_TYPE_WOOD_HEAVY_BASH",
+           "completion": "WEAPON_TYPE_WOOD_HEAVY_BASH",
            "description": "constant weapontype WEAPON_TYPE_WOOD_HEAVY_BASH = ConvertWeaponType(16)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_LIGHT_STAB": {
            "prefix": "cnWEAPON_TYPE_WOOD_LIGHT_STAB",
            "body": "WEAPON_TYPE_WOOD_LIGHT_STAB",
+           "completion": "WEAPON_TYPE_WOOD_LIGHT_STAB",
            "description": "constant weapontype WEAPON_TYPE_WOOD_LIGHT_STAB = ConvertWeaponType(17)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_WOOD_MEDIUM_STAB": {
            "prefix": "cnWEAPON_TYPE_WOOD_MEDIUM_STAB",
            "body": "WEAPON_TYPE_WOOD_MEDIUM_STAB",
+           "completion": "WEAPON_TYPE_WOOD_MEDIUM_STAB",
            "description": "constant weapontype WEAPON_TYPE_WOOD_MEDIUM_STAB = ConvertWeaponType(18)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_CLAW_LIGHT_SLICE": {
            "prefix": "cnWEAPON_TYPE_CLAW_LIGHT_SLICE",
            "body": "WEAPON_TYPE_CLAW_LIGHT_SLICE",
+           "completion": "WEAPON_TYPE_CLAW_LIGHT_SLICE",
            "description": "constant weapontype WEAPON_TYPE_CLAW_LIGHT_SLICE = ConvertWeaponType(19)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_CLAW_MEDIUM_SLICE": {
            "prefix": "cnWEAPON_TYPE_CLAW_MEDIUM_SLICE",
            "body": "WEAPON_TYPE_CLAW_MEDIUM_SLICE",
+           "completion": "WEAPON_TYPE_CLAW_MEDIUM_SLICE",
            "description": "constant weapontype WEAPON_TYPE_CLAW_MEDIUM_SLICE = ConvertWeaponType(20)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_CLAW_HEAVY_SLICE": {
            "prefix": "cnWEAPON_TYPE_CLAW_HEAVY_SLICE",
            "body": "WEAPON_TYPE_CLAW_HEAVY_SLICE",
+           "completion": "WEAPON_TYPE_CLAW_HEAVY_SLICE",
            "description": "constant weapontype WEAPON_TYPE_CLAW_HEAVY_SLICE = ConvertWeaponType(21)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_AXE_MEDIUM_CHOP": {
            "prefix": "cnWEAPON_TYPE_AXE_MEDIUM_CHOP",
            "body": "WEAPON_TYPE_AXE_MEDIUM_CHOP",
+           "completion": "WEAPON_TYPE_AXE_MEDIUM_CHOP",
            "description": "constant weapontype WEAPON_TYPE_AXE_MEDIUM_CHOP = ConvertWeaponType(22)",
            "scope": "source.vjass"
        },
         "cnWEAPON_TYPE_ROCK_HEAVY_BASH": {
            "prefix": "cnWEAPON_TYPE_ROCK_HEAVY_BASH",
            "body": "WEAPON_TYPE_ROCK_HEAVY_BASH",
+           "completion": "WEAPON_TYPE_ROCK_HEAVY_BASH",
            "description": "constant weapontype WEAPON_TYPE_ROCK_HEAVY_BASH = ConvertWeaponType(23)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_ANY": {
            "prefix": "cnPATHING_TYPE_ANY",
            "body": "PATHING_TYPE_ANY",
+           "completion": "PATHING_TYPE_ANY",
            "description": "constant pathingtype PATHING_TYPE_ANY = ConvertPathingType(0)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_WALKABILITY": {
            "prefix": "cnPATHING_TYPE_WALKABILITY",
            "body": "PATHING_TYPE_WALKABILITY",
+           "completion": "PATHING_TYPE_WALKABILITY",
            "description": "constant pathingtype PATHING_TYPE_WALKABILITY = ConvertPathingType(1)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_FLYABILITY": {
            "prefix": "cnPATHING_TYPE_FLYABILITY",
            "body": "PATHING_TYPE_FLYABILITY",
+           "completion": "PATHING_TYPE_FLYABILITY",
            "description": "constant pathingtype PATHING_TYPE_FLYABILITY = ConvertPathingType(2)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_BUILDABILITY": {
            "prefix": "cnPATHING_TYPE_BUILDABILITY",
            "body": "PATHING_TYPE_BUILDABILITY",
+           "completion": "PATHING_TYPE_BUILDABILITY",
            "description": "constant pathingtype PATHING_TYPE_BUILDABILITY = ConvertPathingType(3)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_PEONHARVESTPATHING": {
            "prefix": "cnPATHING_TYPE_PEONHARVESTPATHING",
            "body": "PATHING_TYPE_PEONHARVESTPATHING",
+           "completion": "PATHING_TYPE_PEONHARVESTPATHING",
            "description": "constant pathingtype PATHING_TYPE_PEONHARVESTPATHING = ConvertPathingType(4)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_BLIGHTPATHING": {
            "prefix": "cnPATHING_TYPE_BLIGHTPATHING",
            "body": "PATHING_TYPE_BLIGHTPATHING",
+           "completion": "PATHING_TYPE_BLIGHTPATHING",
            "description": "constant pathingtype PATHING_TYPE_BLIGHTPATHING = ConvertPathingType(5)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_FLOATABILITY": {
            "prefix": "cnPATHING_TYPE_FLOATABILITY",
            "body": "PATHING_TYPE_FLOATABILITY",
+           "completion": "PATHING_TYPE_FLOATABILITY",
            "description": "constant pathingtype PATHING_TYPE_FLOATABILITY = ConvertPathingType(6)",
            "scope": "source.vjass"
        },
         "cnPATHING_TYPE_AMPHIBIOUSPATHING": {
            "prefix": "cnPATHING_TYPE_AMPHIBIOUSPATHING",
            "body": "PATHING_TYPE_AMPHIBIOUSPATHING",
+           "completion": "PATHING_TYPE_AMPHIBIOUSPATHING",
            "description": "constant pathingtype PATHING_TYPE_AMPHIBIOUSPATHING = ConvertPathingType(7)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_HUMAN": {
            "prefix": "cnRACE_PREF_HUMAN",
            "body": "RACE_PREF_HUMAN",
+           "completion": "RACE_PREF_HUMAN",
            "description": "constant racepreference RACE_PREF_HUMAN = ConvertRacePref(1)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_ORC": {
            "prefix": "cnRACE_PREF_ORC",
            "body": "RACE_PREF_ORC",
+           "completion": "RACE_PREF_ORC",
            "description": "constant racepreference RACE_PREF_ORC = ConvertRacePref(2)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_NIGHTELF": {
            "prefix": "cnRACE_PREF_NIGHTELF",
            "body": "RACE_PREF_NIGHTELF",
+           "completion": "RACE_PREF_NIGHTELF",
            "description": "constant racepreference RACE_PREF_NIGHTELF = ConvertRacePref(4)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_UNDEAD": {
            "prefix": "cnRACE_PREF_UNDEAD",
            "body": "RACE_PREF_UNDEAD",
+           "completion": "RACE_PREF_UNDEAD",
            "description": "constant racepreference RACE_PREF_UNDEAD = ConvertRacePref(8)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_DEMON": {
            "prefix": "cnRACE_PREF_DEMON",
            "body": "RACE_PREF_DEMON",
+           "completion": "RACE_PREF_DEMON",
            "description": "constant racepreference RACE_PREF_DEMON = ConvertRacePref(16)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_RANDOM": {
            "prefix": "cnRACE_PREF_RANDOM",
            "body": "RACE_PREF_RANDOM",
+           "completion": "RACE_PREF_RANDOM",
            "description": "constant racepreference RACE_PREF_RANDOM = ConvertRacePref(32)",
            "scope": "source.vjass"
        },
         "cnRACE_PREF_USER_SELECTABLE": {
            "prefix": "cnRACE_PREF_USER_SELECTABLE",
            "body": "RACE_PREF_USER_SELECTABLE",
+           "completion": "RACE_PREF_USER_SELECTABLE",
            "description": "constant racepreference RACE_PREF_USER_SELECTABLE = ConvertRacePref(64)",
            "scope": "source.vjass"
        },
         "cnMAP_CONTROL_USER": {
            "prefix": "cnMAP_CONTROL_USER",
            "body": "MAP_CONTROL_USER",
+           "completion": "MAP_CONTROL_USER",
            "description": "constant mapcontrol MAP_CONTROL_USER = ConvertMapControl(0)",
            "scope": "source.vjass"
        },
         "cnMAP_CONTROL_COMPUTER": {
            "prefix": "cnMAP_CONTROL_COMPUTER",
            "body": "MAP_CONTROL_COMPUTER",
+           "completion": "MAP_CONTROL_COMPUTER",
            "description": "constant mapcontrol MAP_CONTROL_COMPUTER = ConvertMapControl(1)",
            "scope": "source.vjass"
        },
         "cnMAP_CONTROL_RESCUABLE": {
            "prefix": "cnMAP_CONTROL_RESCUABLE",
            "body": "MAP_CONTROL_RESCUABLE",
+           "completion": "MAP_CONTROL_RESCUABLE",
            "description": "constant mapcontrol MAP_CONTROL_RESCUABLE = ConvertMapControl(2)",
            "scope": "source.vjass"
        },
         "cnMAP_CONTROL_NEUTRAL": {
            "prefix": "cnMAP_CONTROL_NEUTRAL",
            "body": "MAP_CONTROL_NEUTRAL",
+           "completion": "MAP_CONTROL_NEUTRAL",
            "description": "constant mapcontrol MAP_CONTROL_NEUTRAL = ConvertMapControl(3)",
            "scope": "source.vjass"
        },
         "cnMAP_CONTROL_CREEP": {
            "prefix": "cnMAP_CONTROL_CREEP",
            "body": "MAP_CONTROL_CREEP",
+           "completion": "MAP_CONTROL_CREEP",
            "description": "constant mapcontrol MAP_CONTROL_CREEP = ConvertMapControl(4)",
            "scope": "source.vjass"
        },
         "cnMAP_CONTROL_NONE": {
            "prefix": "cnMAP_CONTROL_NONE",
            "body": "MAP_CONTROL_NONE",
+           "completion": "MAP_CONTROL_NONE",
            "description": "constant mapcontrol MAP_CONTROL_NONE = ConvertMapControl(5)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_MELEE": {
            "prefix": "cnGAME_TYPE_MELEE",
            "body": "GAME_TYPE_MELEE",
+           "completion": "GAME_TYPE_MELEE",
            "description": "constant gametype GAME_TYPE_MELEE = ConvertGameType(1)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_FFA": {
            "prefix": "cnGAME_TYPE_FFA",
            "body": "GAME_TYPE_FFA",
+           "completion": "GAME_TYPE_FFA",
            "description": "constant gametype GAME_TYPE_FFA = ConvertGameType(2)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_USE_MAP_SETTINGS": {
            "prefix": "cnGAME_TYPE_USE_MAP_SETTINGS",
            "body": "GAME_TYPE_USE_MAP_SETTINGS",
+           "completion": "GAME_TYPE_USE_MAP_SETTINGS",
            "description": "constant gametype GAME_TYPE_USE_MAP_SETTINGS = ConvertGameType(4)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_BLIZ": {
            "prefix": "cnGAME_TYPE_BLIZ",
            "body": "GAME_TYPE_BLIZ",
+           "completion": "GAME_TYPE_BLIZ",
            "description": "constant gametype GAME_TYPE_BLIZ = ConvertGameType(8)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_ONE_ON_ONE": {
            "prefix": "cnGAME_TYPE_ONE_ON_ONE",
            "body": "GAME_TYPE_ONE_ON_ONE",
+           "completion": "GAME_TYPE_ONE_ON_ONE",
            "description": "constant gametype GAME_TYPE_ONE_ON_ONE = ConvertGameType(16)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_TWO_TEAM_PLAY": {
            "prefix": "cnGAME_TYPE_TWO_TEAM_PLAY",
            "body": "GAME_TYPE_TWO_TEAM_PLAY",
+           "completion": "GAME_TYPE_TWO_TEAM_PLAY",
            "description": "constant gametype GAME_TYPE_TWO_TEAM_PLAY = ConvertGameType(32)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_THREE_TEAM_PLAY": {
            "prefix": "cnGAME_TYPE_THREE_TEAM_PLAY",
            "body": "GAME_TYPE_THREE_TEAM_PLAY",
+           "completion": "GAME_TYPE_THREE_TEAM_PLAY",
            "description": "constant gametype GAME_TYPE_THREE_TEAM_PLAY = ConvertGameType(64)",
            "scope": "source.vjass"
        },
         "cnGAME_TYPE_FOUR_TEAM_PLAY": {
            "prefix": "cnGAME_TYPE_FOUR_TEAM_PLAY",
            "body": "GAME_TYPE_FOUR_TEAM_PLAY",
+           "completion": "GAME_TYPE_FOUR_TEAM_PLAY",
            "description": "constant gametype GAME_TYPE_FOUR_TEAM_PLAY = ConvertGameType(128)",
            "scope": "source.vjass"
        },
         "cnMAP_FOG_HIDE_TERRAIN": {
            "prefix": "cnMAP_FOG_HIDE_TERRAIN",
            "body": "MAP_FOG_HIDE_TERRAIN",
+           "completion": "MAP_FOG_HIDE_TERRAIN",
            "description": "constant mapflag MAP_FOG_HIDE_TERRAIN = ConvertMapFlag(1)",
            "scope": "source.vjass"
        },
         "cnMAP_FOG_MAP_EXPLORED": {
            "prefix": "cnMAP_FOG_MAP_EXPLORED",
            "body": "MAP_FOG_MAP_EXPLORED",
+           "completion": "MAP_FOG_MAP_EXPLORED",
            "description": "constant mapflag MAP_FOG_MAP_EXPLORED = ConvertMapFlag(2)",
            "scope": "source.vjass"
        },
         "cnMAP_FOG_ALWAYS_VISIBLE": {
            "prefix": "cnMAP_FOG_ALWAYS_VISIBLE",
            "body": "MAP_FOG_ALWAYS_VISIBLE",
+           "completion": "MAP_FOG_ALWAYS_VISIBLE",
            "description": "constant mapflag MAP_FOG_ALWAYS_VISIBLE = ConvertMapFlag(4)",
            "scope": "source.vjass"
        },
         "cnMAP_USE_HANDICAPS": {
            "prefix": "cnMAP_USE_HANDICAPS",
            "body": "MAP_USE_HANDICAPS",
+           "completion": "MAP_USE_HANDICAPS",
            "description": "constant mapflag MAP_USE_HANDICAPS = ConvertMapFlag(8)",
            "scope": "source.vjass"
        },
         "cnMAP_OBSERVERS": {
            "prefix": "cnMAP_OBSERVERS",
            "body": "MAP_OBSERVERS",
+           "completion": "MAP_OBSERVERS",
            "description": "constant mapflag MAP_OBSERVERS = ConvertMapFlag(16)",
            "scope": "source.vjass"
        },
         "cnMAP_OBSERVERS_ON_DEATH": {
            "prefix": "cnMAP_OBSERVERS_ON_DEATH",
            "body": "MAP_OBSERVERS_ON_DEATH",
+           "completion": "MAP_OBSERVERS_ON_DEATH",
            "description": "constant mapflag MAP_OBSERVERS_ON_DEATH = ConvertMapFlag(32)",
            "scope": "source.vjass"
        },
         "cnMAP_FIXED_COLORS": {
            "prefix": "cnMAP_FIXED_COLORS",
            "body": "MAP_FIXED_COLORS",
+           "completion": "MAP_FIXED_COLORS",
            "description": "constant mapflag MAP_FIXED_COLORS = ConvertMapFlag(128)",
            "scope": "source.vjass"
        },
         "cnMAP_LOCK_RESOURCE_TRADING": {
            "prefix": "cnMAP_LOCK_RESOURCE_TRADING",
            "body": "MAP_LOCK_RESOURCE_TRADING",
+           "completion": "MAP_LOCK_RESOURCE_TRADING",
            "description": "constant mapflag MAP_LOCK_RESOURCE_TRADING = ConvertMapFlag(256)",
            "scope": "source.vjass"
        },
         "cnMAP_RESOURCE_TRADING_ALLIES_ONLY": {
            "prefix": "cnMAP_RESOURCE_TRADING_ALLIES_ONLY",
            "body": "MAP_RESOURCE_TRADING_ALLIES_ONLY",
+           "completion": "MAP_RESOURCE_TRADING_ALLIES_ONLY",
            "description": "constant mapflag MAP_RESOURCE_TRADING_ALLIES_ONLY = ConvertMapFlag(512)",
            "scope": "source.vjass"
        },
         "cnMAP_LOCK_ALLIANCE_CHANGES": {
            "prefix": "cnMAP_LOCK_ALLIANCE_CHANGES",
            "body": "MAP_LOCK_ALLIANCE_CHANGES",
+           "completion": "MAP_LOCK_ALLIANCE_CHANGES",
            "description": "constant mapflag MAP_LOCK_ALLIANCE_CHANGES = ConvertMapFlag(1024)",
            "scope": "source.vjass"
        },
         "cnMAP_ALLIANCE_CHANGES_HIDDEN": {
            "prefix": "cnMAP_ALLIANCE_CHANGES_HIDDEN",
            "body": "MAP_ALLIANCE_CHANGES_HIDDEN",
+           "completion": "MAP_ALLIANCE_CHANGES_HIDDEN",
            "description": "constant mapflag MAP_ALLIANCE_CHANGES_HIDDEN = ConvertMapFlag(2048)",
            "scope": "source.vjass"
        },
         "cnMAP_CHEATS": {
            "prefix": "cnMAP_CHEATS",
            "body": "MAP_CHEATS",
+           "completion": "MAP_CHEATS",
            "description": "constant mapflag MAP_CHEATS = ConvertMapFlag(4096)",
            "scope": "source.vjass"
        },
         "cnMAP_CHEATS_HIDDEN": {
            "prefix": "cnMAP_CHEATS_HIDDEN",
            "body": "MAP_CHEATS_HIDDEN",
+           "completion": "MAP_CHEATS_HIDDEN",
            "description": "constant mapflag MAP_CHEATS_HIDDEN = ConvertMapFlag(8192)",
            "scope": "source.vjass"
        },
         "cnMAP_LOCK_SPEED": {
            "prefix": "cnMAP_LOCK_SPEED",
            "body": "MAP_LOCK_SPEED",
+           "completion": "MAP_LOCK_SPEED",
            "description": "constant mapflag MAP_LOCK_SPEED = ConvertMapFlag(8192*2)",
            "scope": "source.vjass"
        },
         "cnMAP_LOCK_RANDOM_SEED": {
            "prefix": "cnMAP_LOCK_RANDOM_SEED",
            "body": "MAP_LOCK_RANDOM_SEED",
+           "completion": "MAP_LOCK_RANDOM_SEED",
            "description": "constant mapflag MAP_LOCK_RANDOM_SEED = ConvertMapFlag(8192*4)",
            "scope": "source.vjass"
        },
         "cnMAP_SHARED_ADVANCED_CONTROL": {
            "prefix": "cnMAP_SHARED_ADVANCED_CONTROL",
            "body": "MAP_SHARED_ADVANCED_CONTROL",
+           "completion": "MAP_SHARED_ADVANCED_CONTROL",
            "description": "constant mapflag MAP_SHARED_ADVANCED_CONTROL = ConvertMapFlag(8192*8)",
            "scope": "source.vjass"
        },
         "cnMAP_RANDOM_HERO": {
            "prefix": "cnMAP_RANDOM_HERO",
            "body": "MAP_RANDOM_HERO",
+           "completion": "MAP_RANDOM_HERO",
            "description": "constant mapflag MAP_RANDOM_HERO = ConvertMapFlag(8192*16)",
            "scope": "source.vjass"
        },
         "cnMAP_RANDOM_RACES": {
            "prefix": "cnMAP_RANDOM_RACES",
            "body": "MAP_RANDOM_RACES",
+           "completion": "MAP_RANDOM_RACES",
            "description": "constant mapflag MAP_RANDOM_RACES = ConvertMapFlag(8192*32)",
            "scope": "source.vjass"
        },
         "cnMAP_RELOADED": {
            "prefix": "cnMAP_RELOADED",
            "body": "MAP_RELOADED",
+           "completion": "MAP_RELOADED",
            "description": "constant mapflag MAP_RELOADED = ConvertMapFlag(8192*64)",
            "scope": "source.vjass"
        },
         "cnMAP_PLACEMENT_RANDOM": {
            "prefix": "cnMAP_PLACEMENT_RANDOM",
            "body": "MAP_PLACEMENT_RANDOM",
+           "completion": "MAP_PLACEMENT_RANDOM",
            "description": "constant placement MAP_PLACEMENT_RANDOM = ConvertPlacement(0)",
            "scope": "source.vjass"
        },
         "cnMAP_PLACEMENT_FIXED": {
            "prefix": "cnMAP_PLACEMENT_FIXED",
            "body": "MAP_PLACEMENT_FIXED",
+           "completion": "MAP_PLACEMENT_FIXED",
            "description": "constant placement MAP_PLACEMENT_FIXED = ConvertPlacement(1)",
            "scope": "source.vjass"
        },
         "cnMAP_PLACEMENT_USE_MAP_SETTINGS": {
            "prefix": "cnMAP_PLACEMENT_USE_MAP_SETTINGS",
            "body": "MAP_PLACEMENT_USE_MAP_SETTINGS",
+           "completion": "MAP_PLACEMENT_USE_MAP_SETTINGS",
            "description": "constant placement MAP_PLACEMENT_USE_MAP_SETTINGS = ConvertPlacement(2)",
            "scope": "source.vjass"
        },
         "cnMAP_PLACEMENT_TEAMS_TOGETHER": {
            "prefix": "cnMAP_PLACEMENT_TEAMS_TOGETHER",
            "body": "MAP_PLACEMENT_TEAMS_TOGETHER",
+           "completion": "MAP_PLACEMENT_TEAMS_TOGETHER",
            "description": "constant placement MAP_PLACEMENT_TEAMS_TOGETHER = ConvertPlacement(3)",
            "scope": "source.vjass"
        },
         "cnMAP_LOC_PRIO_LOW": {
            "prefix": "cnMAP_LOC_PRIO_LOW",
            "body": "MAP_LOC_PRIO_LOW",
+           "completion": "MAP_LOC_PRIO_LOW",
            "description": "constant startlocprio MAP_LOC_PRIO_LOW = ConvertStartLocPrio(0)",
            "scope": "source.vjass"
        },
         "cnMAP_LOC_PRIO_HIGH": {
            "prefix": "cnMAP_LOC_PRIO_HIGH",
            "body": "MAP_LOC_PRIO_HIGH",
+           "completion": "MAP_LOC_PRIO_HIGH",
            "description": "constant startlocprio MAP_LOC_PRIO_HIGH = ConvertStartLocPrio(1)",
            "scope": "source.vjass"
        },
         "cnMAP_LOC_PRIO_NOT": {
            "prefix": "cnMAP_LOC_PRIO_NOT",
            "body": "MAP_LOC_PRIO_NOT",
+           "completion": "MAP_LOC_PRIO_NOT",
            "description": "constant startlocprio MAP_LOC_PRIO_NOT = ConvertStartLocPrio(2)",
            "scope": "source.vjass"
        },
         "cnMAP_DENSITY_NONE": {
            "prefix": "cnMAP_DENSITY_NONE",
            "body": "MAP_DENSITY_NONE",
+           "completion": "MAP_DENSITY_NONE",
            "description": "constant mapdensity MAP_DENSITY_NONE = ConvertMapDensity(0)",
            "scope": "source.vjass"
        },
         "cnMAP_DENSITY_LIGHT": {
            "prefix": "cnMAP_DENSITY_LIGHT",
            "body": "MAP_DENSITY_LIGHT",
+           "completion": "MAP_DENSITY_LIGHT",
            "description": "constant mapdensity MAP_DENSITY_LIGHT = ConvertMapDensity(1)",
            "scope": "source.vjass"
        },
         "cnMAP_DENSITY_MEDIUM": {
            "prefix": "cnMAP_DENSITY_MEDIUM",
            "body": "MAP_DENSITY_MEDIUM",
+           "completion": "MAP_DENSITY_MEDIUM",
            "description": "constant mapdensity MAP_DENSITY_MEDIUM = ConvertMapDensity(2)",
            "scope": "source.vjass"
        },
         "cnMAP_DENSITY_HEAVY": {
            "prefix": "cnMAP_DENSITY_HEAVY",
            "body": "MAP_DENSITY_HEAVY",
+           "completion": "MAP_DENSITY_HEAVY",
            "description": "constant mapdensity MAP_DENSITY_HEAVY = ConvertMapDensity(3)",
            "scope": "source.vjass"
        },
         "cnMAP_DIFFICULTY_EASY": {
            "prefix": "cnMAP_DIFFICULTY_EASY",
            "body": "MAP_DIFFICULTY_EASY",
+           "completion": "MAP_DIFFICULTY_EASY",
            "description": "constant gamedifficulty MAP_DIFFICULTY_EASY = ConvertGameDifficulty(0)",
            "scope": "source.vjass"
        },
         "cnMAP_DIFFICULTY_NORMAL": {
            "prefix": "cnMAP_DIFFICULTY_NORMAL",
            "body": "MAP_DIFFICULTY_NORMAL",
+           "completion": "MAP_DIFFICULTY_NORMAL",
            "description": "constant gamedifficulty MAP_DIFFICULTY_NORMAL = ConvertGameDifficulty(1)",
            "scope": "source.vjass"
        },
         "cnMAP_DIFFICULTY_HARD": {
            "prefix": "cnMAP_DIFFICULTY_HARD",
            "body": "MAP_DIFFICULTY_HARD",
+           "completion": "MAP_DIFFICULTY_HARD",
            "description": "constant gamedifficulty MAP_DIFFICULTY_HARD = ConvertGameDifficulty(2)",
            "scope": "source.vjass"
        },
         "cnMAP_DIFFICULTY_INSANE": {
            "prefix": "cnMAP_DIFFICULTY_INSANE",
            "body": "MAP_DIFFICULTY_INSANE",
+           "completion": "MAP_DIFFICULTY_INSANE",
            "description": "constant gamedifficulty MAP_DIFFICULTY_INSANE = ConvertGameDifficulty(3)",
            "scope": "source.vjass"
        },
         "cnMAP_SPEED_SLOWEST": {
            "prefix": "cnMAP_SPEED_SLOWEST",
            "body": "MAP_SPEED_SLOWEST",
+           "completion": "MAP_SPEED_SLOWEST",
            "description": "constant gamespeed MAP_SPEED_SLOWEST = ConvertGameSpeed(0)",
            "scope": "source.vjass"
        },
         "cnMAP_SPEED_SLOW": {
            "prefix": "cnMAP_SPEED_SLOW",
            "body": "MAP_SPEED_SLOW",
+           "completion": "MAP_SPEED_SLOW",
            "description": "constant gamespeed MAP_SPEED_SLOW = ConvertGameSpeed(1)",
            "scope": "source.vjass"
        },
         "cnMAP_SPEED_NORMAL": {
            "prefix": "cnMAP_SPEED_NORMAL",
            "body": "MAP_SPEED_NORMAL",
+           "completion": "MAP_SPEED_NORMAL",
            "description": "constant gamespeed MAP_SPEED_NORMAL = ConvertGameSpeed(2)",
            "scope": "source.vjass"
        },
         "cnMAP_SPEED_FAST": {
            "prefix": "cnMAP_SPEED_FAST",
            "body": "MAP_SPEED_FAST",
+           "completion": "MAP_SPEED_FAST",
            "description": "constant gamespeed MAP_SPEED_FAST = ConvertGameSpeed(3)",
            "scope": "source.vjass"
        },
         "cnMAP_SPEED_FASTEST": {
            "prefix": "cnMAP_SPEED_FASTEST",
            "body": "MAP_SPEED_FASTEST",
+           "completion": "MAP_SPEED_FASTEST",
            "description": "constant gamespeed MAP_SPEED_FASTEST = ConvertGameSpeed(4)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SLOT_STATE_EMPTY": {
            "prefix": "cnPLAYER_SLOT_STATE_EMPTY",
            "body": "PLAYER_SLOT_STATE_EMPTY",
+           "completion": "PLAYER_SLOT_STATE_EMPTY",
            "description": "constant playerslotstate PLAYER_SLOT_STATE_EMPTY = ConvertPlayerSlotState(0)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SLOT_STATE_PLAYING": {
            "prefix": "cnPLAYER_SLOT_STATE_PLAYING",
            "body": "PLAYER_SLOT_STATE_PLAYING",
+           "completion": "PLAYER_SLOT_STATE_PLAYING",
            "description": "constant playerslotstate PLAYER_SLOT_STATE_PLAYING = ConvertPlayerSlotState(1)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SLOT_STATE_LEFT": {
            "prefix": "cnPLAYER_SLOT_STATE_LEFT",
            "body": "PLAYER_SLOT_STATE_LEFT",
+           "completion": "PLAYER_SLOT_STATE_LEFT",
            "description": "constant playerslotstate PLAYER_SLOT_STATE_LEFT = ConvertPlayerSlotState(2)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_UNITMOVEMENT": {
            "prefix": "cnSOUND_VOLUMEGROUP_UNITMOVEMENT",
            "body": "SOUND_VOLUMEGROUP_UNITMOVEMENT",
+           "completion": "SOUND_VOLUMEGROUP_UNITMOVEMENT",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_UNITMOVEMENT = ConvertVolumeGroup(0)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_UNITSOUNDS": {
            "prefix": "cnSOUND_VOLUMEGROUP_UNITSOUNDS",
            "body": "SOUND_VOLUMEGROUP_UNITSOUNDS",
+           "completion": "SOUND_VOLUMEGROUP_UNITSOUNDS",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_UNITSOUNDS = ConvertVolumeGroup(1)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_COMBAT": {
            "prefix": "cnSOUND_VOLUMEGROUP_COMBAT",
            "body": "SOUND_VOLUMEGROUP_COMBAT",
+           "completion": "SOUND_VOLUMEGROUP_COMBAT",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_COMBAT = ConvertVolumeGroup(2)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_SPELLS": {
            "prefix": "cnSOUND_VOLUMEGROUP_SPELLS",
            "body": "SOUND_VOLUMEGROUP_SPELLS",
+           "completion": "SOUND_VOLUMEGROUP_SPELLS",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_SPELLS = ConvertVolumeGroup(3)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_UI": {
            "prefix": "cnSOUND_VOLUMEGROUP_UI",
            "body": "SOUND_VOLUMEGROUP_UI",
+           "completion": "SOUND_VOLUMEGROUP_UI",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_UI = ConvertVolumeGroup(4)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_MUSIC": {
            "prefix": "cnSOUND_VOLUMEGROUP_MUSIC",
            "body": "SOUND_VOLUMEGROUP_MUSIC",
+           "completion": "SOUND_VOLUMEGROUP_MUSIC",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_MUSIC = ConvertVolumeGroup(5)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_AMBIENTSOUNDS": {
            "prefix": "cnSOUND_VOLUMEGROUP_AMBIENTSOUNDS",
            "body": "SOUND_VOLUMEGROUP_AMBIENTSOUNDS",
+           "completion": "SOUND_VOLUMEGROUP_AMBIENTSOUNDS",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_AMBIENTSOUNDS = ConvertVolumeGroup(6)",
            "scope": "source.vjass"
        },
         "cnSOUND_VOLUMEGROUP_FIRE": {
            "prefix": "cnSOUND_VOLUMEGROUP_FIRE",
            "body": "SOUND_VOLUMEGROUP_FIRE",
+           "completion": "SOUND_VOLUMEGROUP_FIRE",
            "description": "constant volumegroup SOUND_VOLUMEGROUP_FIRE = ConvertVolumeGroup(7)",
            "scope": "source.vjass"
        },
         "cnGAME_STATE_DIVINE_INTERVENTION": {
            "prefix": "cnGAME_STATE_DIVINE_INTERVENTION",
            "body": "GAME_STATE_DIVINE_INTERVENTION",
+           "completion": "GAME_STATE_DIVINE_INTERVENTION",
            "description": "constant igamestate GAME_STATE_DIVINE_INTERVENTION = ConvertIGameState(0)",
            "scope": "source.vjass"
        },
         "cnGAME_STATE_DISCONNECTED": {
            "prefix": "cnGAME_STATE_DISCONNECTED",
            "body": "GAME_STATE_DISCONNECTED",
+           "completion": "GAME_STATE_DISCONNECTED",
            "description": "constant igamestate GAME_STATE_DISCONNECTED = ConvertIGameState(1)",
            "scope": "source.vjass"
        },
         "cnGAME_STATE_TIME_OF_DAY": {
            "prefix": "cnGAME_STATE_TIME_OF_DAY",
            "body": "GAME_STATE_TIME_OF_DAY",
+           "completion": "GAME_STATE_TIME_OF_DAY",
            "description": "constant fgamestate GAME_STATE_TIME_OF_DAY = ConvertFGameState(2)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_GAME_RESULT": {
            "prefix": "cnPLAYER_STATE_GAME_RESULT",
            "body": "PLAYER_STATE_GAME_RESULT",
+           "completion": "PLAYER_STATE_GAME_RESULT",
            "description": "constant playerstate PLAYER_STATE_GAME_RESULT = ConvertPlayerState(0)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_RESOURCE_GOLD": {
            "prefix": "cnPLAYER_STATE_RESOURCE_GOLD",
            "body": "PLAYER_STATE_RESOURCE_GOLD",
+           "completion": "PLAYER_STATE_RESOURCE_GOLD",
            "description": "constant playerstate PLAYER_STATE_RESOURCE_GOLD = ConvertPlayerState(1)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_RESOURCE_LUMBER": {
            "prefix": "cnPLAYER_STATE_RESOURCE_LUMBER",
            "body": "PLAYER_STATE_RESOURCE_LUMBER",
+           "completion": "PLAYER_STATE_RESOURCE_LUMBER",
            "description": "constant playerstate PLAYER_STATE_RESOURCE_LUMBER = ConvertPlayerState(2)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_RESOURCE_HERO_TOKENS": {
            "prefix": "cnPLAYER_STATE_RESOURCE_HERO_TOKENS",
            "body": "PLAYER_STATE_RESOURCE_HERO_TOKENS",
+           "completion": "PLAYER_STATE_RESOURCE_HERO_TOKENS",
            "description": "constant playerstate PLAYER_STATE_RESOURCE_HERO_TOKENS = ConvertPlayerState(3)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_RESOURCE_FOOD_CAP": {
            "prefix": "cnPLAYER_STATE_RESOURCE_FOOD_CAP",
            "body": "PLAYER_STATE_RESOURCE_FOOD_CAP",
+           "completion": "PLAYER_STATE_RESOURCE_FOOD_CAP",
            "description": "constant playerstate PLAYER_STATE_RESOURCE_FOOD_CAP = ConvertPlayerState(4)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_RESOURCE_FOOD_USED": {
            "prefix": "cnPLAYER_STATE_RESOURCE_FOOD_USED",
            "body": "PLAYER_STATE_RESOURCE_FOOD_USED",
+           "completion": "PLAYER_STATE_RESOURCE_FOOD_USED",
            "description": "constant playerstate PLAYER_STATE_RESOURCE_FOOD_USED = ConvertPlayerState(5)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_FOOD_CAP_CEILING": {
            "prefix": "cnPLAYER_STATE_FOOD_CAP_CEILING",
            "body": "PLAYER_STATE_FOOD_CAP_CEILING",
+           "completion": "PLAYER_STATE_FOOD_CAP_CEILING",
            "description": "constant playerstate PLAYER_STATE_FOOD_CAP_CEILING = ConvertPlayerState(6)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_GIVES_BOUNTY": {
            "prefix": "cnPLAYER_STATE_GIVES_BOUNTY",
            "body": "PLAYER_STATE_GIVES_BOUNTY",
+           "completion": "PLAYER_STATE_GIVES_BOUNTY",
            "description": "constant playerstate PLAYER_STATE_GIVES_BOUNTY = ConvertPlayerState(7)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_ALLIED_VICTORY": {
            "prefix": "cnPLAYER_STATE_ALLIED_VICTORY",
            "body": "PLAYER_STATE_ALLIED_VICTORY",
+           "completion": "PLAYER_STATE_ALLIED_VICTORY",
            "description": "constant playerstate PLAYER_STATE_ALLIED_VICTORY = ConvertPlayerState(8)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_PLACED": {
            "prefix": "cnPLAYER_STATE_PLACED",
            "body": "PLAYER_STATE_PLACED",
+           "completion": "PLAYER_STATE_PLACED",
            "description": "constant playerstate PLAYER_STATE_PLACED = ConvertPlayerState(9)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_OBSERVER_ON_DEATH": {
            "prefix": "cnPLAYER_STATE_OBSERVER_ON_DEATH",
            "body": "PLAYER_STATE_OBSERVER_ON_DEATH",
+           "completion": "PLAYER_STATE_OBSERVER_ON_DEATH",
            "description": "constant playerstate PLAYER_STATE_OBSERVER_ON_DEATH = ConvertPlayerState(10)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_OBSERVER": {
            "prefix": "cnPLAYER_STATE_OBSERVER",
            "body": "PLAYER_STATE_OBSERVER",
+           "completion": "PLAYER_STATE_OBSERVER",
            "description": "constant playerstate PLAYER_STATE_OBSERVER = ConvertPlayerState(11)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_UNFOLLOWABLE": {
            "prefix": "cnPLAYER_STATE_UNFOLLOWABLE",
            "body": "PLAYER_STATE_UNFOLLOWABLE",
+           "completion": "PLAYER_STATE_UNFOLLOWABLE",
            "description": "constant playerstate PLAYER_STATE_UNFOLLOWABLE = ConvertPlayerState(12)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_GOLD_UPKEEP_RATE": {
            "prefix": "cnPLAYER_STATE_GOLD_UPKEEP_RATE",
            "body": "PLAYER_STATE_GOLD_UPKEEP_RATE",
+           "completion": "PLAYER_STATE_GOLD_UPKEEP_RATE",
            "description": "constant playerstate PLAYER_STATE_GOLD_UPKEEP_RATE = ConvertPlayerState(13)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_LUMBER_UPKEEP_RATE": {
            "prefix": "cnPLAYER_STATE_LUMBER_UPKEEP_RATE",
            "body": "PLAYER_STATE_LUMBER_UPKEEP_RATE",
+           "completion": "PLAYER_STATE_LUMBER_UPKEEP_RATE",
            "description": "constant playerstate PLAYER_STATE_LUMBER_UPKEEP_RATE = ConvertPlayerState(14)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_GOLD_GATHERED": {
            "prefix": "cnPLAYER_STATE_GOLD_GATHERED",
            "body": "PLAYER_STATE_GOLD_GATHERED",
+           "completion": "PLAYER_STATE_GOLD_GATHERED",
            "description": "constant playerstate PLAYER_STATE_GOLD_GATHERED = ConvertPlayerState(15)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_LUMBER_GATHERED": {
            "prefix": "cnPLAYER_STATE_LUMBER_GATHERED",
            "body": "PLAYER_STATE_LUMBER_GATHERED",
+           "completion": "PLAYER_STATE_LUMBER_GATHERED",
            "description": "constant playerstate PLAYER_STATE_LUMBER_GATHERED = ConvertPlayerState(16)",
            "scope": "source.vjass"
        },
         "cnPLAYER_STATE_NO_CREEP_SLEEP": {
            "prefix": "cnPLAYER_STATE_NO_CREEP_SLEEP",
            "body": "PLAYER_STATE_NO_CREEP_SLEEP",
+           "completion": "PLAYER_STATE_NO_CREEP_SLEEP",
            "description": "constant playerstate PLAYER_STATE_NO_CREEP_SLEEP = ConvertPlayerState(25)",
            "scope": "source.vjass"
        },
         "cnUNIT_STATE_LIFE": {
            "prefix": "cnUNIT_STATE_LIFE",
            "body": "UNIT_STATE_LIFE",
+           "completion": "UNIT_STATE_LIFE",
            "description": "constant unitstate UNIT_STATE_LIFE = ConvertUnitState(0)",
            "scope": "source.vjass"
        },
         "cnUNIT_STATE_MAX_LIFE": {
            "prefix": "cnUNIT_STATE_MAX_LIFE",
            "body": "UNIT_STATE_MAX_LIFE",
+           "completion": "UNIT_STATE_MAX_LIFE",
            "description": "constant unitstate UNIT_STATE_MAX_LIFE = ConvertUnitState(1)",
            "scope": "source.vjass"
        },
         "cnUNIT_STATE_MANA": {
            "prefix": "cnUNIT_STATE_MANA",
            "body": "UNIT_STATE_MANA",
+           "completion": "UNIT_STATE_MANA",
            "description": "constant unitstate UNIT_STATE_MANA = ConvertUnitState(2)",
            "scope": "source.vjass"
        },
         "cnUNIT_STATE_MAX_MANA": {
            "prefix": "cnUNIT_STATE_MAX_MANA",
            "body": "UNIT_STATE_MAX_MANA",
+           "completion": "UNIT_STATE_MAX_MANA",
            "description": "constant unitstate UNIT_STATE_MAX_MANA = ConvertUnitState(3)",
            "scope": "source.vjass"
        },
         "cnAI_DIFFICULTY_NEWBIE": {
            "prefix": "cnAI_DIFFICULTY_NEWBIE",
            "body": "AI_DIFFICULTY_NEWBIE",
+           "completion": "AI_DIFFICULTY_NEWBIE",
            "description": "constant aidifficulty AI_DIFFICULTY_NEWBIE = ConvertAIDifficulty(0)",
            "scope": "source.vjass"
        },
         "cnAI_DIFFICULTY_NORMAL": {
            "prefix": "cnAI_DIFFICULTY_NORMAL",
            "body": "AI_DIFFICULTY_NORMAL",
+           "completion": "AI_DIFFICULTY_NORMAL",
            "description": "constant aidifficulty AI_DIFFICULTY_NORMAL = ConvertAIDifficulty(1)",
            "scope": "source.vjass"
        },
         "cnAI_DIFFICULTY_INSANE": {
            "prefix": "cnAI_DIFFICULTY_INSANE",
            "body": "AI_DIFFICULTY_INSANE",
+           "completion": "AI_DIFFICULTY_INSANE",
            "description": "constant aidifficulty AI_DIFFICULTY_INSANE = ConvertAIDifficulty(2)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_UNITS_TRAINED": {
            "prefix": "cnPLAYER_SCORE_UNITS_TRAINED",
            "body": "PLAYER_SCORE_UNITS_TRAINED",
+           "completion": "PLAYER_SCORE_UNITS_TRAINED",
            "description": "constant playerscore PLAYER_SCORE_UNITS_TRAINED = ConvertPlayerScore(0)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_UNITS_KILLED": {
            "prefix": "cnPLAYER_SCORE_UNITS_KILLED",
            "body": "PLAYER_SCORE_UNITS_KILLED",
+           "completion": "PLAYER_SCORE_UNITS_KILLED",
            "description": "constant playerscore PLAYER_SCORE_UNITS_KILLED = ConvertPlayerScore(1)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_STRUCT_BUILT": {
            "prefix": "cnPLAYER_SCORE_STRUCT_BUILT",
            "body": "PLAYER_SCORE_STRUCT_BUILT",
+           "completion": "PLAYER_SCORE_STRUCT_BUILT",
            "description": "constant playerscore PLAYER_SCORE_STRUCT_BUILT = ConvertPlayerScore(2)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_STRUCT_RAZED": {
            "prefix": "cnPLAYER_SCORE_STRUCT_RAZED",
            "body": "PLAYER_SCORE_STRUCT_RAZED",
+           "completion": "PLAYER_SCORE_STRUCT_RAZED",
            "description": "constant playerscore PLAYER_SCORE_STRUCT_RAZED = ConvertPlayerScore(3)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_TECH_PERCENT": {
            "prefix": "cnPLAYER_SCORE_TECH_PERCENT",
            "body": "PLAYER_SCORE_TECH_PERCENT",
+           "completion": "PLAYER_SCORE_TECH_PERCENT",
            "description": "constant playerscore PLAYER_SCORE_TECH_PERCENT = ConvertPlayerScore(4)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_FOOD_MAXPROD": {
            "prefix": "cnPLAYER_SCORE_FOOD_MAXPROD",
            "body": "PLAYER_SCORE_FOOD_MAXPROD",
+           "completion": "PLAYER_SCORE_FOOD_MAXPROD",
            "description": "constant playerscore PLAYER_SCORE_FOOD_MAXPROD = ConvertPlayerScore(5)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_FOOD_MAXUSED": {
            "prefix": "cnPLAYER_SCORE_FOOD_MAXUSED",
            "body": "PLAYER_SCORE_FOOD_MAXUSED",
+           "completion": "PLAYER_SCORE_FOOD_MAXUSED",
            "description": "constant playerscore PLAYER_SCORE_FOOD_MAXUSED = ConvertPlayerScore(6)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_HEROES_KILLED": {
            "prefix": "cnPLAYER_SCORE_HEROES_KILLED",
            "body": "PLAYER_SCORE_HEROES_KILLED",
+           "completion": "PLAYER_SCORE_HEROES_KILLED",
            "description": "constant playerscore PLAYER_SCORE_HEROES_KILLED = ConvertPlayerScore(7)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_ITEMS_GAINED": {
            "prefix": "cnPLAYER_SCORE_ITEMS_GAINED",
            "body": "PLAYER_SCORE_ITEMS_GAINED",
+           "completion": "PLAYER_SCORE_ITEMS_GAINED",
            "description": "constant playerscore PLAYER_SCORE_ITEMS_GAINED = ConvertPlayerScore(8)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_MERCS_HIRED": {
            "prefix": "cnPLAYER_SCORE_MERCS_HIRED",
            "body": "PLAYER_SCORE_MERCS_HIRED",
+           "completion": "PLAYER_SCORE_MERCS_HIRED",
            "description": "constant playerscore PLAYER_SCORE_MERCS_HIRED = ConvertPlayerScore(9)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_GOLD_MINED_TOTAL": {
            "prefix": "cnPLAYER_SCORE_GOLD_MINED_TOTAL",
            "body": "PLAYER_SCORE_GOLD_MINED_TOTAL",
+           "completion": "PLAYER_SCORE_GOLD_MINED_TOTAL",
            "description": "constant playerscore PLAYER_SCORE_GOLD_MINED_TOTAL = ConvertPlayerScore(10)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_GOLD_MINED_UPKEEP": {
            "prefix": "cnPLAYER_SCORE_GOLD_MINED_UPKEEP",
            "body": "PLAYER_SCORE_GOLD_MINED_UPKEEP",
+           "completion": "PLAYER_SCORE_GOLD_MINED_UPKEEP",
            "description": "constant playerscore PLAYER_SCORE_GOLD_MINED_UPKEEP = ConvertPlayerScore(11)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_GOLD_LOST_UPKEEP": {
            "prefix": "cnPLAYER_SCORE_GOLD_LOST_UPKEEP",
            "body": "PLAYER_SCORE_GOLD_LOST_UPKEEP",
+           "completion": "PLAYER_SCORE_GOLD_LOST_UPKEEP",
            "description": "constant playerscore PLAYER_SCORE_GOLD_LOST_UPKEEP = ConvertPlayerScore(12)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_GOLD_LOST_TAX": {
            "prefix": "cnPLAYER_SCORE_GOLD_LOST_TAX",
            "body": "PLAYER_SCORE_GOLD_LOST_TAX",
+           "completion": "PLAYER_SCORE_GOLD_LOST_TAX",
            "description": "constant playerscore PLAYER_SCORE_GOLD_LOST_TAX = ConvertPlayerScore(13)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_GOLD_GIVEN": {
            "prefix": "cnPLAYER_SCORE_GOLD_GIVEN",
            "body": "PLAYER_SCORE_GOLD_GIVEN",
+           "completion": "PLAYER_SCORE_GOLD_GIVEN",
            "description": "constant playerscore PLAYER_SCORE_GOLD_GIVEN = ConvertPlayerScore(14)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_GOLD_RECEIVED": {
            "prefix": "cnPLAYER_SCORE_GOLD_RECEIVED",
            "body": "PLAYER_SCORE_GOLD_RECEIVED",
+           "completion": "PLAYER_SCORE_GOLD_RECEIVED",
            "description": "constant playerscore PLAYER_SCORE_GOLD_RECEIVED = ConvertPlayerScore(15)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_LUMBER_TOTAL": {
            "prefix": "cnPLAYER_SCORE_LUMBER_TOTAL",
            "body": "PLAYER_SCORE_LUMBER_TOTAL",
+           "completion": "PLAYER_SCORE_LUMBER_TOTAL",
            "description": "constant playerscore PLAYER_SCORE_LUMBER_TOTAL = ConvertPlayerScore(16)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_LUMBER_LOST_UPKEEP": {
            "prefix": "cnPLAYER_SCORE_LUMBER_LOST_UPKEEP",
            "body": "PLAYER_SCORE_LUMBER_LOST_UPKEEP",
+           "completion": "PLAYER_SCORE_LUMBER_LOST_UPKEEP",
            "description": "constant playerscore PLAYER_SCORE_LUMBER_LOST_UPKEEP = ConvertPlayerScore(17)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_LUMBER_LOST_TAX": {
            "prefix": "cnPLAYER_SCORE_LUMBER_LOST_TAX",
            "body": "PLAYER_SCORE_LUMBER_LOST_TAX",
+           "completion": "PLAYER_SCORE_LUMBER_LOST_TAX",
            "description": "constant playerscore PLAYER_SCORE_LUMBER_LOST_TAX = ConvertPlayerScore(18)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_LUMBER_GIVEN": {
            "prefix": "cnPLAYER_SCORE_LUMBER_GIVEN",
            "body": "PLAYER_SCORE_LUMBER_GIVEN",
+           "completion": "PLAYER_SCORE_LUMBER_GIVEN",
            "description": "constant playerscore PLAYER_SCORE_LUMBER_GIVEN = ConvertPlayerScore(19)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_LUMBER_RECEIVED": {
            "prefix": "cnPLAYER_SCORE_LUMBER_RECEIVED",
            "body": "PLAYER_SCORE_LUMBER_RECEIVED",
+           "completion": "PLAYER_SCORE_LUMBER_RECEIVED",
            "description": "constant playerscore PLAYER_SCORE_LUMBER_RECEIVED = ConvertPlayerScore(20)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_UNIT_TOTAL": {
            "prefix": "cnPLAYER_SCORE_UNIT_TOTAL",
            "body": "PLAYER_SCORE_UNIT_TOTAL",
+           "completion": "PLAYER_SCORE_UNIT_TOTAL",
            "description": "constant playerscore PLAYER_SCORE_UNIT_TOTAL = ConvertPlayerScore(21)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_HERO_TOTAL": {
            "prefix": "cnPLAYER_SCORE_HERO_TOTAL",
            "body": "PLAYER_SCORE_HERO_TOTAL",
+           "completion": "PLAYER_SCORE_HERO_TOTAL",
            "description": "constant playerscore PLAYER_SCORE_HERO_TOTAL = ConvertPlayerScore(22)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_RESOURCE_TOTAL": {
            "prefix": "cnPLAYER_SCORE_RESOURCE_TOTAL",
            "body": "PLAYER_SCORE_RESOURCE_TOTAL",
+           "completion": "PLAYER_SCORE_RESOURCE_TOTAL",
            "description": "constant playerscore PLAYER_SCORE_RESOURCE_TOTAL = ConvertPlayerScore(23)",
            "scope": "source.vjass"
        },
         "cnPLAYER_SCORE_TOTAL": {
            "prefix": "cnPLAYER_SCORE_TOTAL",
            "body": "PLAYER_SCORE_TOTAL",
+           "completion": "PLAYER_SCORE_TOTAL",
            "description": "constant playerscore PLAYER_SCORE_TOTAL = ConvertPlayerScore(24)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_VICTORY": {
            "prefix": "cnEVENT_GAME_VICTORY",
            "body": "EVENT_GAME_VICTORY",
+           "completion": "EVENT_GAME_VICTORY",
            "description": "constant gameevent EVENT_GAME_VICTORY = ConvertGameEvent(0)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_END_LEVEL": {
            "prefix": "cnEVENT_GAME_END_LEVEL",
            "body": "EVENT_GAME_END_LEVEL",
+           "completion": "EVENT_GAME_END_LEVEL",
            "description": "constant gameevent EVENT_GAME_END_LEVEL = ConvertGameEvent(1)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_VARIABLE_LIMIT": {
            "prefix": "cnEVENT_GAME_VARIABLE_LIMIT",
            "body": "EVENT_GAME_VARIABLE_LIMIT",
+           "completion": "EVENT_GAME_VARIABLE_LIMIT",
            "description": "constant gameevent EVENT_GAME_VARIABLE_LIMIT = ConvertGameEvent(2)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_STATE_LIMIT": {
            "prefix": "cnEVENT_GAME_STATE_LIMIT",
            "body": "EVENT_GAME_STATE_LIMIT",
+           "completion": "EVENT_GAME_STATE_LIMIT",
            "description": "constant gameevent EVENT_GAME_STATE_LIMIT = ConvertGameEvent(3)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_TIMER_EXPIRED": {
            "prefix": "cnEVENT_GAME_TIMER_EXPIRED",
            "body": "EVENT_GAME_TIMER_EXPIRED",
+           "completion": "EVENT_GAME_TIMER_EXPIRED",
            "description": "constant gameevent EVENT_GAME_TIMER_EXPIRED = ConvertGameEvent(4)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_ENTER_REGION": {
            "prefix": "cnEVENT_GAME_ENTER_REGION",
            "body": "EVENT_GAME_ENTER_REGION",
+           "completion": "EVENT_GAME_ENTER_REGION",
            "description": "constant gameevent EVENT_GAME_ENTER_REGION = ConvertGameEvent(5)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_LEAVE_REGION": {
            "prefix": "cnEVENT_GAME_LEAVE_REGION",
            "body": "EVENT_GAME_LEAVE_REGION",
+           "completion": "EVENT_GAME_LEAVE_REGION",
            "description": "constant gameevent EVENT_GAME_LEAVE_REGION = ConvertGameEvent(6)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_TRACKABLE_HIT": {
            "prefix": "cnEVENT_GAME_TRACKABLE_HIT",
            "body": "EVENT_GAME_TRACKABLE_HIT",
+           "completion": "EVENT_GAME_TRACKABLE_HIT",
            "description": "constant gameevent EVENT_GAME_TRACKABLE_HIT = ConvertGameEvent(7)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_TRACKABLE_TRACK": {
            "prefix": "cnEVENT_GAME_TRACKABLE_TRACK",
            "body": "EVENT_GAME_TRACKABLE_TRACK",
+           "completion": "EVENT_GAME_TRACKABLE_TRACK",
            "description": "constant gameevent EVENT_GAME_TRACKABLE_TRACK = ConvertGameEvent(8)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_SHOW_SKILL": {
            "prefix": "cnEVENT_GAME_SHOW_SKILL",
            "body": "EVENT_GAME_SHOW_SKILL",
+           "completion": "EVENT_GAME_SHOW_SKILL",
            "description": "constant gameevent EVENT_GAME_SHOW_SKILL = ConvertGameEvent(9)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_BUILD_SUBMENU": {
            "prefix": "cnEVENT_GAME_BUILD_SUBMENU",
            "body": "EVENT_GAME_BUILD_SUBMENU",
+           "completion": "EVENT_GAME_BUILD_SUBMENU",
            "description": "constant gameevent EVENT_GAME_BUILD_SUBMENU = ConvertGameEvent(10)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_STATE_LIMIT": {
            "prefix": "cnEVENT_PLAYER_STATE_LIMIT",
            "body": "EVENT_PLAYER_STATE_LIMIT",
+           "completion": "EVENT_PLAYER_STATE_LIMIT",
            "description": "constant playerevent EVENT_PLAYER_STATE_LIMIT = ConvertPlayerEvent(11)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ALLIANCE_CHANGED": {
            "prefix": "cnEVENT_PLAYER_ALLIANCE_CHANGED",
            "body": "EVENT_PLAYER_ALLIANCE_CHANGED",
+           "completion": "EVENT_PLAYER_ALLIANCE_CHANGED",
            "description": "constant playerevent EVENT_PLAYER_ALLIANCE_CHANGED = ConvertPlayerEvent(12)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_DEFEAT": {
            "prefix": "cnEVENT_PLAYER_DEFEAT",
            "body": "EVENT_PLAYER_DEFEAT",
+           "completion": "EVENT_PLAYER_DEFEAT",
            "description": "constant playerevent EVENT_PLAYER_DEFEAT = ConvertPlayerEvent(13)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_VICTORY": {
            "prefix": "cnEVENT_PLAYER_VICTORY",
            "body": "EVENT_PLAYER_VICTORY",
+           "completion": "EVENT_PLAYER_VICTORY",
            "description": "constant playerevent EVENT_PLAYER_VICTORY = ConvertPlayerEvent(14)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_LEAVE": {
            "prefix": "cnEVENT_PLAYER_LEAVE",
            "body": "EVENT_PLAYER_LEAVE",
+           "completion": "EVENT_PLAYER_LEAVE",
            "description": "constant playerevent EVENT_PLAYER_LEAVE = ConvertPlayerEvent(15)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_CHAT": {
            "prefix": "cnEVENT_PLAYER_CHAT",
            "body": "EVENT_PLAYER_CHAT",
+           "completion": "EVENT_PLAYER_CHAT",
            "description": "constant playerevent EVENT_PLAYER_CHAT = ConvertPlayerEvent(16)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_END_CINEMATIC": {
            "prefix": "cnEVENT_PLAYER_END_CINEMATIC",
            "body": "EVENT_PLAYER_END_CINEMATIC",
+           "completion": "EVENT_PLAYER_END_CINEMATIC",
            "description": "constant playerevent EVENT_PLAYER_END_CINEMATIC = ConvertPlayerEvent(17)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_ATTACKED": {
            "prefix": "cnEVENT_PLAYER_UNIT_ATTACKED",
            "body": "EVENT_PLAYER_UNIT_ATTACKED",
+           "completion": "EVENT_PLAYER_UNIT_ATTACKED",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_ATTACKED = ConvertPlayerUnitEvent(18)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_RESCUED": {
            "prefix": "cnEVENT_PLAYER_UNIT_RESCUED",
            "body": "EVENT_PLAYER_UNIT_RESCUED",
+           "completion": "EVENT_PLAYER_UNIT_RESCUED",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_RESCUED = ConvertPlayerUnitEvent(19)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_DEATH": {
            "prefix": "cnEVENT_PLAYER_UNIT_DEATH",
            "body": "EVENT_PLAYER_UNIT_DEATH",
+           "completion": "EVENT_PLAYER_UNIT_DEATH",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_DEATH = ConvertPlayerUnitEvent(20)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_DECAY": {
            "prefix": "cnEVENT_PLAYER_UNIT_DECAY",
            "body": "EVENT_PLAYER_UNIT_DECAY",
+           "completion": "EVENT_PLAYER_UNIT_DECAY",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_DECAY = ConvertPlayerUnitEvent(21)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_DETECTED": {
            "prefix": "cnEVENT_PLAYER_UNIT_DETECTED",
            "body": "EVENT_PLAYER_UNIT_DETECTED",
+           "completion": "EVENT_PLAYER_UNIT_DETECTED",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_DETECTED = ConvertPlayerUnitEvent(22)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_HIDDEN": {
            "prefix": "cnEVENT_PLAYER_UNIT_HIDDEN",
            "body": "EVENT_PLAYER_UNIT_HIDDEN",
+           "completion": "EVENT_PLAYER_UNIT_HIDDEN",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_HIDDEN = ConvertPlayerUnitEvent(23)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SELECTED": {
            "prefix": "cnEVENT_PLAYER_UNIT_SELECTED",
            "body": "EVENT_PLAYER_UNIT_SELECTED",
+           "completion": "EVENT_PLAYER_UNIT_SELECTED",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SELECTED = ConvertPlayerUnitEvent(24)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_DESELECTED": {
            "prefix": "cnEVENT_PLAYER_UNIT_DESELECTED",
            "body": "EVENT_PLAYER_UNIT_DESELECTED",
+           "completion": "EVENT_PLAYER_UNIT_DESELECTED",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_DESELECTED = ConvertPlayerUnitEvent(25)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_CONSTRUCT_START": {
            "prefix": "cnEVENT_PLAYER_UNIT_CONSTRUCT_START",
            "body": "EVENT_PLAYER_UNIT_CONSTRUCT_START",
+           "completion": "EVENT_PLAYER_UNIT_CONSTRUCT_START",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_CONSTRUCT_START = ConvertPlayerUnitEvent(26)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_CONSTRUCT_CANCEL": {
            "prefix": "cnEVENT_PLAYER_UNIT_CONSTRUCT_CANCEL",
            "body": "EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL",
+           "completion": "EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL = ConvertPlayerUnitEvent(27)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_CONSTRUCT_FINISH": {
            "prefix": "cnEVENT_PLAYER_UNIT_CONSTRUCT_FINISH",
            "body": "EVENT_PLAYER_UNIT_CONSTRUCT_FINISH",
+           "completion": "EVENT_PLAYER_UNIT_CONSTRUCT_FINISH",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_CONSTRUCT_FINISH = ConvertPlayerUnitEvent(28)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_UPGRADE_START": {
            "prefix": "cnEVENT_PLAYER_UNIT_UPGRADE_START",
            "body": "EVENT_PLAYER_UNIT_UPGRADE_START",
+           "completion": "EVENT_PLAYER_UNIT_UPGRADE_START",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_UPGRADE_START = ConvertPlayerUnitEvent(29)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_UPGRADE_CANCEL": {
            "prefix": "cnEVENT_PLAYER_UNIT_UPGRADE_CANCEL",
            "body": "EVENT_PLAYER_UNIT_UPGRADE_CANCEL",
+           "completion": "EVENT_PLAYER_UNIT_UPGRADE_CANCEL",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_UPGRADE_CANCEL = ConvertPlayerUnitEvent(30)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_UPGRADE_FINISH": {
            "prefix": "cnEVENT_PLAYER_UNIT_UPGRADE_FINISH",
            "body": "EVENT_PLAYER_UNIT_UPGRADE_FINISH",
+           "completion": "EVENT_PLAYER_UNIT_UPGRADE_FINISH",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_UPGRADE_FINISH = ConvertPlayerUnitEvent(31)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_TRAIN_START": {
            "prefix": "cnEVENT_PLAYER_UNIT_TRAIN_START",
            "body": "EVENT_PLAYER_UNIT_TRAIN_START",
+           "completion": "EVENT_PLAYER_UNIT_TRAIN_START",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_TRAIN_START = ConvertPlayerUnitEvent(32)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_TRAIN_CANCEL": {
            "prefix": "cnEVENT_PLAYER_UNIT_TRAIN_CANCEL",
            "body": "EVENT_PLAYER_UNIT_TRAIN_CANCEL",
+           "completion": "EVENT_PLAYER_UNIT_TRAIN_CANCEL",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_TRAIN_CANCEL = ConvertPlayerUnitEvent(33)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_TRAIN_FINISH": {
            "prefix": "cnEVENT_PLAYER_UNIT_TRAIN_FINISH",
            "body": "EVENT_PLAYER_UNIT_TRAIN_FINISH",
+           "completion": "EVENT_PLAYER_UNIT_TRAIN_FINISH",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_TRAIN_FINISH = ConvertPlayerUnitEvent(34)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_RESEARCH_START": {
            "prefix": "cnEVENT_PLAYER_UNIT_RESEARCH_START",
            "body": "EVENT_PLAYER_UNIT_RESEARCH_START",
+           "completion": "EVENT_PLAYER_UNIT_RESEARCH_START",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_RESEARCH_START = ConvertPlayerUnitEvent(35)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_RESEARCH_CANCEL": {
            "prefix": "cnEVENT_PLAYER_UNIT_RESEARCH_CANCEL",
            "body": "EVENT_PLAYER_UNIT_RESEARCH_CANCEL",
+           "completion": "EVENT_PLAYER_UNIT_RESEARCH_CANCEL",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_RESEARCH_CANCEL = ConvertPlayerUnitEvent(36)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_RESEARCH_FINISH": {
            "prefix": "cnEVENT_PLAYER_UNIT_RESEARCH_FINISH",
            "body": "EVENT_PLAYER_UNIT_RESEARCH_FINISH",
+           "completion": "EVENT_PLAYER_UNIT_RESEARCH_FINISH",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_RESEARCH_FINISH = ConvertPlayerUnitEvent(37)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_ISSUED_ORDER": {
            "prefix": "cnEVENT_PLAYER_UNIT_ISSUED_ORDER",
            "body": "EVENT_PLAYER_UNIT_ISSUED_ORDER",
+           "completion": "EVENT_PLAYER_UNIT_ISSUED_ORDER",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_ISSUED_ORDER = ConvertPlayerUnitEvent(38)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_ISSUED_POINT_ORDER": {
            "prefix": "cnEVENT_PLAYER_UNIT_ISSUED_POINT_ORDER",
            "body": "EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER",
+           "completion": "EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER = ConvertPlayerUnitEvent(39)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER": {
            "prefix": "cnEVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER",
            "body": "EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER",
+           "completion": "EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER = ConvertPlayerUnitEvent(40)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_ISSUED_UNIT_ORDER": {
            "prefix": "cnEVENT_PLAYER_UNIT_ISSUED_UNIT_ORDER",
            "body": "EVENT_PLAYER_UNIT_ISSUED_UNIT_ORDER",
+           "completion": "EVENT_PLAYER_UNIT_ISSUED_UNIT_ORDER",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_ISSUED_UNIT_ORDER = ConvertPlayerUnitEvent(40)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_HERO_LEVEL": {
            "prefix": "cnEVENT_PLAYER_HERO_LEVEL",
            "body": "EVENT_PLAYER_HERO_LEVEL",
+           "completion": "EVENT_PLAYER_HERO_LEVEL",
            "description": "constant playerunitevent EVENT_PLAYER_HERO_LEVEL = ConvertPlayerUnitEvent(41)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_HERO_SKILL": {
            "prefix": "cnEVENT_PLAYER_HERO_SKILL",
            "body": "EVENT_PLAYER_HERO_SKILL",
+           "completion": "EVENT_PLAYER_HERO_SKILL",
            "description": "constant playerunitevent EVENT_PLAYER_HERO_SKILL = ConvertPlayerUnitEvent(42)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_HERO_REVIVABLE": {
            "prefix": "cnEVENT_PLAYER_HERO_REVIVABLE",
            "body": "EVENT_PLAYER_HERO_REVIVABLE",
+           "completion": "EVENT_PLAYER_HERO_REVIVABLE",
            "description": "constant playerunitevent EVENT_PLAYER_HERO_REVIVABLE = ConvertPlayerUnitEvent(43)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_HERO_REVIVE_START": {
            "prefix": "cnEVENT_PLAYER_HERO_REVIVE_START",
            "body": "EVENT_PLAYER_HERO_REVIVE_START",
+           "completion": "EVENT_PLAYER_HERO_REVIVE_START",
            "description": "constant playerunitevent EVENT_PLAYER_HERO_REVIVE_START = ConvertPlayerUnitEvent(44)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_HERO_REVIVE_CANCEL": {
            "prefix": "cnEVENT_PLAYER_HERO_REVIVE_CANCEL",
            "body": "EVENT_PLAYER_HERO_REVIVE_CANCEL",
+           "completion": "EVENT_PLAYER_HERO_REVIVE_CANCEL",
            "description": "constant playerunitevent EVENT_PLAYER_HERO_REVIVE_CANCEL = ConvertPlayerUnitEvent(45)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_HERO_REVIVE_FINISH": {
            "prefix": "cnEVENT_PLAYER_HERO_REVIVE_FINISH",
            "body": "EVENT_PLAYER_HERO_REVIVE_FINISH",
+           "completion": "EVENT_PLAYER_HERO_REVIVE_FINISH",
            "description": "constant playerunitevent EVENT_PLAYER_HERO_REVIVE_FINISH = ConvertPlayerUnitEvent(46)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SUMMON": {
            "prefix": "cnEVENT_PLAYER_UNIT_SUMMON",
            "body": "EVENT_PLAYER_UNIT_SUMMON",
+           "completion": "EVENT_PLAYER_UNIT_SUMMON",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SUMMON = ConvertPlayerUnitEvent(47)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_DROP_ITEM": {
            "prefix": "cnEVENT_PLAYER_UNIT_DROP_ITEM",
            "body": "EVENT_PLAYER_UNIT_DROP_ITEM",
+           "completion": "EVENT_PLAYER_UNIT_DROP_ITEM",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_DROP_ITEM = ConvertPlayerUnitEvent(48)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_PICKUP_ITEM": {
            "prefix": "cnEVENT_PLAYER_UNIT_PICKUP_ITEM",
            "body": "EVENT_PLAYER_UNIT_PICKUP_ITEM",
+           "completion": "EVENT_PLAYER_UNIT_PICKUP_ITEM",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_PICKUP_ITEM = ConvertPlayerUnitEvent(49)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_USE_ITEM": {
            "prefix": "cnEVENT_PLAYER_UNIT_USE_ITEM",
            "body": "EVENT_PLAYER_UNIT_USE_ITEM",
+           "completion": "EVENT_PLAYER_UNIT_USE_ITEM",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_USE_ITEM = ConvertPlayerUnitEvent(50)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_LOADED": {
            "prefix": "cnEVENT_PLAYER_UNIT_LOADED",
            "body": "EVENT_PLAYER_UNIT_LOADED",
+           "completion": "EVENT_PLAYER_UNIT_LOADED",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_LOADED = ConvertPlayerUnitEvent(51)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_DAMAGED": {
            "prefix": "cnEVENT_UNIT_DAMAGED",
            "body": "EVENT_UNIT_DAMAGED",
+           "completion": "EVENT_UNIT_DAMAGED",
            "description": "constant unitevent EVENT_UNIT_DAMAGED = ConvertUnitEvent(52)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_DEATH": {
            "prefix": "cnEVENT_UNIT_DEATH",
            "body": "EVENT_UNIT_DEATH",
+           "completion": "EVENT_UNIT_DEATH",
            "description": "constant unitevent EVENT_UNIT_DEATH = ConvertUnitEvent(53)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_DECAY": {
            "prefix": "cnEVENT_UNIT_DECAY",
            "body": "EVENT_UNIT_DECAY",
+           "completion": "EVENT_UNIT_DECAY",
            "description": "constant unitevent EVENT_UNIT_DECAY = ConvertUnitEvent(54)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_DETECTED": {
            "prefix": "cnEVENT_UNIT_DETECTED",
            "body": "EVENT_UNIT_DETECTED",
+           "completion": "EVENT_UNIT_DETECTED",
            "description": "constant unitevent EVENT_UNIT_DETECTED = ConvertUnitEvent(55)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HIDDEN": {
            "prefix": "cnEVENT_UNIT_HIDDEN",
            "body": "EVENT_UNIT_HIDDEN",
+           "completion": "EVENT_UNIT_HIDDEN",
            "description": "constant unitevent EVENT_UNIT_HIDDEN = ConvertUnitEvent(56)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SELECTED": {
            "prefix": "cnEVENT_UNIT_SELECTED",
            "body": "EVENT_UNIT_SELECTED",
+           "completion": "EVENT_UNIT_SELECTED",
            "description": "constant unitevent EVENT_UNIT_SELECTED = ConvertUnitEvent(57)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_DESELECTED": {
            "prefix": "cnEVENT_UNIT_DESELECTED",
            "body": "EVENT_UNIT_DESELECTED",
+           "completion": "EVENT_UNIT_DESELECTED",
            "description": "constant unitevent EVENT_UNIT_DESELECTED = ConvertUnitEvent(58)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_STATE_LIMIT": {
            "prefix": "cnEVENT_UNIT_STATE_LIMIT",
            "body": "EVENT_UNIT_STATE_LIMIT",
+           "completion": "EVENT_UNIT_STATE_LIMIT",
            "description": "constant unitevent EVENT_UNIT_STATE_LIMIT = ConvertUnitEvent(59)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_ACQUIRED_TARGET": {
            "prefix": "cnEVENT_UNIT_ACQUIRED_TARGET",
            "body": "EVENT_UNIT_ACQUIRED_TARGET",
+           "completion": "EVENT_UNIT_ACQUIRED_TARGET",
            "description": "constant unitevent EVENT_UNIT_ACQUIRED_TARGET = ConvertUnitEvent(60)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_TARGET_IN_RANGE": {
            "prefix": "cnEVENT_UNIT_TARGET_IN_RANGE",
            "body": "EVENT_UNIT_TARGET_IN_RANGE",
+           "completion": "EVENT_UNIT_TARGET_IN_RANGE",
            "description": "constant unitevent EVENT_UNIT_TARGET_IN_RANGE = ConvertUnitEvent(61)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_ATTACKED": {
            "prefix": "cnEVENT_UNIT_ATTACKED",
            "body": "EVENT_UNIT_ATTACKED",
+           "completion": "EVENT_UNIT_ATTACKED",
            "description": "constant unitevent EVENT_UNIT_ATTACKED = ConvertUnitEvent(62)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_RESCUED": {
            "prefix": "cnEVENT_UNIT_RESCUED",
            "body": "EVENT_UNIT_RESCUED",
+           "completion": "EVENT_UNIT_RESCUED",
            "description": "constant unitevent EVENT_UNIT_RESCUED = ConvertUnitEvent(63)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_CONSTRUCT_CANCEL": {
            "prefix": "cnEVENT_UNIT_CONSTRUCT_CANCEL",
            "body": "EVENT_UNIT_CONSTRUCT_CANCEL",
+           "completion": "EVENT_UNIT_CONSTRUCT_CANCEL",
            "description": "constant unitevent EVENT_UNIT_CONSTRUCT_CANCEL = ConvertUnitEvent(64)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_CONSTRUCT_FINISH": {
            "prefix": "cnEVENT_UNIT_CONSTRUCT_FINISH",
            "body": "EVENT_UNIT_CONSTRUCT_FINISH",
+           "completion": "EVENT_UNIT_CONSTRUCT_FINISH",
            "description": "constant unitevent EVENT_UNIT_CONSTRUCT_FINISH = ConvertUnitEvent(65)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_UPGRADE_START": {
            "prefix": "cnEVENT_UNIT_UPGRADE_START",
            "body": "EVENT_UNIT_UPGRADE_START",
+           "completion": "EVENT_UNIT_UPGRADE_START",
            "description": "constant unitevent EVENT_UNIT_UPGRADE_START = ConvertUnitEvent(66)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_UPGRADE_CANCEL": {
            "prefix": "cnEVENT_UNIT_UPGRADE_CANCEL",
            "body": "EVENT_UNIT_UPGRADE_CANCEL",
+           "completion": "EVENT_UNIT_UPGRADE_CANCEL",
            "description": "constant unitevent EVENT_UNIT_UPGRADE_CANCEL = ConvertUnitEvent(67)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_UPGRADE_FINISH": {
            "prefix": "cnEVENT_UNIT_UPGRADE_FINISH",
            "body": "EVENT_UNIT_UPGRADE_FINISH",
+           "completion": "EVENT_UNIT_UPGRADE_FINISH",
            "description": "constant unitevent EVENT_UNIT_UPGRADE_FINISH = ConvertUnitEvent(68)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_TRAIN_START": {
            "prefix": "cnEVENT_UNIT_TRAIN_START",
            "body": "EVENT_UNIT_TRAIN_START",
+           "completion": "EVENT_UNIT_TRAIN_START",
            "description": "constant unitevent EVENT_UNIT_TRAIN_START = ConvertUnitEvent(69)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_TRAIN_CANCEL": {
            "prefix": "cnEVENT_UNIT_TRAIN_CANCEL",
            "body": "EVENT_UNIT_TRAIN_CANCEL",
+           "completion": "EVENT_UNIT_TRAIN_CANCEL",
            "description": "constant unitevent EVENT_UNIT_TRAIN_CANCEL = ConvertUnitEvent(70)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_TRAIN_FINISH": {
            "prefix": "cnEVENT_UNIT_TRAIN_FINISH",
            "body": "EVENT_UNIT_TRAIN_FINISH",
+           "completion": "EVENT_UNIT_TRAIN_FINISH",
            "description": "constant unitevent EVENT_UNIT_TRAIN_FINISH = ConvertUnitEvent(71)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_RESEARCH_START": {
            "prefix": "cnEVENT_UNIT_RESEARCH_START",
            "body": "EVENT_UNIT_RESEARCH_START",
+           "completion": "EVENT_UNIT_RESEARCH_START",
            "description": "constant unitevent EVENT_UNIT_RESEARCH_START = ConvertUnitEvent(72)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_RESEARCH_CANCEL": {
            "prefix": "cnEVENT_UNIT_RESEARCH_CANCEL",
            "body": "EVENT_UNIT_RESEARCH_CANCEL",
+           "completion": "EVENT_UNIT_RESEARCH_CANCEL",
            "description": "constant unitevent EVENT_UNIT_RESEARCH_CANCEL = ConvertUnitEvent(73)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_RESEARCH_FINISH": {
            "prefix": "cnEVENT_UNIT_RESEARCH_FINISH",
            "body": "EVENT_UNIT_RESEARCH_FINISH",
+           "completion": "EVENT_UNIT_RESEARCH_FINISH",
            "description": "constant unitevent EVENT_UNIT_RESEARCH_FINISH = ConvertUnitEvent(74)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_ISSUED_ORDER": {
            "prefix": "cnEVENT_UNIT_ISSUED_ORDER",
            "body": "EVENT_UNIT_ISSUED_ORDER",
+           "completion": "EVENT_UNIT_ISSUED_ORDER",
            "description": "constant unitevent EVENT_UNIT_ISSUED_ORDER = ConvertUnitEvent(75)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_ISSUED_POINT_ORDER": {
            "prefix": "cnEVENT_UNIT_ISSUED_POINT_ORDER",
            "body": "EVENT_UNIT_ISSUED_POINT_ORDER",
+           "completion": "EVENT_UNIT_ISSUED_POINT_ORDER",
            "description": "constant unitevent EVENT_UNIT_ISSUED_POINT_ORDER = ConvertUnitEvent(76)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_ISSUED_TARGET_ORDER": {
            "prefix": "cnEVENT_UNIT_ISSUED_TARGET_ORDER",
            "body": "EVENT_UNIT_ISSUED_TARGET_ORDER",
+           "completion": "EVENT_UNIT_ISSUED_TARGET_ORDER",
            "description": "constant unitevent EVENT_UNIT_ISSUED_TARGET_ORDER = ConvertUnitEvent(77)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HERO_LEVEL": {
            "prefix": "cnEVENT_UNIT_HERO_LEVEL",
            "body": "EVENT_UNIT_HERO_LEVEL",
+           "completion": "EVENT_UNIT_HERO_LEVEL",
            "description": "constant unitevent EVENT_UNIT_HERO_LEVEL = ConvertUnitEvent(78)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HERO_SKILL": {
            "prefix": "cnEVENT_UNIT_HERO_SKILL",
            "body": "EVENT_UNIT_HERO_SKILL",
+           "completion": "EVENT_UNIT_HERO_SKILL",
            "description": "constant unitevent EVENT_UNIT_HERO_SKILL = ConvertUnitEvent(79)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HERO_REVIVABLE": {
            "prefix": "cnEVENT_UNIT_HERO_REVIVABLE",
            "body": "EVENT_UNIT_HERO_REVIVABLE",
+           "completion": "EVENT_UNIT_HERO_REVIVABLE",
            "description": "constant unitevent EVENT_UNIT_HERO_REVIVABLE = ConvertUnitEvent(80)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HERO_REVIVE_START": {
            "prefix": "cnEVENT_UNIT_HERO_REVIVE_START",
            "body": "EVENT_UNIT_HERO_REVIVE_START",
+           "completion": "EVENT_UNIT_HERO_REVIVE_START",
            "description": "constant unitevent EVENT_UNIT_HERO_REVIVE_START = ConvertUnitEvent(81)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HERO_REVIVE_CANCEL": {
            "prefix": "cnEVENT_UNIT_HERO_REVIVE_CANCEL",
            "body": "EVENT_UNIT_HERO_REVIVE_CANCEL",
+           "completion": "EVENT_UNIT_HERO_REVIVE_CANCEL",
            "description": "constant unitevent EVENT_UNIT_HERO_REVIVE_CANCEL = ConvertUnitEvent(82)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_HERO_REVIVE_FINISH": {
            "prefix": "cnEVENT_UNIT_HERO_REVIVE_FINISH",
            "body": "EVENT_UNIT_HERO_REVIVE_FINISH",
+           "completion": "EVENT_UNIT_HERO_REVIVE_FINISH",
            "description": "constant unitevent EVENT_UNIT_HERO_REVIVE_FINISH = ConvertUnitEvent(83)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SUMMON": {
            "prefix": "cnEVENT_UNIT_SUMMON",
            "body": "EVENT_UNIT_SUMMON",
+           "completion": "EVENT_UNIT_SUMMON",
            "description": "constant unitevent EVENT_UNIT_SUMMON = ConvertUnitEvent(84)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_DROP_ITEM": {
            "prefix": "cnEVENT_UNIT_DROP_ITEM",
            "body": "EVENT_UNIT_DROP_ITEM",
+           "completion": "EVENT_UNIT_DROP_ITEM",
            "description": "constant unitevent EVENT_UNIT_DROP_ITEM = ConvertUnitEvent(85)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_PICKUP_ITEM": {
            "prefix": "cnEVENT_UNIT_PICKUP_ITEM",
            "body": "EVENT_UNIT_PICKUP_ITEM",
+           "completion": "EVENT_UNIT_PICKUP_ITEM",
            "description": "constant unitevent EVENT_UNIT_PICKUP_ITEM = ConvertUnitEvent(86)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_USE_ITEM": {
            "prefix": "cnEVENT_UNIT_USE_ITEM",
            "body": "EVENT_UNIT_USE_ITEM",
+           "completion": "EVENT_UNIT_USE_ITEM",
            "description": "constant unitevent EVENT_UNIT_USE_ITEM = ConvertUnitEvent(87)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_LOADED": {
            "prefix": "cnEVENT_UNIT_LOADED",
            "body": "EVENT_UNIT_LOADED",
+           "completion": "EVENT_UNIT_LOADED",
            "description": "constant unitevent EVENT_UNIT_LOADED = ConvertUnitEvent(88)",
            "scope": "source.vjass"
        },
         "cnEVENT_WIDGET_DEATH": {
            "prefix": "cnEVENT_WIDGET_DEATH",
            "body": "EVENT_WIDGET_DEATH",
+           "completion": "EVENT_WIDGET_DEATH",
            "description": "constant widgetevent EVENT_WIDGET_DEATH = ConvertWidgetEvent(89)",
            "scope": "source.vjass"
        },
         "cnEVENT_DIALOG_BUTTON_CLICK": {
            "prefix": "cnEVENT_DIALOG_BUTTON_CLICK",
            "body": "EVENT_DIALOG_BUTTON_CLICK",
+           "completion": "EVENT_DIALOG_BUTTON_CLICK",
            "description": "constant dialogevent EVENT_DIALOG_BUTTON_CLICK = ConvertDialogEvent(90)",
            "scope": "source.vjass"
        },
         "cnEVENT_DIALOG_CLICK": {
            "prefix": "cnEVENT_DIALOG_CLICK",
            "body": "EVENT_DIALOG_CLICK",
+           "completion": "EVENT_DIALOG_CLICK",
            "description": "constant dialogevent EVENT_DIALOG_CLICK = ConvertDialogEvent(91)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_LOADED": {
            "prefix": "cnEVENT_GAME_LOADED",
            "body": "EVENT_GAME_LOADED",
+           "completion": "EVENT_GAME_LOADED",
            "description": "constant gameevent EVENT_GAME_LOADED = ConvertGameEvent(256)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_TOURNAMENT_FINISH_SOON": {
            "prefix": "cnEVENT_GAME_TOURNAMENT_FINISH_SOON",
            "body": "EVENT_GAME_TOURNAMENT_FINISH_SOON",
+           "completion": "EVENT_GAME_TOURNAMENT_FINISH_SOON",
            "description": "constant gameevent EVENT_GAME_TOURNAMENT_FINISH_SOON = ConvertGameEvent(257)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_TOURNAMENT_FINISH_NOW": {
            "prefix": "cnEVENT_GAME_TOURNAMENT_FINISH_NOW",
            "body": "EVENT_GAME_TOURNAMENT_FINISH_NOW",
+           "completion": "EVENT_GAME_TOURNAMENT_FINISH_NOW",
            "description": "constant gameevent EVENT_GAME_TOURNAMENT_FINISH_NOW = ConvertGameEvent(258)",
            "scope": "source.vjass"
        },
         "cnEVENT_GAME_SAVE": {
            "prefix": "cnEVENT_GAME_SAVE",
            "body": "EVENT_GAME_SAVE",
+           "completion": "EVENT_GAME_SAVE",
            "description": "constant gameevent EVENT_GAME_SAVE = ConvertGameEvent(259)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_LEFT_DOWN": {
            "prefix": "cnEVENT_PLAYER_ARROW_LEFT_DOWN",
            "body": "EVENT_PLAYER_ARROW_LEFT_DOWN",
+           "completion": "EVENT_PLAYER_ARROW_LEFT_DOWN",
            "description": "constant playerevent EVENT_PLAYER_ARROW_LEFT_DOWN = ConvertPlayerEvent(261)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_LEFT_UP": {
            "prefix": "cnEVENT_PLAYER_ARROW_LEFT_UP",
            "body": "EVENT_PLAYER_ARROW_LEFT_UP",
+           "completion": "EVENT_PLAYER_ARROW_LEFT_UP",
            "description": "constant playerevent EVENT_PLAYER_ARROW_LEFT_UP = ConvertPlayerEvent(262)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_RIGHT_DOWN": {
            "prefix": "cnEVENT_PLAYER_ARROW_RIGHT_DOWN",
            "body": "EVENT_PLAYER_ARROW_RIGHT_DOWN",
+           "completion": "EVENT_PLAYER_ARROW_RIGHT_DOWN",
            "description": "constant playerevent EVENT_PLAYER_ARROW_RIGHT_DOWN = ConvertPlayerEvent(263)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_RIGHT_UP": {
            "prefix": "cnEVENT_PLAYER_ARROW_RIGHT_UP",
            "body": "EVENT_PLAYER_ARROW_RIGHT_UP",
+           "completion": "EVENT_PLAYER_ARROW_RIGHT_UP",
            "description": "constant playerevent EVENT_PLAYER_ARROW_RIGHT_UP = ConvertPlayerEvent(264)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_DOWN_DOWN": {
            "prefix": "cnEVENT_PLAYER_ARROW_DOWN_DOWN",
            "body": "EVENT_PLAYER_ARROW_DOWN_DOWN",
+           "completion": "EVENT_PLAYER_ARROW_DOWN_DOWN",
            "description": "constant playerevent EVENT_PLAYER_ARROW_DOWN_DOWN = ConvertPlayerEvent(265)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_DOWN_UP": {
            "prefix": "cnEVENT_PLAYER_ARROW_DOWN_UP",
            "body": "EVENT_PLAYER_ARROW_DOWN_UP",
+           "completion": "EVENT_PLAYER_ARROW_DOWN_UP",
            "description": "constant playerevent EVENT_PLAYER_ARROW_DOWN_UP = ConvertPlayerEvent(266)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_UP_DOWN": {
            "prefix": "cnEVENT_PLAYER_ARROW_UP_DOWN",
            "body": "EVENT_PLAYER_ARROW_UP_DOWN",
+           "completion": "EVENT_PLAYER_ARROW_UP_DOWN",
            "description": "constant playerevent EVENT_PLAYER_ARROW_UP_DOWN = ConvertPlayerEvent(267)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_ARROW_UP_UP": {
            "prefix": "cnEVENT_PLAYER_ARROW_UP_UP",
            "body": "EVENT_PLAYER_ARROW_UP_UP",
+           "completion": "EVENT_PLAYER_ARROW_UP_UP",
            "description": "constant playerevent EVENT_PLAYER_ARROW_UP_UP = ConvertPlayerEvent(268)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SELL": {
            "prefix": "cnEVENT_PLAYER_UNIT_SELL",
            "body": "EVENT_PLAYER_UNIT_SELL",
+           "completion": "EVENT_PLAYER_UNIT_SELL",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SELL = ConvertPlayerUnitEvent(269)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_CHANGE_OWNER": {
            "prefix": "cnEVENT_PLAYER_UNIT_CHANGE_OWNER",
            "body": "EVENT_PLAYER_UNIT_CHANGE_OWNER",
+           "completion": "EVENT_PLAYER_UNIT_CHANGE_OWNER",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_CHANGE_OWNER = ConvertPlayerUnitEvent(270)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SELL_ITEM": {
            "prefix": "cnEVENT_PLAYER_UNIT_SELL_ITEM",
            "body": "EVENT_PLAYER_UNIT_SELL_ITEM",
+           "completion": "EVENT_PLAYER_UNIT_SELL_ITEM",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SELL_ITEM = ConvertPlayerUnitEvent(271)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SPELL_CHANNEL": {
            "prefix": "cnEVENT_PLAYER_UNIT_SPELL_CHANNEL",
            "body": "EVENT_PLAYER_UNIT_SPELL_CHANNEL",
+           "completion": "EVENT_PLAYER_UNIT_SPELL_CHANNEL",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SPELL_CHANNEL = ConvertPlayerUnitEvent(272)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SPELL_CAST": {
            "prefix": "cnEVENT_PLAYER_UNIT_SPELL_CAST",
            "body": "EVENT_PLAYER_UNIT_SPELL_CAST",
+           "completion": "EVENT_PLAYER_UNIT_SPELL_CAST",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SPELL_CAST = ConvertPlayerUnitEvent(273)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SPELL_EFFECT": {
            "prefix": "cnEVENT_PLAYER_UNIT_SPELL_EFFECT",
            "body": "EVENT_PLAYER_UNIT_SPELL_EFFECT",
+           "completion": "EVENT_PLAYER_UNIT_SPELL_EFFECT",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SPELL_EFFECT = ConvertPlayerUnitEvent(274)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SPELL_FINISH": {
            "prefix": "cnEVENT_PLAYER_UNIT_SPELL_FINISH",
            "body": "EVENT_PLAYER_UNIT_SPELL_FINISH",
+           "completion": "EVENT_PLAYER_UNIT_SPELL_FINISH",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SPELL_FINISH = ConvertPlayerUnitEvent(275)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_SPELL_ENDCAST": {
            "prefix": "cnEVENT_PLAYER_UNIT_SPELL_ENDCAST",
            "body": "EVENT_PLAYER_UNIT_SPELL_ENDCAST",
+           "completion": "EVENT_PLAYER_UNIT_SPELL_ENDCAST",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_SPELL_ENDCAST = ConvertPlayerUnitEvent(276)",
            "scope": "source.vjass"
        },
         "cnEVENT_PLAYER_UNIT_PAWN_ITEM": {
            "prefix": "cnEVENT_PLAYER_UNIT_PAWN_ITEM",
            "body": "EVENT_PLAYER_UNIT_PAWN_ITEM",
+           "completion": "EVENT_PLAYER_UNIT_PAWN_ITEM",
            "description": "constant playerunitevent EVENT_PLAYER_UNIT_PAWN_ITEM = ConvertPlayerUnitEvent(277)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SELL": {
            "prefix": "cnEVENT_UNIT_SELL",
            "body": "EVENT_UNIT_SELL",
+           "completion": "EVENT_UNIT_SELL",
            "description": "constant unitevent EVENT_UNIT_SELL = ConvertUnitEvent(286)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_CHANGE_OWNER": {
            "prefix": "cnEVENT_UNIT_CHANGE_OWNER",
            "body": "EVENT_UNIT_CHANGE_OWNER",
+           "completion": "EVENT_UNIT_CHANGE_OWNER",
            "description": "constant unitevent EVENT_UNIT_CHANGE_OWNER = ConvertUnitEvent(287)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SELL_ITEM": {
            "prefix": "cnEVENT_UNIT_SELL_ITEM",
            "body": "EVENT_UNIT_SELL_ITEM",
+           "completion": "EVENT_UNIT_SELL_ITEM",
            "description": "constant unitevent EVENT_UNIT_SELL_ITEM = ConvertUnitEvent(288)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SPELL_CHANNEL": {
            "prefix": "cnEVENT_UNIT_SPELL_CHANNEL",
            "body": "EVENT_UNIT_SPELL_CHANNEL",
+           "completion": "EVENT_UNIT_SPELL_CHANNEL",
            "description": "constant unitevent EVENT_UNIT_SPELL_CHANNEL = ConvertUnitEvent(289)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SPELL_CAST": {
            "prefix": "cnEVENT_UNIT_SPELL_CAST",
            "body": "EVENT_UNIT_SPELL_CAST",
+           "completion": "EVENT_UNIT_SPELL_CAST",
            "description": "constant unitevent EVENT_UNIT_SPELL_CAST = ConvertUnitEvent(290)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SPELL_EFFECT": {
            "prefix": "cnEVENT_UNIT_SPELL_EFFECT",
            "body": "EVENT_UNIT_SPELL_EFFECT",
+           "completion": "EVENT_UNIT_SPELL_EFFECT",
            "description": "constant unitevent EVENT_UNIT_SPELL_EFFECT = ConvertUnitEvent(291)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SPELL_FINISH": {
            "prefix": "cnEVENT_UNIT_SPELL_FINISH",
            "body": "EVENT_UNIT_SPELL_FINISH",
+           "completion": "EVENT_UNIT_SPELL_FINISH",
            "description": "constant unitevent EVENT_UNIT_SPELL_FINISH = ConvertUnitEvent(292)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_SPELL_ENDCAST": {
            "prefix": "cnEVENT_UNIT_SPELL_ENDCAST",
            "body": "EVENT_UNIT_SPELL_ENDCAST",
+           "completion": "EVENT_UNIT_SPELL_ENDCAST",
            "description": "constant unitevent EVENT_UNIT_SPELL_ENDCAST = ConvertUnitEvent(293)",
            "scope": "source.vjass"
        },
         "cnEVENT_UNIT_PAWN_ITEM": {
            "prefix": "cnEVENT_UNIT_PAWN_ITEM",
            "body": "EVENT_UNIT_PAWN_ITEM",
+           "completion": "EVENT_UNIT_PAWN_ITEM",
            "description": "constant unitevent EVENT_UNIT_PAWN_ITEM = ConvertUnitEvent(294)",
            "scope": "source.vjass"
        },
         "cnLESS_THAN": {
            "prefix": "cnLESS_THAN",
            "body": "LESS_THAN",
+           "completion": "LESS_THAN",
            "description": "constant limitop LESS_THAN = ConvertLimitOp(0)",
            "scope": "source.vjass"
        },
         "cnLESS_THAN_OR_EQUAL": {
            "prefix": "cnLESS_THAN_OR_EQUAL",
            "body": "LESS_THAN_OR_EQUAL",
+           "completion": "LESS_THAN_OR_EQUAL",
            "description": "constant limitop LESS_THAN_OR_EQUAL = ConvertLimitOp(1)",
            "scope": "source.vjass"
        },
         "cnEQUAL": {
            "prefix": "cnEQUAL",
            "body": "EQUAL",
+           "completion": "EQUAL",
            "description": "constant limitop EQUAL = ConvertLimitOp(2)",
            "scope": "source.vjass"
        },
         "cnGREATER_THAN_OR_EQUAL": {
            "prefix": "cnGREATER_THAN_OR_EQUAL",
            "body": "GREATER_THAN_OR_EQUAL",
+           "completion": "GREATER_THAN_OR_EQUAL",
            "description": "constant limitop GREATER_THAN_OR_EQUAL = ConvertLimitOp(3)",
            "scope": "source.vjass"
        },
         "cnGREATER_THAN": {
            "prefix": "cnGREATER_THAN",
            "body": "GREATER_THAN",
+           "completion": "GREATER_THAN",
            "description": "constant limitop GREATER_THAN = ConvertLimitOp(4)",
            "scope": "source.vjass"
        },
         "cnNOT_EQUAL": {
            "prefix": "cnNOT_EQUAL",
            "body": "NOT_EQUAL",
+           "completion": "NOT_EQUAL",
            "description": "constant limitop NOT_EQUAL = ConvertLimitOp(5)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_HERO": {
            "prefix": "cnUNIT_TYPE_HERO",
            "body": "UNIT_TYPE_HERO",
+           "completion": "UNIT_TYPE_HERO",
            "description": "constant unittype UNIT_TYPE_HERO = ConvertUnitType(0)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_DEAD": {
            "prefix": "cnUNIT_TYPE_DEAD",
            "body": "UNIT_TYPE_DEAD",
+           "completion": "UNIT_TYPE_DEAD",
            "description": "constant unittype UNIT_TYPE_DEAD = ConvertUnitType(1)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_STRUCTURE": {
            "prefix": "cnUNIT_TYPE_STRUCTURE",
            "body": "UNIT_TYPE_STRUCTURE",
+           "completion": "UNIT_TYPE_STRUCTURE",
            "description": "constant unittype UNIT_TYPE_STRUCTURE = ConvertUnitType(2)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_FLYING": {
            "prefix": "cnUNIT_TYPE_FLYING",
            "body": "UNIT_TYPE_FLYING",
+           "completion": "UNIT_TYPE_FLYING",
            "description": "constant unittype UNIT_TYPE_FLYING = ConvertUnitType(3)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_GROUND": {
            "prefix": "cnUNIT_TYPE_GROUND",
            "body": "UNIT_TYPE_GROUND",
+           "completion": "UNIT_TYPE_GROUND",
            "description": "constant unittype UNIT_TYPE_GROUND = ConvertUnitType(4)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_ATTACKS_FLYING": {
            "prefix": "cnUNIT_TYPE_ATTACKS_FLYING",
            "body": "UNIT_TYPE_ATTACKS_FLYING",
+           "completion": "UNIT_TYPE_ATTACKS_FLYING",
            "description": "constant unittype UNIT_TYPE_ATTACKS_FLYING = ConvertUnitType(5)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_ATTACKS_GROUND": {
            "prefix": "cnUNIT_TYPE_ATTACKS_GROUND",
            "body": "UNIT_TYPE_ATTACKS_GROUND",
+           "completion": "UNIT_TYPE_ATTACKS_GROUND",
            "description": "constant unittype UNIT_TYPE_ATTACKS_GROUND = ConvertUnitType(6)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_MELEE_ATTACKER": {
            "prefix": "cnUNIT_TYPE_MELEE_ATTACKER",
            "body": "UNIT_TYPE_MELEE_ATTACKER",
+           "completion": "UNIT_TYPE_MELEE_ATTACKER",
            "description": "constant unittype UNIT_TYPE_MELEE_ATTACKER = ConvertUnitType(7)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_RANGED_ATTACKER": {
            "prefix": "cnUNIT_TYPE_RANGED_ATTACKER",
            "body": "UNIT_TYPE_RANGED_ATTACKER",
+           "completion": "UNIT_TYPE_RANGED_ATTACKER",
            "description": "constant unittype UNIT_TYPE_RANGED_ATTACKER = ConvertUnitType(8)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_GIANT": {
            "prefix": "cnUNIT_TYPE_GIANT",
            "body": "UNIT_TYPE_GIANT",
+           "completion": "UNIT_TYPE_GIANT",
            "description": "constant unittype UNIT_TYPE_GIANT = ConvertUnitType(9)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_SUMMONED": {
            "prefix": "cnUNIT_TYPE_SUMMONED",
            "body": "UNIT_TYPE_SUMMONED",
+           "completion": "UNIT_TYPE_SUMMONED",
            "description": "constant unittype UNIT_TYPE_SUMMONED = ConvertUnitType(10)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_STUNNED": {
            "prefix": "cnUNIT_TYPE_STUNNED",
            "body": "UNIT_TYPE_STUNNED",
+           "completion": "UNIT_TYPE_STUNNED",
            "description": "constant unittype UNIT_TYPE_STUNNED = ConvertUnitType(11)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_PLAGUED": {
            "prefix": "cnUNIT_TYPE_PLAGUED",
            "body": "UNIT_TYPE_PLAGUED",
+           "completion": "UNIT_TYPE_PLAGUED",
            "description": "constant unittype UNIT_TYPE_PLAGUED = ConvertUnitType(12)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_SNARED": {
            "prefix": "cnUNIT_TYPE_SNARED",
            "body": "UNIT_TYPE_SNARED",
+           "completion": "UNIT_TYPE_SNARED",
            "description": "constant unittype UNIT_TYPE_SNARED = ConvertUnitType(13)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_UNDEAD": {
            "prefix": "cnUNIT_TYPE_UNDEAD",
            "body": "UNIT_TYPE_UNDEAD",
+           "completion": "UNIT_TYPE_UNDEAD",
            "description": "constant unittype UNIT_TYPE_UNDEAD = ConvertUnitType(14)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_MECHANICAL": {
            "prefix": "cnUNIT_TYPE_MECHANICAL",
            "body": "UNIT_TYPE_MECHANICAL",
+           "completion": "UNIT_TYPE_MECHANICAL",
            "description": "constant unittype UNIT_TYPE_MECHANICAL = ConvertUnitType(15)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_PEON": {
            "prefix": "cnUNIT_TYPE_PEON",
            "body": "UNIT_TYPE_PEON",
+           "completion": "UNIT_TYPE_PEON",
            "description": "constant unittype UNIT_TYPE_PEON = ConvertUnitType(16)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_SAPPER": {
            "prefix": "cnUNIT_TYPE_SAPPER",
            "body": "UNIT_TYPE_SAPPER",
+           "completion": "UNIT_TYPE_SAPPER",
            "description": "constant unittype UNIT_TYPE_SAPPER = ConvertUnitType(17)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_TOWNHALL": {
            "prefix": "cnUNIT_TYPE_TOWNHALL",
            "body": "UNIT_TYPE_TOWNHALL",
+           "completion": "UNIT_TYPE_TOWNHALL",
            "description": "constant unittype UNIT_TYPE_TOWNHALL = ConvertUnitType(18)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_ANCIENT": {
            "prefix": "cnUNIT_TYPE_ANCIENT",
            "body": "UNIT_TYPE_ANCIENT",
+           "completion": "UNIT_TYPE_ANCIENT",
            "description": "constant unittype UNIT_TYPE_ANCIENT = ConvertUnitType(19)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_TAUREN": {
            "prefix": "cnUNIT_TYPE_TAUREN",
            "body": "UNIT_TYPE_TAUREN",
+           "completion": "UNIT_TYPE_TAUREN",
            "description": "constant unittype UNIT_TYPE_TAUREN = ConvertUnitType(20)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_POISONED": {
            "prefix": "cnUNIT_TYPE_POISONED",
            "body": "UNIT_TYPE_POISONED",
+           "completion": "UNIT_TYPE_POISONED",
            "description": "constant unittype UNIT_TYPE_POISONED = ConvertUnitType(21)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_POLYMORPHED": {
            "prefix": "cnUNIT_TYPE_POLYMORPHED",
            "body": "UNIT_TYPE_POLYMORPHED",
+           "completion": "UNIT_TYPE_POLYMORPHED",
            "description": "constant unittype UNIT_TYPE_POLYMORPHED = ConvertUnitType(22)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_SLEEPING": {
            "prefix": "cnUNIT_TYPE_SLEEPING",
            "body": "UNIT_TYPE_SLEEPING",
+           "completion": "UNIT_TYPE_SLEEPING",
            "description": "constant unittype UNIT_TYPE_SLEEPING = ConvertUnitType(23)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_RESISTANT": {
            "prefix": "cnUNIT_TYPE_RESISTANT",
            "body": "UNIT_TYPE_RESISTANT",
+           "completion": "UNIT_TYPE_RESISTANT",
            "description": "constant unittype UNIT_TYPE_RESISTANT = ConvertUnitType(24)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_ETHEREAL": {
            "prefix": "cnUNIT_TYPE_ETHEREAL",
            "body": "UNIT_TYPE_ETHEREAL",
+           "completion": "UNIT_TYPE_ETHEREAL",
            "description": "constant unittype UNIT_TYPE_ETHEREAL = ConvertUnitType(25)",
            "scope": "source.vjass"
        },
         "cnUNIT_TYPE_MAGIC_IMMUNE": {
            "prefix": "cnUNIT_TYPE_MAGIC_IMMUNE",
            "body": "UNIT_TYPE_MAGIC_IMMUNE",
+           "completion": "UNIT_TYPE_MAGIC_IMMUNE",
            "description": "constant unittype UNIT_TYPE_MAGIC_IMMUNE = ConvertUnitType(26)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_PERMANENT": {
            "prefix": "cnITEM_TYPE_PERMANENT",
            "body": "ITEM_TYPE_PERMANENT",
+           "completion": "ITEM_TYPE_PERMANENT",
            "description": "constant itemtype ITEM_TYPE_PERMANENT = ConvertItemType(0)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_CHARGED": {
            "prefix": "cnITEM_TYPE_CHARGED",
            "body": "ITEM_TYPE_CHARGED",
+           "completion": "ITEM_TYPE_CHARGED",
            "description": "constant itemtype ITEM_TYPE_CHARGED = ConvertItemType(1)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_POWERUP": {
            "prefix": "cnITEM_TYPE_POWERUP",
            "body": "ITEM_TYPE_POWERUP",
+           "completion": "ITEM_TYPE_POWERUP",
            "description": "constant itemtype ITEM_TYPE_POWERUP = ConvertItemType(2)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_ARTIFACT": {
            "prefix": "cnITEM_TYPE_ARTIFACT",
            "body": "ITEM_TYPE_ARTIFACT",
+           "completion": "ITEM_TYPE_ARTIFACT",
            "description": "constant itemtype ITEM_TYPE_ARTIFACT = ConvertItemType(3)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_PURCHASABLE": {
            "prefix": "cnITEM_TYPE_PURCHASABLE",
            "body": "ITEM_TYPE_PURCHASABLE",
+           "completion": "ITEM_TYPE_PURCHASABLE",
            "description": "constant itemtype ITEM_TYPE_PURCHASABLE = ConvertItemType(4)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_CAMPAIGN": {
            "prefix": "cnITEM_TYPE_CAMPAIGN",
            "body": "ITEM_TYPE_CAMPAIGN",
+           "completion": "ITEM_TYPE_CAMPAIGN",
            "description": "constant itemtype ITEM_TYPE_CAMPAIGN = ConvertItemType(5)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_MISCELLANEOUS": {
            "prefix": "cnITEM_TYPE_MISCELLANEOUS",
            "body": "ITEM_TYPE_MISCELLANEOUS",
+           "completion": "ITEM_TYPE_MISCELLANEOUS",
            "description": "constant itemtype ITEM_TYPE_MISCELLANEOUS = ConvertItemType(6)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_UNKNOWN": {
            "prefix": "cnITEM_TYPE_UNKNOWN",
            "body": "ITEM_TYPE_UNKNOWN",
+           "completion": "ITEM_TYPE_UNKNOWN",
            "description": "constant itemtype ITEM_TYPE_UNKNOWN = ConvertItemType(7)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_ANY": {
            "prefix": "cnITEM_TYPE_ANY",
            "body": "ITEM_TYPE_ANY",
+           "completion": "ITEM_TYPE_ANY",
            "description": "constant itemtype ITEM_TYPE_ANY = ConvertItemType(8)",
            "scope": "source.vjass"
        },
         "cnITEM_TYPE_TOME": {
            "prefix": "cnITEM_TYPE_TOME",
            "body": "ITEM_TYPE_TOME",
+           "completion": "ITEM_TYPE_TOME",
            "description": "constant itemtype ITEM_TYPE_TOME = ConvertItemType(2)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_TARGET_DISTANCE": {
            "prefix": "cnCAMERA_FIELD_TARGET_DISTANCE",
            "body": "CAMERA_FIELD_TARGET_DISTANCE",
+           "completion": "CAMERA_FIELD_TARGET_DISTANCE",
            "description": "constant camerafield CAMERA_FIELD_TARGET_DISTANCE = ConvertCameraField(0)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_FARZ": {
            "prefix": "cnCAMERA_FIELD_FARZ",
            "body": "CAMERA_FIELD_FARZ",
+           "completion": "CAMERA_FIELD_FARZ",
            "description": "constant camerafield CAMERA_FIELD_FARZ = ConvertCameraField(1)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_ANGLE_OF_ATTACK": {
            "prefix": "cnCAMERA_FIELD_ANGLE_OF_ATTACK",
            "body": "CAMERA_FIELD_ANGLE_OF_ATTACK",
+           "completion": "CAMERA_FIELD_ANGLE_OF_ATTACK",
            "description": "constant camerafield CAMERA_FIELD_ANGLE_OF_ATTACK = ConvertCameraField(2)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_FIELD_OF_VIEW": {
            "prefix": "cnCAMERA_FIELD_FIELD_OF_VIEW",
            "body": "CAMERA_FIELD_FIELD_OF_VIEW",
+           "completion": "CAMERA_FIELD_FIELD_OF_VIEW",
            "description": "constant camerafield CAMERA_FIELD_FIELD_OF_VIEW = ConvertCameraField(3)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_ROLL": {
            "prefix": "cnCAMERA_FIELD_ROLL",
            "body": "CAMERA_FIELD_ROLL",
+           "completion": "CAMERA_FIELD_ROLL",
            "description": "constant camerafield CAMERA_FIELD_ROLL = ConvertCameraField(4)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_ROTATION": {
            "prefix": "cnCAMERA_FIELD_ROTATION",
            "body": "CAMERA_FIELD_ROTATION",
+           "completion": "CAMERA_FIELD_ROTATION",
            "description": "constant camerafield CAMERA_FIELD_ROTATION = ConvertCameraField(5)",
            "scope": "source.vjass"
        },
         "cnCAMERA_FIELD_ZOFFSET": {
            "prefix": "cnCAMERA_FIELD_ZOFFSET",
            "body": "CAMERA_FIELD_ZOFFSET",
+           "completion": "CAMERA_FIELD_ZOFFSET",
            "description": "constant camerafield CAMERA_FIELD_ZOFFSET = ConvertCameraField(6)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_NONE": {
            "prefix": "cnBLEND_MODE_NONE",
            "body": "BLEND_MODE_NONE",
+           "completion": "BLEND_MODE_NONE",
            "description": "constant blendmode BLEND_MODE_NONE = ConvertBlendMode(0)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_DONT_CARE": {
            "prefix": "cnBLEND_MODE_DONT_CARE",
            "body": "BLEND_MODE_DONT_CARE",
+           "completion": "BLEND_MODE_DONT_CARE",
            "description": "constant blendmode BLEND_MODE_DONT_CARE = ConvertBlendMode(0)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_KEYALPHA": {
            "prefix": "cnBLEND_MODE_KEYALPHA",
            "body": "BLEND_MODE_KEYALPHA",
+           "completion": "BLEND_MODE_KEYALPHA",
            "description": "constant blendmode BLEND_MODE_KEYALPHA = ConvertBlendMode(1)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_BLEND": {
            "prefix": "cnBLEND_MODE_BLEND",
            "body": "BLEND_MODE_BLEND",
+           "completion": "BLEND_MODE_BLEND",
            "description": "constant blendmode BLEND_MODE_BLEND = ConvertBlendMode(2)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_ADDITIVE": {
            "prefix": "cnBLEND_MODE_ADDITIVE",
            "body": "BLEND_MODE_ADDITIVE",
+           "completion": "BLEND_MODE_ADDITIVE",
            "description": "constant blendmode BLEND_MODE_ADDITIVE = ConvertBlendMode(3)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_MODULATE": {
            "prefix": "cnBLEND_MODE_MODULATE",
            "body": "BLEND_MODE_MODULATE",
+           "completion": "BLEND_MODE_MODULATE",
            "description": "constant blendmode BLEND_MODE_MODULATE = ConvertBlendMode(4)",
            "scope": "source.vjass"
        },
         "cnBLEND_MODE_MODULATE_2X": {
            "prefix": "cnBLEND_MODE_MODULATE_2X",
            "body": "BLEND_MODE_MODULATE_2X",
+           "completion": "BLEND_MODE_MODULATE_2X",
            "description": "constant blendmode BLEND_MODE_MODULATE_2X = ConvertBlendMode(5)",
            "scope": "source.vjass"
        },
         "cnRARITY_FREQUENT": {
            "prefix": "cnRARITY_FREQUENT",
            "body": "RARITY_FREQUENT",
+           "completion": "RARITY_FREQUENT",
            "description": "constant raritycontrol RARITY_FREQUENT = ConvertRarityControl(0)",
            "scope": "source.vjass"
        },
         "cnRARITY_RARE": {
            "prefix": "cnRARITY_RARE",
            "body": "RARITY_RARE",
+           "completion": "RARITY_RARE",
            "description": "constant raritycontrol RARITY_RARE = ConvertRarityControl(1)",
            "scope": "source.vjass"
        },
         "cnTEXMAP_FLAG_NONE": {
            "prefix": "cnTEXMAP_FLAG_NONE",
            "body": "TEXMAP_FLAG_NONE",
+           "completion": "TEXMAP_FLAG_NONE",
            "description": "constant texmapflags TEXMAP_FLAG_NONE = ConvertTexMapFlags(0)",
            "scope": "source.vjass"
        },
         "cnTEXMAP_FLAG_WRAP_U": {
            "prefix": "cnTEXMAP_FLAG_WRAP_U",
            "body": "TEXMAP_FLAG_WRAP_U",
+           "completion": "TEXMAP_FLAG_WRAP_U",
            "description": "constant texmapflags TEXMAP_FLAG_WRAP_U = ConvertTexMapFlags(1)",
            "scope": "source.vjass"
        },
         "cnTEXMAP_FLAG_WRAP_V": {
            "prefix": "cnTEXMAP_FLAG_WRAP_V",
            "body": "TEXMAP_FLAG_WRAP_V",
+           "completion": "TEXMAP_FLAG_WRAP_V",
            "description": "constant texmapflags TEXMAP_FLAG_WRAP_V = ConvertTexMapFlags(2)",
            "scope": "source.vjass"
        },
         "cnTEXMAP_FLAG_WRAP_UV": {
            "prefix": "cnTEXMAP_FLAG_WRAP_UV",
            "body": "TEXMAP_FLAG_WRAP_UV",
+           "completion": "TEXMAP_FLAG_WRAP_UV",
            "description": "constant texmapflags TEXMAP_FLAG_WRAP_UV = ConvertTexMapFlags(3)",
            "scope": "source.vjass"
        },
         "cnFOG_OF_WAR_MASKED": {
            "prefix": "cnFOG_OF_WAR_MASKED",
            "body": "FOG_OF_WAR_MASKED",
+           "completion": "FOG_OF_WAR_MASKED",
            "description": "constant fogstate FOG_OF_WAR_MASKED = ConvertFogState(1)",
            "scope": "source.vjass"
        },
         "cnFOG_OF_WAR_FOGGED": {
            "prefix": "cnFOG_OF_WAR_FOGGED",
            "body": "FOG_OF_WAR_FOGGED",
+           "completion": "FOG_OF_WAR_FOGGED",
            "description": "constant fogstate FOG_OF_WAR_FOGGED = ConvertFogState(2)",
            "scope": "source.vjass"
        },
         "cnFOG_OF_WAR_VISIBLE": {
            "prefix": "cnFOG_OF_WAR_VISIBLE",
            "body": "FOG_OF_WAR_VISIBLE",
+           "completion": "FOG_OF_WAR_VISIBLE",
            "description": "constant fogstate FOG_OF_WAR_VISIBLE = ConvertFogState(4)",
            "scope": "source.vjass"
        },
         "cnCAMERA_MARGIN_LEFT": {
            "prefix": "cnCAMERA_MARGIN_LEFT",
            "body": "CAMERA_MARGIN_LEFT",
+           "completion": "CAMERA_MARGIN_LEFT",
            "description": "constant integer CAMERA_MARGIN_LEFT = 0",
            "scope": "source.vjass"
        },
         "cnCAMERA_MARGIN_RIGHT": {
            "prefix": "cnCAMERA_MARGIN_RIGHT",
            "body": "CAMERA_MARGIN_RIGHT",
+           "completion": "CAMERA_MARGIN_RIGHT",
            "description": "constant integer CAMERA_MARGIN_RIGHT = 1",
            "scope": "source.vjass"
        },
         "cnCAMERA_MARGIN_TOP": {
            "prefix": "cnCAMERA_MARGIN_TOP",
            "body": "CAMERA_MARGIN_TOP",
+           "completion": "CAMERA_MARGIN_TOP",
            "description": "constant integer CAMERA_MARGIN_TOP = 2",
            "scope": "source.vjass"
        },
         "cnCAMERA_MARGIN_BOTTOM": {
            "prefix": "cnCAMERA_MARGIN_BOTTOM",
            "body": "CAMERA_MARGIN_BOTTOM",
+           "completion": "CAMERA_MARGIN_BOTTOM",
            "description": "constant integer CAMERA_MARGIN_BOTTOM = 3",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_EFFECT": {
            "prefix": "cnEFFECT_TYPE_EFFECT",
            "body": "EFFECT_TYPE_EFFECT",
+           "completion": "EFFECT_TYPE_EFFECT",
            "description": "constant effecttype EFFECT_TYPE_EFFECT = ConvertEffectType(0)",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_TARGET": {
            "prefix": "cnEFFECT_TYPE_TARGET",
            "body": "EFFECT_TYPE_TARGET",
+           "completion": "EFFECT_TYPE_TARGET",
            "description": "constant effecttype EFFECT_TYPE_TARGET = ConvertEffectType(1)",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_CASTER": {
            "prefix": "cnEFFECT_TYPE_CASTER",
            "body": "EFFECT_TYPE_CASTER",
+           "completion": "EFFECT_TYPE_CASTER",
            "description": "constant effecttype EFFECT_TYPE_CASTER = ConvertEffectType(2)",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_SPECIAL": {
            "prefix": "cnEFFECT_TYPE_SPECIAL",
            "body": "EFFECT_TYPE_SPECIAL",
+           "completion": "EFFECT_TYPE_SPECIAL",
            "description": "constant effecttype EFFECT_TYPE_SPECIAL = ConvertEffectType(3)",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_AREA_EFFECT": {
            "prefix": "cnEFFECT_TYPE_AREA_EFFECT",
            "body": "EFFECT_TYPE_AREA_EFFECT",
+           "completion": "EFFECT_TYPE_AREA_EFFECT",
            "description": "constant effecttype EFFECT_TYPE_AREA_EFFECT = ConvertEffectType(4)",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_MISSILE": {
            "prefix": "cnEFFECT_TYPE_MISSILE",
            "body": "EFFECT_TYPE_MISSILE",
+           "completion": "EFFECT_TYPE_MISSILE",
            "description": "constant effecttype EFFECT_TYPE_MISSILE = ConvertEffectType(5)",
            "scope": "source.vjass"
        },
         "cnEFFECT_TYPE_LIGHTNING": {
            "prefix": "cnEFFECT_TYPE_LIGHTNING",
            "body": "EFFECT_TYPE_LIGHTNING",
+           "completion": "EFFECT_TYPE_LIGHTNING",
            "description": "constant effecttype EFFECT_TYPE_LIGHTNING = ConvertEffectType(6)",
            "scope": "source.vjass"
        },
         "cnSOUND_TYPE_EFFECT": {
            "prefix": "cnSOUND_TYPE_EFFECT",
            "body": "SOUND_TYPE_EFFECT",
+           "completion": "SOUND_TYPE_EFFECT",
            "description": "constant soundtype SOUND_TYPE_EFFECT = ConvertSoundType(0)",
            "scope": "source.vjass"
        },
         "cnSOUND_TYPE_EFFECT_LOOPED": {
            "prefix": "cnSOUND_TYPE_EFFECT_LOOPED",
            "body": "SOUND_TYPE_EFFECT_LOOPED",
+           "completion": "SOUND_TYPE_EFFECT_LOOPED",
            "description": "constant soundtype SOUND_TYPE_EFFECT_LOOPED = ConvertSoundType(1)",
            "scope": "source.vjass"
        }

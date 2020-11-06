@@ -3,7 +3,7 @@
 const vscode = require('vscode');
 const hoverProvider = require('./providers/hoverProvider');
 const completionProvider = require('./providers/completionProvider');
-const referenceProvider = require('./providers/referenceProvider');
+const definitionProvider = require('./providers/definitionProvider');
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -14,10 +14,9 @@ const referenceProvider = require('./providers/referenceProvider');
 function activate(context) {
     console.log('jass 插件已激活');
     console.log(vscode);
-
+    context.subscriptions.push(vscode.languages.registerDefinitionProvider('vjass', new definitionProvider()));
     context.subscriptions.push(vscode.languages.registerHoverProvider('vjass', new hoverProvider()));
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider('vjass', new completionProvider(), '\(', ',', '.'));
-    context.subscriptions.push(vscode.languages.registerReferenceProvider('vjass', new referenceProvider()));
 }
 exports.activate = activate;
 

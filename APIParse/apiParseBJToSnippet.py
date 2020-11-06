@@ -4,6 +4,12 @@
 functionList=[]
 constantList=[]
 variableList=[]
+# funsuff="fff"
+# consuff="ccc"
+# varSuff="vvv"
+funsuff="fn"
+consuff="cn"
+varSuff="vr"
 
 #pragma mark  -
 def replaceKeyValue(template,key,value):
@@ -129,16 +135,19 @@ def getSnippetTemplate():
     return'''        "value1": {
            "prefix": "value1",
            "body": "value2",
+            "completion": "value4",
            "description": "value3",
            "scope": "source.vjass"
        },\n'''
 
 template=getSnippetTemplate()
-def getSnippetItem(value1,value2,value3):
+def getSnippetItem(value1,value2,value3,value4):
     global template
     text=replaceKeyValue(template,"value1",value1);
     text=replaceKeyValue(text,"value2",value2);
     text=replaceKeyValue(text,"value3",value3);
+    text=replaceKeyValue(text,"value4",value4);
+
     return text
 #pragma mark  - writefile
 
@@ -155,9 +164,9 @@ def writeConstant(f):
         name=item["name"]
         type=item["type"]
         value=item["value"]
-        value1="cn"+name
+        value1=consuff+name
         value2="constant "+type+" "+name+" = "+value
-        temp=temp+getSnippetItem(value1,name,value2)
+        temp=temp+getSnippetItem(value1,name,value2,name)
     return temp
     
 installWriteCmd(writeConstant,"vj_snippets_constant_bj")
@@ -174,11 +183,11 @@ def writeVariable(f):
             if value == '""':
                 value='\\"\\"'
                 print(value)
-        value1="vr"+name
+        value1=varSuff+name
         value2=type+" "+name
         if value != "":
             value2 = value2+" = "+value
-        temp=temp+getSnippetItem(value1,name,value2)
+        temp=temp+getSnippetItem(value1,name,value2,name)
     return temp
     
 installWriteCmd(writeVariable,"vj_snippets_variable_bj")
@@ -190,14 +199,31 @@ def getFunSnippetsBody(item):
     paramers=item["paramers"]
     functionName=name+"("
     if (len(paramers) == 0):
-        functionName=functionName+"${1:nothing},"
+        functionName=functionName+","
     index = 1;
     for item in paramers:
-        functionName=functionName+"${"+str(index)+":"+item+" "+paramers[item]+"},"
+        functionName=functionName+"${"+str(index)+":"+item+"_"+paramers[item]+"},"
+        index=index+1
+    functionName=functionName[:-1]
+ #   functionName=functionName+")${"+str(index)+"}"
+
+    return functionName
+
+def getFunCompleteBody(item):
+    name=item["name"]
+    paramers=item["paramers"]
+    functionName=name+"("
+    if (len(paramers) == 0):
+        functionName=functionName+","
+##    ${1:function_name}
+    index = 1;
+    for item in paramers:
+        functionName=functionName+" "+paramers[item]+","
         index=index+1
     functionName=functionName[:-1]
     functionName=functionName+")"
     return functionName
+
 
 def writeFun(f):
     global functionList
@@ -206,9 +232,10 @@ def writeFun(f):
         name=item["name"]
         paramers=item["paramers"]
         des=item["line"]
-        value1="fn"+name
+        value1=funsuff+name
         value2=getFunSnippetsBody(item)
-        temp=temp+getSnippetItem(value1,value2,des)
+        value4=getFunCompleteBody(item)
+        temp=temp+getSnippetItem(value1,value2,des,value4)
     return temp
 
 installWriteCmd(writeFun,"vj_snippets_function_bj")
