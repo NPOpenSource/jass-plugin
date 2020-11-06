@@ -13,10 +13,9 @@
 ##### 跳转到官方api
 ![跳转到api](https://upload-images.jianshu.io/upload_images/1682758-326cafcccc771828.gif?imageMogr2/auto-orient/strip)
 
-
+> 注意事项:使用该功能,请将文件夹拖入工程,打开文件
 
 ### 功能列表
-
 1.变量提示
 2.函数提示
 3.枚举提示

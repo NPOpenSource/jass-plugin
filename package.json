@@ -2,7 +2,7 @@
     "name": "jass-plugin",
     "displayName": "jass-plugin",
     "description": "jass",
-    "version": "1.0.2",
+    "version": "1.0.6",
     "engines": {
         "vscode": "^1.50.0"
     },

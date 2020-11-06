@@ -205,6 +205,7 @@ def getFunSnippetsBody(item):
         functionName=functionName+"${"+str(index)+":"+item+"_"+paramers[item]+"},"
         index=index+1
     functionName=functionName[:-1]
+    functionName=functionName+")"
  #   functionName=functionName+")${"+str(index)+"}"
 
     return functionName

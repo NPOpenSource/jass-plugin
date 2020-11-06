@@ -1,4 +1,3 @@
-const { Linter } = require('eslint');
 const vscode = require('vscode');
 const utilHelper = require('../utils/utilHelper');
 // @ts-ignore
